@@ -1,10 +1,9 @@
 ---
 nav: Home
 navOrder: 1
-title: 🎣 verticaltubejig.com
+title: 🎣 Welcome to Verticaltubejig.com
 trademark: Trademark
 ---
-# Welcome
 
 ![Lake Trout and a Dipped Tube](https://res.cloudinary.com/dfjzpbdey/image/upload/v1672160659/verticaltubejig.com/20220315_115428_y6m1wt.jpg)
 

@@ -88,13 +88,10 @@ export default function Layout({ children }) {
 
   // Show title, date and/or author
   const postHeader = isPost ? (
-    <>
-      <h1 style={blogTitleStyles}>{activePage.data.title}</h1>
-      <div style={postMetaStyles}>
-        <span>{activePage.data.author && 'by: ' + activePage.data.author}</span>
-        <span>{activePage.data.date && getDateString(activePage.data.date)}</span>
-      </div>
-    </>
+    <div style={postMetaStyles}>
+      <span>{activePage.data.author && 'by: ' + activePage.data.author}</span>
+      <span>{activePage.data.date && getDateString(activePage.data.date)}</span>
+    </div>
   ) : null;
 
   const tags = activePage && activePage.data.tags ? 
@@ -139,6 +136,7 @@ export default function Layout({ children }) {
       <Header pageData={pageData} currentRoute={currentRoute} />
       <main style={mainStyles}>{activePage ? (
         <div>
+          {activePage.data.title && (<h1 style={blogTitleStyles}>{activePage.data.title}</h1>)}
           {postHeader && postHeader}
           <Markdown>{activePage.content}</Markdown>
           {tags && (
