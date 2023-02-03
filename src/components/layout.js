@@ -19,8 +19,8 @@ export default function Layout({ children }) {
   // Temp styles
   const containerStyles = {
     maxWidth: '750px',
-    minHeight: 'calc(100vh - 10%)',
-    padding: '5%',
+    minHeight: 'calc(100vh - 100px)',
+    padding: '50px 5%',
     margin: '0px auto',
     display: 'flex',
     flexDirection: 'column',
@@ -62,19 +62,19 @@ export default function Layout({ children }) {
       if (currentRoute.includes('/blog/')) {
         blogData.forEach((page, i) => {
           if (page.path === currentRoute) {
-            setActivePage(page.content);
+            setActivePage(page);
           }
         })
       } else {
         pageData.forEach((page, i) => {
           if (page.path === currentRoute) {
-            setActivePage(page.content);
+            setActivePage(page);
           }
         })
       }
 
       // Set conditional to show posts if you are on a blog page
-      setShowPosts(currentRoute.includes('blog'));        
+      setShowPosts(currentRoute.includes('blog'));      
     }
   }, [currentRoute, pageData, blogData]);
 
@@ -86,7 +86,7 @@ export default function Layout({ children }) {
     <div style={containerStyles}>
       <Header pageData={pageData} currentRoute={currentRoute} />
       <main style={mainStyles}>{activePage ? (
-        <Markdown>{activePage}</Markdown>
+        <Markdown>{activePage.content}</Markdown>
       ) : '404'}
       {showPosts && (
         <div style={postStyles}>
