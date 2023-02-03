@@ -51,7 +51,7 @@ export default function Layout({ children }) {
         })
       }        
     }
-  }, [currentRoute, pageData])
+  }, [currentRoute, pageData, blogData]);
 
   useEffect(() => {
     console.log('activePage', activePage);
