@@ -4,6 +4,8 @@ date: 2023/1/3
 description: A new website all about Vertical Tube Jigs is born!
 tags: ['vertical', 'tube', 'jig']
 author: Mat Gilbert
+images: []
+excerpt: 'Test'
 ---
 
 In 2021, Mat Gilbert was invited to go fishing for Lake Trout on Lake Champlain and things have never been the same.
