@@ -9,6 +9,10 @@ let pages = []
 filenames.forEach((file) => {
   if (file.includes('.md')) {
     pages.push(file);
+    fs.readFile(directory_name + file, 'utf8', (err, data) => {
+      console.log('err', err);
+      console.log('data', data);
+    });
   }
 });
 
