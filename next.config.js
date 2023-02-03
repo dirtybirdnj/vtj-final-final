@@ -4,15 +4,20 @@ const directory_name = __dirname + "/src/pages/";
 // Function to get current filenames
 // in directory
 let filenames = fs.readdirSync(directory_name);
-let pages = []
+let pages = [];
   
-filenames.forEach((file) => {
+filenames.forEach((file, i) => {
   if (file.includes('.md')) {
-    pages.push(file);
     fs.readFile(directory_name + file, 'utf8', (err, data) => {
-      console.log('err', err);
-      console.log('data', data);
-    });
+      if (data) {
+        const strippedPath = file.split('.')[0];
+        pages.push({
+          file: file,
+          path: strippedPath.includes('index') ? '/' : '/' + strippedPath,
+          data: data
+        })
+      }
+    });   
   }
 });
 
@@ -22,6 +27,9 @@ const withMDX = require('@next/mdx')({
 
 module.exports = withMDX({
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
+  options: {
+    providerImportSource: '@mdx-js/react',
+  },
   publicRuntimeConfig: {
     pages: pages
   }

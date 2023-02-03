@@ -8,11 +8,10 @@ function Header() {
   const config = getConfig();
   const pages = config.publicRuntimeConfig.pages;
 
-  const links = pages.map((item, i) => {
-    const strippedItem = item.split('.')[0];
-    const path = strippedItem.includes('index') ? '/' : '/' + strippedItem;
+  const links = pages.map((page, i) => {
+    console.log('page', page);
 
-    return <Link key={i} className={currentRoute === path ? 'active' : ''} href={path}>{strippedItem}</Link>
+    return <Link key={i} className={currentRoute === page.path ? 'active' : ''} href={page.path}>{page.file}</Link>
   })
 
   return (
