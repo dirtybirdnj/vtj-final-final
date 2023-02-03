@@ -6,18 +6,13 @@ tags: ['vertical', 'tube', 'jig']
 author: Mat Gilbert
 ---
 
-# Hello Store!
-
 In 2021, Mat Gilbert was invited to go fishing for Lake Trout on Lake Champlain and things have never been the same.
 
-While the first few days targeting Lakers were primarily focused on 1oz to 2oz jigheads with 3-4in swimbaits,
-eventually Mat started to get creative with smaller and larger jigging spoons.
+While the first few days targeting Lakers were primarily focused on 1oz to 2oz jigheads with 3-4in swimbaits, eventually Mat started to get creative with smaller and larger jigging spoons.
 
-One fateful day Mat saw a video on YouTube about Vertical Tube Jig (VTJ) rigging and that was the true birth of the
-most exciting fishing bait I've ever used.
+One fateful day Mat saw a video on YouTube about Vertical Tube Jig (VTJ) rigging and that was the true birth of the most exciting fishing bait I've ever used.
 
-The Vertical Tube Jig is a lure designed for Lake Trout, but it can also be used in saltwater applications. Any time you
-want to get the fish chasing hard, the VTJ is going to be a great asset in your tackle box.
+The Vertical Tube Jig is a lure designed for Lake Trout, but it can also be used in saltwater applications. Any time you want to get the fish chasing hard, the VTJ is going to be a great asset in your tackle box.
 
 This website is long over-due. I have been out and fishing this lure for almost two years now, and while I have taken photos and
 even edited video into (sometimes) manageable sized videos, I haven't really put it all together. Till now.
@@ -29,7 +24,6 @@ publish this website to the world. The goal of verticaltubejig.com is the follow
 2. Help other people learn and master the skill of reading a fishfinder graph to identify and target Lakers
 3. Provide fisherman with exciting baits that combine fast diving action with a unique combinations of colors and flash
 
-If you have seen my videos on YouTube targeting Lakers on my VT2U channel, thanks for stopping by. I'm excited to share more of this
-story as it unfolds with my viewers, friends and biggest supporters.
+If you have seen my videos on YouTube targeting Lakers on my VT2U channel, thanks for stopping by. I'm excited to share more of this story as it unfolds with my viewers, friends and biggest supporters.
 
 Mat

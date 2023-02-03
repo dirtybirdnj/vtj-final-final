@@ -15,6 +15,7 @@ export default function Layout({ children }) {
   const blogData = config.publicRuntimeConfig.blogs;
   const [activePage, setActivePage] = useState(null);
   const [showPosts, setShowPosts] = useState(false);
+  const [isPost, setIsPost] = useState(false);
 
   // Temp styles
   const containerStyles = {
@@ -30,7 +31,8 @@ export default function Layout({ children }) {
   const mainStyles = {
     display: 'flex',
     flexGrow: 1,
-    gap: '3%'
+    gap: '10%',
+    paddingBottom: '40px'
   }
 
   const postStyles = {
@@ -46,13 +48,20 @@ export default function Layout({ children }) {
   const tagContainerStyles = {
     display: 'flex',
     gap: '15px',
-    fontSize: '12px'
+    fontSize: '12px',
   }
 
   const tagStyles = {
     background: '#ccc',
     padding: '3px 6px',
     borderRadius: '2px'
+  }
+
+  const postMetaStyles = {
+    display: 'flex',
+    gap: '15px',
+    justifyContent: 'space-between',
+    paddingBottom: '20px'
   }
 
   const blogLinks = blogData.map((post, i) => {
@@ -64,8 +73,25 @@ export default function Layout({ children }) {
     } else {
       console.log('missing blog post props', post);
     }
-
   })
+
+  // Returns all dates in the same string
+  const getDateString = (date) => {
+    const postDate = new Date(date);
+
+    return postDate.toLocaleString([], {dateStyle: 'short'});
+  }
+
+  // Show title, date and/or author
+  const postHeader = isPost ? (
+    <>
+      <h1>{activePage.data.title}</h1>
+      <div style={postMetaStyles}>
+        <span>{activePage.data.author && 'by: ' + activePage.data.author}</span>
+        <span>{activePage.data.date && getDateString(activePage.data.date)}</span>
+      </div>
+    </>
+  ) : null;
 
   const tags = activePage && activePage.data.tags ? 
     activePage.data.tags.map((tag, i) => {
@@ -95,6 +121,9 @@ export default function Layout({ children }) {
 
       // Set conditional to show posts if you are on a blog page
       setShowPosts(currentRoute.includes('blog'));      
+
+      // Set conditional to show if you are viewing a post
+      setIsPost(currentRoute.includes('/blog/'))
     }
   }, [currentRoute, pageData, blogData]);
 
@@ -107,6 +136,7 @@ export default function Layout({ children }) {
       <Header pageData={pageData} currentRoute={currentRoute} />
       <main style={mainStyles}>{activePage ? (
         <div>
+          {postHeader && postHeader}
           <Markdown>{activePage.content}</Markdown>
           {tags && (
             <div style={tagContainerStyles}>
