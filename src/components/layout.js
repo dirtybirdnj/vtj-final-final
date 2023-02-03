@@ -64,6 +64,10 @@ export default function Layout({ children }) {
     paddingBottom: '20px'
   }
 
+  const blogTitleStyles = {
+    marginBottom: '10px'
+  }
+
   const blogLinks = blogData.map((post, i) => {
     if (post.path && (post.data.nav || post.data.title)) {
       const postPath = post.path;
@@ -85,7 +89,7 @@ export default function Layout({ children }) {
   // Show title, date and/or author
   const postHeader = isPost ? (
     <>
-      <h1>{activePage.data.title}</h1>
+      <h1 style={blogTitleStyles}>{activePage.data.title}</h1>
       <div style={postMetaStyles}>
         <span>{activePage.data.author && 'by: ' + activePage.data.author}</span>
         <span>{activePage.data.date && getDateString(activePage.data.date)}</span>
