@@ -1,9 +1,10 @@
+
+import Header from './header'
+
 export default function Layout({ children }) {
   return (
     <div>
-      <header>
-        <div>This is my header</div>
-      </header>
+      <Header />
       <main>{children}</main>
       <footer>
         <div>This is my footer</div>
