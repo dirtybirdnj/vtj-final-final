@@ -11,7 +11,13 @@ function Header() {
   const links = pages.map((page, i) => {
     console.log('page', page);
 
-    return <Link key={i} className={currentRoute === page.path ? 'active' : ''} href={page.path}>{page.file}</Link>
+    if (page.path && (page.nav || page.title)) {
+      return <Link key={i} className={currentRoute === page.path ? 'active' : ''} href={page.path}>{page.nav ? page.nav : page.title}</Link>
+    } else {
+      console.log('missing page props', page);
+    }
+
+    
   })
 
   return (

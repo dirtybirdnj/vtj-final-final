@@ -1,4 +1,5 @@
 ---
+nav: Home
 title: 🎣 verticaltubejig.com
 trademark: Trademark
 ---

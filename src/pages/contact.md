@@ -1,4 +1,5 @@
 ---
+nav: Contact
 type: page
 title: ✉️ Contact
 date: 2021-03-18

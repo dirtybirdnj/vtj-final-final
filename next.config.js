@@ -1,4 +1,6 @@
 const fs = require("fs");
+const parser = require('markdown-metadata-parser');
+
 const directory_name = __dirname + "/src/pages/";
 
 // Function to get current filenames
@@ -11,10 +13,14 @@ filenames.forEach((file, i) => {
     fs.readFile(directory_name + file, 'utf8', (err, data) => {
       if (data) {
         const strippedPath = file.split('.')[0];
+        const pageProps = {
+          ...parser.parseMarkdownMetadata(data)
+        }
+
         pages.push({
           file: file,
           path: strippedPath.includes('index') ? '/' : '/' + strippedPath,
-          data: data
+          ...pageProps
         })
       }
     });   
