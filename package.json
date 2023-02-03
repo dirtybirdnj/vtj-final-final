@@ -16,7 +16,7 @@
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
     "fs": "^0.0.1-security",
-    "markdown-metadata-parser": "^1.0.1",
+    "gray-matter": "^4.0.3",
     "markdown-to-jsx": "^7.1.9",
     "next": "13.1.6",
     "next-page-map": "^1.0.1",

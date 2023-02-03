@@ -1,22 +1,22 @@
-import getConfig from 'next/config';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 
-function Header() {
-  const router = useRouter();
-  const currentRoute = router.pathname;
-  const config = getConfig();
-  const pages = config.publicRuntimeConfig.pages;
+function Header({
+  pageData,
+  currentRoute
+}) {
 
-  const links = pages.map((page, i) => {
-    console.log('page', page);
+  const links = pageData.map((page, i) => {
+    //console.log('pageData', pageData);
 
-    if (page.path && (page.nav || page.title)) {
-      return <Link key={i} className={currentRoute === page.path ? 'active' : ''} href={page.path}>{page.nav ? page.nav : page.title}</Link>
+    if (page.path && (page.data.nav || page.data.title)) {
+      const pagePath = page.path;
+      const pageTitle = page.data.title;
+      const navName = page.data.nav;
+
+      return <Link key={i} className={currentRoute === page.path ? 'active' : ''} href={pagePath}>{navName ? navName : pageTitle}</Link>
     } else {
       console.log('missing page props', page);
     }
-
     
   })
 

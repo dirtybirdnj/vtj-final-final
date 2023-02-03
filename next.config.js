@@ -1,5 +1,5 @@
 const fs = require("fs");
-const parser = require('markdown-metadata-parser');
+const matter = require('gray-matter');
 
 const directory_name = __dirname + "/src/pages/";
 
@@ -13,13 +13,12 @@ filenames.forEach((file, i) => {
     fs.readFile(directory_name + file, 'utf8', (err, data) => {
       if (data) {
         const strippedPath = file.split('.')[0];
-        const pageProps = {
-          ...parser.parseMarkdownMetadata(data)
-        }
+        const pathStr = strippedPath.includes('index') ? '/' : '/' + strippedPath;
+        const pageProps = matter(data);
 
         pages.push({
           file: file,
-          path: strippedPath.includes('index') ? '/' : '/' + strippedPath,
+          path: pathStr,
           ...pageProps
         })
       }
