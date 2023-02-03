@@ -12,7 +12,6 @@ let blogs = [];
 
 // Gets Blog Names
 blogNames.forEach((file, i) => {
-  console.log('blog file', file);
   if (file.includes('.md')) {
     fs.readFile(blog_dir + file, 'utf8', (err, data) => {
       if (data) {
