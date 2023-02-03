@@ -6,6 +6,8 @@ import Markdown from 'markdown-to-jsx';
 import Link from 'next/link';
 
 import Header from './header';
+import Posts from './posts';
+import {getDateString} from '../util';
 
 export default function Layout({ children }) {
   const router = useRouter();
@@ -30,19 +32,10 @@ export default function Layout({ children }) {
 
   const mainStyles = {
     display: 'flex',
+    flexDirection: 'column',
     flexGrow: 1,
     gap: '10%',
     paddingBottom: '40px'
-  }
-
-  const postStyles = {
-    flex: '0 0 30%'
-  }
-
-  const postListStyles = {
-    display: 'flex',
-    flexDirection: 'column',
-    gap: '15px'
   }
 
   const tagContainerStyles = {
@@ -66,24 +59,6 @@ export default function Layout({ children }) {
 
   const blogTitleStyles = {
     marginBottom: '10px'
-  }
-
-  const blogLinks = blogData.map((post, i) => {
-    if (post.path && (post.data.nav || post.data.title)) {
-      const postPath = post.path;
-      const postTitle = post.data.title;
-
-      return <Link key={i} className={currentRoute === post.path ? 'active' : ''} href={postPath}>{postTitle}</Link>
-    } else {
-      console.log('missing blog post props', post);
-    }
-  })
-
-  // Returns all dates in the same string
-  const getDateString = (date) => {
-    const postDate = new Date(date);
-
-    return postDate.toLocaleString([], {dateStyle: 'short'});
   }
 
   // Show title, date and/or author
@@ -120,10 +95,10 @@ export default function Layout({ children }) {
       }
 
       // Set conditional to show posts if you are on a blog page
-      setShowPosts(currentRoute.includes('blog'));      
+      setShowPosts(currentRoute.includes('blog') && !currentRoute.includes('/blog/'));      
 
       // Set conditional to show if you are viewing a post
-      setIsPost(currentRoute.includes('/blog/'))
+      setIsPost(currentRoute.includes('/blog/'));
     }
   }, [currentRoute, pageData, blogData]);
 
@@ -136,7 +111,9 @@ export default function Layout({ children }) {
       <Header pageData={pageData} currentRoute={currentRoute} />
       <main style={mainStyles}>{activePage ? (
         <div>
-          {activePage.data.title && (<h1 style={blogTitleStyles}>{activePage.data.title}</h1>)}
+          {activePage.data.title && (
+            <h1 style={blogTitleStyles}>{activePage.data.title}</h1>
+          )}
           {postHeader && postHeader}
           <Markdown>{activePage.content}</Markdown>
           {tags && (
@@ -145,14 +122,9 @@ export default function Layout({ children }) {
             </div>
           )}  
         </div>
-      ) : '404'}
+        ) : '404'}
       {showPosts && (
-        <div style={postStyles}>
-          <h2>Posts</h2>
-          <div style={postListStyles}>
-            {blogLinks}
-          </div>
-        </div>
+        <Posts data={blogData} />
       )}
       </main>
       <footer>

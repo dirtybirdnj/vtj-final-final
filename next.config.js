@@ -10,7 +10,7 @@ let blogNames = fs.readdirSync(blog_dir);
 let pages = [];
 let blogs = [];
 
-// Return most recent posts first
+// Return most recent posts first - NOT WORKING IDK WHY
 const sortPostsByDate = (postArr) => postArr.sort(function(a,b){
   if (a.data.date && b.data.date) {
     return new Date(b.data.date) - new Date(a.data.date);
