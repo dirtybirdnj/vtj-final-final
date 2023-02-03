@@ -1,10 +1,11 @@
 
 import { useState, useEffect } from 'react';
-import Header from './header';
 import getConfig from 'next/config';
 import { useRouter } from 'next/router';
 import Markdown from 'markdown-to-jsx';
 import { render } from 'react-dom';
+
+import Header from './header';
 
 export default function Layout({ children }) {
   const router = useRouter();
@@ -13,6 +14,9 @@ export default function Layout({ children }) {
   const pageData = config.publicRuntimeConfig.pages;
   const [activePage, setActivePage] = useState(null);
 
+  console.log('pageData', pageData);
+
+  // Temp styles
   const containerStyleProps = {
     maxWidth: '750px',
     minHeight: 'calc(100vh - 40px)',
@@ -28,6 +32,7 @@ export default function Layout({ children }) {
     flexGrow: 1
   }
 
+  // This is getting the markdown for the current page by the current route (url, e.g. '/about')
   useEffect(() => {
     if (currentRoute && pageData) {
       pageData.forEach((page, i) => {

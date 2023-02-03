@@ -1,0 +1,19 @@
+---
+type: page
+title: blog list
+date: 2021-03-18
+---
+
+import { getAllPages, getCurrentLevelPages, getPagesUnderRoute } from 'nextra/context'
+
+This page is a test of the nextra getAllPages / getCurrentLevelPages / getPagesUnderRoute functionality
+
+export async function getStaticProps(context) {
+
+  return {
+    props: {
+      foo: 'bar'
+    }, // will be passed to the page component as props
+  }
+
+}
