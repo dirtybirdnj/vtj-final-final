@@ -34,8 +34,6 @@ blogNames.forEach((file, i) => {
             ...pageProps
           })
         }
-
-        
       }
     });   
   }
@@ -60,7 +58,6 @@ fileNames.forEach((file, i) => {
   }
 });
 
-
 const withMDX = require('@next/mdx')({
   extension: /\.mdx?$/,
 });
@@ -68,7 +65,8 @@ const withMDX = require('@next/mdx')({
 module.exports = withMDX({
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
   publicRuntimeConfig: {
-    pages: pages
+    pages: pages,
+    blogs: blogs
   }
 })
 

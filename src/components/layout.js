@@ -12,6 +12,7 @@ export default function Layout({ children }) {
   const currentRoute = router.pathname;
   const config = getConfig();
   const pageData = config.publicRuntimeConfig.pages;
+  const blogData = config.publicRuntimeConfig.blogs;
   const [activePage, setActivePage] = useState(null);
 
   console.log('pageData', pageData);
@@ -35,13 +36,26 @@ export default function Layout({ children }) {
   // This is getting the markdown for the current page by the current route (url, e.g. '/about')
   useEffect(() => {
     if (currentRoute && pageData) {
-      pageData.forEach((page, i) => {
-        if (page.path === currentRoute) {
-          setActivePage(page.content);
-        }
-      })
+      console.log('currentRoute', currentRoute);
+      if (currentRoute.includes('/blog/')) {
+        blogData.forEach((page, i) => {
+          if (page.path === currentRoute) {
+            setActivePage(page.content);
+          }
+        })
+      } else {
+        pageData.forEach((page, i) => {
+          if (page.path === currentRoute) {
+            setActivePage(page.content);
+          }
+        })
+      }        
     }
   }, [currentRoute, pageData])
+
+  useEffect(() => {
+    console.log('activePage', activePage);
+  }, [activePage]);
 
   return (
     <div style={containerStyleProps}>
