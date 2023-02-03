@@ -10,15 +10,6 @@ let blogNames = fs.readdirSync(blog_dir);
 let pages = [];
 let blogs = [];
 
-// Return most recent posts first - NOT WORKING IDK WHY
-const sortPostsByDate = (postArr) => postArr.sort(function(a,b){
-  if (a.data.date && b.data.date) {
-    return new Date(b.data.date) - new Date(a.data.date);
-  } else {
-    return 0
-  }
-});
-
 // Gets Blog Names
 blogNames.forEach((file, i) => {
   if (file.includes('.md')) {
@@ -74,7 +65,7 @@ module.exports = withMDX({
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
   publicRuntimeConfig: {
     pages: pages,
-    blogs: sortPostsByDate(blogs)
+    blogs: blogs
   }
 })
 

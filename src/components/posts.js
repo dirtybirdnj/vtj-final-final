@@ -28,7 +28,16 @@ function Posts({
     paddingBottom: '20px'
   }
 
-  const postGroup = data.map((post, i) => {
+  // Return most recent posts first - NOT WORKING IDK WHY
+  const sortPostsByDate = (postArr) => postArr.sort(function(a,b){
+    if (a.data.date && b.data.date) {
+      return new Date(b.data.date) - new Date(a.data.date);
+    } else {
+      return 0
+    }
+  });
+
+  const postGroup = sortPostsByDate(data).map((post, i) => {
     if (post.path && post.data) {
       const postPath = post.path;
       const postTitle = post.data.title ? post.data.title : null;
