@@ -9,7 +9,7 @@ import Header from './header';
 
 export default function Layout({ children }) {
   const router = useRouter();
-  const currentRoute = router.pathname;
+  const currentRoute = router.pathname; 
   const config = getConfig();
   const pageData = config.publicRuntimeConfig.pages;
   const blogData = config.publicRuntimeConfig.blogs;
@@ -97,7 +97,7 @@ export default function Layout({ children }) {
   const tags = activePage && activePage.data.tags ? 
     activePage.data.tags.map((tag, i) => {
       return (
-        <div style={tagStyles} key={i}>#{tag}</div>
+        <div style={tagStyles} key={i}>{tag}</div>
       )
     })
    : null;

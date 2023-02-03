@@ -12,4 +12,5 @@ img {
 /* Temp */
 .active {
 	font-weight: bold;
+	cursor: default;
 }
