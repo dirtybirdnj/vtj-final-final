@@ -43,6 +43,18 @@ export default function Layout({ children }) {
     gap: '15px'
   }
 
+  const tagContainerStyles = {
+    display: 'flex',
+    gap: '15px',
+    fontSize: '12px'
+  }
+
+  const tagStyles = {
+    background: '#ccc',
+    padding: '3px 6px',
+    borderRadius: '2px'
+  }
+
   const blogLinks = blogData.map((post, i) => {
     if (post.path && (post.data.nav || post.data.title)) {
       const postPath = post.path;
@@ -54,6 +66,14 @@ export default function Layout({ children }) {
     }
 
   })
+
+  const tags = activePage && activePage.data.tags ? 
+    activePage.data.tags.map((tag, i) => {
+      return (
+        <div style={tagStyles} key={i}>#{tag}</div>
+      )
+    })
+   : null;
 
   // This is getting the markdown for the current page by the current route (url, e.g. '/about')
   useEffect(() => {
@@ -86,7 +106,14 @@ export default function Layout({ children }) {
     <div style={containerStyles}>
       <Header pageData={pageData} currentRoute={currentRoute} />
       <main style={mainStyles}>{activePage ? (
-        <Markdown>{activePage.content}</Markdown>
+        <div>
+          <Markdown>{activePage.content}</Markdown>
+          {tags && (
+            <div style={tagContainerStyles}>
+              {tags}
+            </div>
+          )}  
+        </div>
       ) : '404'}
       {showPosts && (
         <div style={postStyles}>
