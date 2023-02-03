@@ -13,6 +13,21 @@ export default function Layout({ children }) {
   const pageData = config.publicRuntimeConfig.pages;
   const [activePage, setActivePage] = useState(null);
 
+  const containerStyleProps = {
+    maxWidth: '750px',
+    minHeight: 'calc(100vh - 40px)',
+    padding: '20px',
+    margin: '0px auto',
+    display: 'flex',
+    flexDirection: 'column',
+    overflow: 'hidden'
+  }
+
+  const mainStyleProps = {
+    display: 'flex',
+    flexGrow: 1
+  }
+
   useEffect(() => {
     if (currentRoute && pageData) {
       pageData.forEach((page, i) => {
@@ -24,9 +39,9 @@ export default function Layout({ children }) {
   }, [currentRoute, pageData])
 
   return (
-    <div>
+    <div style={containerStyleProps}>
       <Header pageData={pageData} currentRoute={currentRoute} />
-      <main>{activePage ? (<Markdown>{activePage}</Markdown>) : '404'}</main>
+      <main style={mainStyleProps}>{activePage ? (<Markdown>{activePage}</Markdown>) : '404'}</main>
       <footer>
         <div>This is my footer</div>
       </footer>

@@ -20,10 +20,17 @@ function Header({
     
   })
 
+  // Temp - will move to styled-components
+  const navStyleProps = {
+    display: 'flex',
+    gap: '15px',
+    padding: '20px 0px'
+  }
+
   return (
     <>
       <div>HEADER</div>
-      <div>{links}</div>
+      <div style={navStyleProps}>{links}</div>
     </>
   )
 }
