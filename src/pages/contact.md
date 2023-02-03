@@ -1,6 +1,7 @@
 ---
 nav: Contact
 type: page
+navOrder: 5
 title: ✉️ Contact
 date: 2021-03-18
 ---

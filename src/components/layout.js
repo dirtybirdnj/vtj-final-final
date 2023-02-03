@@ -108,7 +108,6 @@ export default function Layout({ children }) {
   // This is getting the markdown for the current page by the current route (url, e.g. '/about')
   useEffect(() => {
     if (currentRoute && pageData) {
-      console.log('currentRoute', currentRoute);
       if (currentRoute.includes('/blog/')) {
         blogData.forEach((page, i) => {
           if (page.path === currentRoute) {

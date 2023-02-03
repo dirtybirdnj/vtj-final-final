@@ -12,8 +12,13 @@ function Header({
       const pagePath = page.path;
       const pageTitle = page.data.title;
       const navName = page.data.nav;
+      const pageOrder = page.data.navOrder ? page.data.navOrder : 100;
+      const linkStyles = {
+        display: 'flex',
+        order: pageOrder
+      }
 
-      return <Link key={i} className={currentRoute === page.path ? 'active' : ''} href={pagePath}>{navName ? navName : pageTitle}</Link>
+      return <Link style={linkStyles} key={i} className={currentRoute === page.path ? 'active' : ''} href={pagePath}>{navName ? navName : pageTitle}</Link>
     } else {
       console.log('missing page props', page);
     }
