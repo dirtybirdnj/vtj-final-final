@@ -1,6 +1,6 @@
 ---
 title: Hello Store!
-date: 2023/1/3
+date: 2023/1/1
 description: A new website all about Vertical Tube Jigs is born!
 tags: ['vertical', 'tube', 'jig']
 author: Mat Gilbert

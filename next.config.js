@@ -1,5 +1,6 @@
 const fs = require("fs");
 const matter = require('gray-matter');
+const axios = require('axios');
 
 const directory_name = __dirname + "/src/pages/";
 const blog_dir = __dirname + "/src/pages/blog/";
@@ -9,6 +10,9 @@ let blogNames = fs.readdirSync(blog_dir);
 
 let pages = [];
 let blogs = [];
+let galleryPhotos = getAlbum('hoyMREyPAMBSLn5EA');
+
+console.log(galleryPhotos);
 
 // Gets Blog Names
 blogNames.forEach((file, i) => {
@@ -34,7 +38,7 @@ blogNames.forEach((file, i) => {
           })
         }
       }
-    });   
+    });
   }
 });
 
@@ -53,9 +57,26 @@ fileNames.forEach((file, i) => {
           ...pageProps
         })
       }
-    });   
+    });
   }
 });
+
+//https://photos.app.goo.gl/hoyMREyPAMBSLn5EA
+ const gphotosRegex = /\["(https:\/\/lh3\.googleusercontent\.com\/[a-zA-Z0-9\-_]*)"/g
+
+ function extractPhotos(content) {
+  const links = new Set()
+   let match
+   while (match = gphotosRegex.exec(content)) {
+     links.add(match[1])
+   }
+   return Array.from(links)
+ }
+
+ async function getAlbum(id) {
+   const response = await axios.get(`https://photos.app.goo.gl/${id}`)
+   return extractPhotos(response.data)
+ }
 
 const withMDX = require('@next/mdx')({
   extension: /\.mdx?$/,
@@ -68,4 +89,3 @@ module.exports = withMDX({
     blogs: blogs
   }
 })
-

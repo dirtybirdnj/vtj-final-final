@@ -2,7 +2,7 @@
 nav: Blog
 navOrder: 3
 type: posts
-title: 📰 Blog 
+title: Blog
 ---
 
 Our latest fishing trips, experiments and other stuff related to verticaltubejig.com
