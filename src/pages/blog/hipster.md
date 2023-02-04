@@ -8,7 +8,7 @@ images: [
   'https://res.cloudinary.com/dfjzpbdey/image/upload/v1672160659/verticaltubejig.com/20220315_115428_y6m1wt.jpg',
   'https://res.cloudinary.com/dfjzpbdey/image/upload/v1672160759/verticaltubejig.com/20220726_195452_01_mghoxa.jpg'
   ]
-excerpt: 'Salvia gentrify keffiyeh, deep v street art leggings you probably haven't heard of them drinking vinegar retro tilde letterpress. Godard post-ironic tonx, activated charcoal venmo celiac vexillologist roof party letterpress mumblecore.'
+excerpt: Salvia gentrify keffiyeh, deep v street art leggings you probably haven't heard of them drinking vinegar retro tilde letterpress. Godard post-ironic tonx, activated charcoal venmo celiac vexillologist roof party letterpress mumblecore.
 ---
 
 
