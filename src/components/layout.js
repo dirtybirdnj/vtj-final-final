@@ -3,6 +3,9 @@ import getConfig from 'next/config';
 import { useRouter } from 'next/router';
 import Markdown from 'markdown-to-jsx';
 import Link from 'next/link';
+import Gallery from "react-photo-gallery";
+import { homePagePhotos } from '@/galleries/homepage';
+import { galleryPhotos } from '@/galleries/gallery';
 
 import Header from './header';
 import Posts from './posts';
@@ -77,6 +80,9 @@ export default function Layout({ children }) {
     })
    : null;
 
+
+
+
   // This is getting the markdown for the current page by the current route (url, e.g. '/about')
   useEffect(() => {
     if (currentRoute && pageData) {
@@ -122,10 +128,14 @@ export default function Layout({ children }) {
           )}
           {postHeader && postHeader}
           {currentRoute === '/gallery' && (
-            <div><strong>Masonry goes here!</strong></div>
+            <div>
+              <Gallery photos={galleryPhotos} />
+            </div>
           )}
           {currentRoute === '/' && (
-            <div><strong>home stuff goes here!</strong></div>
+            <div>
+              <Gallery photos={homePagePhotos} />
+            </div>
           )}
           <Markdown>{activePage.content}</Markdown>
           {tags && (
