@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import getConfig from 'next/config';
 import { useRouter } from 'next/router';
@@ -104,6 +103,7 @@ export default function Layout({ children }) {
 
   useEffect(() => {
     console.log('activePage', activePage);
+    console.log('currentRoute', currentRoute);
   }, [activePage]);
 
   return (
@@ -115,6 +115,9 @@ export default function Layout({ children }) {
             <h1 style={blogTitleStyles}>{activePage.data.title}</h1>
           )}
           {postHeader && postHeader}
+          {currentRoute === '/gallery' && (
+            <div><strong>Masonry goes here!</strong></div>
+          )}
           <Markdown>{activePage.content}</Markdown>
           {tags && (
             <div style={tagContainerStyles}>
