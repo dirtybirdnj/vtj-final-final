@@ -12,7 +12,7 @@ let pages = [];
 let blogs = [];
 let galleryPhotos = getAlbum('hoyMREyPAMBSLn5EA');
 
-console.log(galleryPhotos);
+//console.log(galleryPhotos);
 
 // Gets Blog Names
 blogNames.forEach((file, i) => {

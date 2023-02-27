@@ -10,13 +10,14 @@ import {getDateString} from '../util';
 
 export default function Layout({ children }) {
   const router = useRouter();
-  const currentRoute = router.pathname; 
+  const currentRoute = router.pathname;
   const config = getConfig();
   const pageData = config.publicRuntimeConfig.pages;
   const blogData = config.publicRuntimeConfig.blogs;
   const [activePage, setActivePage] = useState(null);
   const [showPosts, setShowPosts] = useState(false);
   const [isPost, setIsPost] = useState(false);
+  const [showTitle,setShowTitle] = useState(false);
 
   // Temp styles
   const containerStyles = {
@@ -68,7 +69,7 @@ export default function Layout({ children }) {
     </div>
   ) : null;
 
-  const tags = activePage && activePage.data.tags ? 
+  const tags = activePage && activePage.data.tags ?
     activePage.data.tags.map((tag, i) => {
       return (
         <div style={tagStyles} key={i}>{tag}</div>
@@ -94,10 +95,15 @@ export default function Layout({ children }) {
       }
 
       // Set conditional to show posts if you are on a blog page
-      setShowPosts(currentRoute.includes('blog') && !currentRoute.includes('/blog/'));      
+      setShowPosts(currentRoute.includes('blog') && !currentRoute.includes('/blog/'));
 
       // Set conditional to show if you are viewing a post
       setIsPost(currentRoute.includes('/blog/'));
+
+      //if the currentRoute is in the noTitles array, prevent showing it
+      const hideTitle = ['/','/gallery','/photos','/blog'];
+      setShowTitle(!hideTitle.includes(currentRoute));
+
     }
   }, [currentRoute, pageData, blogData]);
 
@@ -111,23 +117,29 @@ export default function Layout({ children }) {
       <Header pageData={pageData} currentRoute={currentRoute} />
       <main style={mainStyles}>{activePage ? (
         <div>
-          {activePage.data.title && (
+          {(activePage.data.title && showTitle) && (
             <h1 style={blogTitleStyles}>{activePage.data.title}</h1>
           )}
           {postHeader && postHeader}
           {currentRoute === '/gallery' && (
             <div><strong>Masonry goes here!</strong></div>
           )}
+          {currentRoute === '/' && (
+            <div><strong>home stuff goes here!</strong></div>
+          )}
           <Markdown>{activePage.content}</Markdown>
           {tags && (
             <div style={tagContainerStyles}>
               {tags}
             </div>
-          )}  
+          )}
         </div>
         ) : '404'}
       {showPosts && (
-        <Posts data={blogData} />
+        <div>
+          <h1 style={blogTitleStyles}>{activePage.data.title}</h1>
+          <Posts data={blogData} />
+        </div>
       )}
       </main>
       <footer>
