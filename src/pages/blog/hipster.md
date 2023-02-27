@@ -1,6 +1,8 @@
 ---
 title: Hipster Ipsum
 date: 2023/12/10
+created: 2023/12/10
+updated: 2023/12/11
 description: Tumblr lyft waistcoat man braid tonx narwhal cliche.
 tags: ['jig']
 author: Mat Gilbert

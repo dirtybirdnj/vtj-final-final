@@ -1,6 +1,8 @@
 ---
 title: Bacon Ipsum
 date: 2022/11/3
+created: 2023/11/3
+updated: 2023/12/1
 description: Bacon all the things.
 tags: ['bacon']
 author: Mat Gilbert

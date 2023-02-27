@@ -1,6 +1,8 @@
 ---
 title: What is a VTJ?
-date: 2023/01/03
+date: 2023/01/04
+created: 2023/01/04
+updated: 2023/01/05
 description: A vertical tube jig is a combination of a trolling weight, split rings and a treble or single hook
 tags: ['vertical', 'tube', 'jig']
 author: Mat Gilbert

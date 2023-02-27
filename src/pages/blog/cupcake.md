@@ -1,6 +1,8 @@
 ---
 title: Cupcake Ipsum
 date: 2022/10/20
+created: 2022/10/20
+updated: 2023/01/02
 description: Cupcakes are delicious.
 tags: ['bacon','cupcake']
 author: Mat Gilbert
