@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-function Header({
+function Footer({
   pageData,
   currentRoute
 }) {
@@ -25,37 +25,30 @@ function Header({
 
   })
 
-  // Temp - will move to styled-components
-  const navStyleProps = {
-    display: 'flex',
-    gap: '15px',
-    padding: '20px 0px'
+  const imgStyle = {
+    maxWidth: '100px'
   }
 
-  // Temp styles
   const containerStyles = {
 
     margin: '0px auto',
     display: 'flex',
     flexDirection: 'column',
     overflow: 'hidden',
+
   }
-
-  const imgStyle = {
-    maxWidth: '300px'
-  }
-
-
 
   return (
-    <>
+    <footer>
       <div style={containerStyles}>
         <img style={imgStyle} src="vtj-circle.svg"/>
         <p>www.verticaltubejig.com</p>
+        <p>orders@verticaltubejig.com</p>
+        <p >hand made in huntington vermont</p>
+        <p>vtapi.co</p>
       </div>
-      <div style={navStyleProps}>{links}</div>
-    </>
+    </footer>
   )
 }
 
-export default Header
+export default Footer

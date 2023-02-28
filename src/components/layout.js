@@ -8,6 +8,7 @@ import { homePagePhotos } from '@/galleries/homepage';
 import { galleryPhotos } from '@/galleries/gallery';
 
 import Header from './header';
+import Footer from './footer';
 import Posts from './posts';
 import {getDateString} from '../util';
 
@@ -64,6 +65,10 @@ export default function Layout({ children }) {
     marginBottom: '10px'
   }
 
+  const imgStyle = {
+    width: '100px'
+  }
+
   // Show title, date and/or author
   const postHeader = isPost ? (
     <div style={postMetaStyles}>
@@ -116,6 +121,7 @@ export default function Layout({ children }) {
   useEffect(() => {
     console.log('activePage', activePage);
     console.log('currentRoute', currentRoute);
+    console.log(config)
   }, [activePage]);
 
   return (
@@ -152,9 +158,7 @@ export default function Layout({ children }) {
         </div>
       )}
       </main>
-      <footer>
-        <div>This is my footer</div>
-      </footer>
+      <Footer pageData={pageData} currentRoute={currentRoute} />
     </div>
   );
 }

@@ -86,6 +86,7 @@ module.exports = withMDX({
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
   publicRuntimeConfig: {
     pages: pages,
-    blogs: blogs
+    blogs: blogs,
+    gphotos: galleryPhotos
   }
 })
