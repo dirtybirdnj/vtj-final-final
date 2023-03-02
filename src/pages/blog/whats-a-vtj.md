@@ -7,8 +7,36 @@ description: A vertical tube jig is a combination of a trolling weight, split ri
 tags: ['vertical', 'tube', 'jig']
 author: Mat Gilbert
 images: [
-  'https://lh3.googleusercontent.com/pw/AMWts8Cd0mF7KrBybvTccrGUgGt4xB2PL2CrK2aX_Y6n5Tf7xJADdxfP7LTBReNchi31HEYg7UYPiok-HVQlWaGFc9_Yb-u-fSJRLNIwJOSha8qYVv66_NYLNALWpadEfarJS_YTnX238ToRuEuzlri8DEGMPQ=w1206-h2676-no?authuser=0',
-  'https://lh3.googleusercontent.com/pw/AMWts8AjIrJleuC-NwEBcSdpvtvKpbyejok6S3zcmuS8Sg7_o9twPiKr-ZnYvz-XACpAtrlHpLm49zlLzcOVBOte-2pXlWkF5pgMCCEmifGH8BUQ3bk3tAuU2yV7xcUnB-7YV_A-fUEW6grrok5-xFTdoPG52A=w1206-h2676-no?authuser=0'
+  {
+    src: "https://res.cloudinary.com/dfjzpbdey/image/upload/v1672160659/verticaltubejig.com/20220315_115428_y6m1wt.jpg",
+    width: 3154,
+    height: 1758
+  },
+  {
+    src: "https://res.cloudinary.com/dfjzpbdey/image/upload/v1672160759/verticaltubejig.com/20220726_195452_01_mghoxa.jpg",
+    width: 3024,
+    height: 4032
+  },
+  {
+    src: "https://res.cloudinary.com/dfjzpbdey/image/upload/v1672421559/verticaltubejig.com/PXL_20220612_000447397_ojpts5.jpg",
+    width: 4080,
+    height: 3072
+  },
+  {
+    src: "https://res.cloudinary.com/dfjzpbdey/image/upload/v1672421198/verticaltubejig.com/PXL_20220525_145551088_kogfzu.jpg",
+    width: 4080,
+    height: 3072
+  },
+  {
+    src: "https://res.cloudinary.com/dfjzpbdey/image/upload/v1672421092/verticaltubejig.com/PXL_20220521_183701705_zamoql.jpg",
+    width: 4080,
+    height: 3072
+  },
+  {
+    src: "https://res.cloudinary.com/dfjzpbdey/image/upload/v1672421051/verticaltubejig.com/PXL_20220220_154539071.MP_pzfpnx.jpg",
+    width: 4080,
+    height: 3072
+  }
 ]
 excerpt: 'A VTJ is a barrel weight with a split ring and a treble or single hook attached to the bottom ring of the weight. You can either sleeve a plastic tube over the weight, or you can paint it colors.'
 ---

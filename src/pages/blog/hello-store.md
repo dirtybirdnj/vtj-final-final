@@ -7,8 +7,21 @@ description: A new website all about Vertical Tube Jigs is born!
 tags: ['vertical', 'tube', 'jig']
 author: Mat Gilbert
 images: [
-  'https://res.cloudinary.com/dfjzpbdey/image/upload/v1672160659/verticaltubejig.com/20220315_115428_y6m1wt.jpg',
-  'https://res.cloudinary.com/dfjzpbdey/image/upload/v1672160759/verticaltubejig.com/20220726_195452_01_mghoxa.jpg'
+  {
+    src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
+    width: 3,
+    height: 4
+  },
+  {
+    src: "https://source.unsplash.com/PpOHJezOalU/800x599",
+    width: 4,
+    height: 3
+  }
   ]
 excerpt: 'In 2021, Mat Gilbert was invited to go fishing for Lake Trout on Lake Champlain and things have never been the same.'
 ---
