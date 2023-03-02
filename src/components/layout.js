@@ -138,11 +138,17 @@ export default function Layout({ children }) {
               <Gallery photos={galleryPhotos} />
             </div>
           )}
+
           {currentRoute === '/' && (
             <div>
               <Gallery photos={homePagePhotos} />
             </div>
           )}
+
+          {activePage.data.images &&
+            <Gallery photos={activePage.data.images}/>
+          }
+
           <Markdown>{activePage.content}</Markdown>
           {tags && (
             <div style={tagContainerStyles}>

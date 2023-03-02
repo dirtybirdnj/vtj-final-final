@@ -7,8 +7,21 @@ description: Bacon all the things.
 tags: ['bacon']
 author: Mat Gilbert
 images: [
-  'https://res.cloudinary.com/dfjzpbdey/image/upload/v1672160659/verticaltubejig.com/20220315_115428_y6m1wt.jpg',
-  'https://res.cloudinary.com/dfjzpbdey/image/upload/v1672160759/verticaltubejig.com/20220726_195452_01_mghoxa.jpg'
+  {
+    src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
+    width: 1,
+    height: 1
+  },
+  {
+    src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
+    width: 3,
+    height: 4
+  }
   ]
 excerpt: 'Bacon ipsum dolor amet spare ribs pastrami ball tip t-bone drumstick boudin ham hock jowl burgdoggen. Jerky pancetta sausage, kielbasa sirloin bresaola buffalo chicken corned beef rump chuck tenderloin pork shoulder.'
 ---
