@@ -4,11 +4,6 @@ navOrder: 1
 title: 🎣 Welcome to Verticaltubejig.com
 trademark: Trademark
 excerpt: 'We offer jigging lures designed to engage agressive fish that want to chase. If you are looking for slow flutter lures go elsewhere.'
-images: [
-  'https://res.cloudinary.com/dfjzpbdey/image/upload/v1672421561/verticaltubejig.com/PXL_20220612_000450401_ud1qgf.jpg',
-  'https://res.cloudinary.com/dfjzpbdey/image/upload/v1672421074/verticaltubejig.com/PXL_20220220_154610122.MP_aespt8.jpg',
-  'https://res.cloudinary.com/dfjzpbdey/image/upload/v1672160797/verticaltubejig.com/20220810_110435_n8pxij.jpg'
-]
 ---
 
 We offer jigging lures designed to engage agressive fish that want to chase. If you are looking for slow flutter lures go elsewhere.
