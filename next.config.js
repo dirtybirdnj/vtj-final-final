@@ -10,9 +10,10 @@ let blogNames = fs.readdirSync(blog_dir);
 
 let pages = [];
 let blogs = [];
-let galleryPhotos = getAlbum('hoyMREyPAMBSLn5EA');
+let featuredBlogs = []; //the array that is avaialbale to the front end
+let featuredBlog = null;
 
-//console.log(galleryPhotos);
+let blogsToFeature = ['hello-store.md','whats-a-vtj.md']; // the user selected blog pages that are featured, in the order they should appear
 
 // Gets Blog Names
 blogNames.forEach((file, i) => {
@@ -37,6 +38,15 @@ blogNames.forEach((file, i) => {
             ...pageProps
           })
         }
+
+        if(blogsToFeature.includes(file)){
+          featuredBlogs.push({
+            file: file,
+            path: pathStr,
+            ...pageProps
+          })
+        }
+
       }
     });
   }
@@ -60,6 +70,8 @@ fileNames.forEach((file, i) => {
     });
   }
 });
+
+console.log(pages,'next.config.js');
 
 //https://photos.app.goo.gl/hoyMREyPAMBSLn5EA
  const gphotosRegex = /\["(https:\/\/lh3\.googleusercontent\.com\/[a-zA-Z0-9\-_]*)"/g
@@ -87,6 +99,7 @@ module.exports = withMDX({
   publicRuntimeConfig: {
     pages: pages,
     blogs: blogs,
-    gphotos: galleryPhotos
+    featuredBlogs: featuredBlogs,
+    gphotos: getAlbum('hoyMREyPAMBSLn5EA')
   }
 })

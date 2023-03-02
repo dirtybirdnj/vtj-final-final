@@ -112,7 +112,7 @@ export default function Layout({ children }) {
       setIsPost(currentRoute.includes('/blog/'));
 
       //if the currentRoute is in the noTitles array, prevent showing it
-      const hideTitle = ['/','/gallery','/photos','/blog'];
+      const hideTitle = ['/','/gallery','/photos','/blog','/contact'];
       setShowTitle(!hideTitle.includes(currentRoute));
 
     }
