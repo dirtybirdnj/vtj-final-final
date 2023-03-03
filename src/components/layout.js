@@ -10,6 +10,7 @@ import { galleryPhotos } from '@/galleries/gallery';
 import Header from './header';
 import Footer from './footer';
 import Posts from './posts';
+import FeaturedPost from './featured-post';
 import {getDateString} from '../util';
 
 export default function Layout({ children }) {
@@ -76,6 +77,10 @@ export default function Layout({ children }) {
       <span>{activePage.data.date && getDateString(activePage.data.date)}</span>
     </div>
   ) : null;
+
+  //const featuredBlog = activePage.data.FeaturedPost;
+  const featuredBlog = 'cupcake.md'
+  console.log(activePage)
 
   const tags = activePage && activePage.data.tags ?
     activePage.data.tags.map((tag, i) => {
@@ -163,6 +168,7 @@ export default function Layout({ children }) {
           <Posts data={blogData} />
         </div>
       )}
+
       </main>
       <Footer pageData={pageData} currentRoute={currentRoute} />
     </div>

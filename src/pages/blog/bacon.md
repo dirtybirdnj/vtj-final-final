@@ -6,6 +6,7 @@ updated: 2023/12/1
 description: Bacon all the things.
 tags: ['bacon']
 author: Mat Gilbert
+featuredPost: cupcake.md
 images: [
   {
     src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
