@@ -8,7 +8,7 @@ tags: ['vertical', 'tube', 'jig']
 author: Mat Gilbert
 images: [
   {
-    src: "https://res.cloudinary.com/dfjzpbdey/image/upload/v1672160659/verticaltubejig.com/20220315_115428_y6m1wt.jpg",
+    src: "https://res.cloudinary.com/vtapico/image/upload/v1672160659/verticaltubejig.com/vtj_fish/20220315_115428_y6m1wt.jpg",
     width: 3154,
     height: 1758
   }
@@ -17,6 +17,8 @@ excerpt: 'A VTJ is a barrel weight with a split ring and a treble or single hook
 ---
 
 What exactly IS a VTJ? It's a Vertical Tube Jig.
+
+![damaged tube jig after lake trout fishing](https://res.cloudinary.com/vtapico/image/upload/v1672160759/verticaltubejig.com/20220726_195452_01_mghoxa.jpg "Damaged tube after lake trout fishing")
 
 A VTJ is a barrel weight with a split ring and a treble or single hook attached to the bottom ring of the weight. You can either sleeve a plastic tube over the weight, or you can paint it colors. Our most effective color is pearl white. We find it's even more effective if you add a dressed treble or some rattling / vibrating elements.
 

@@ -10,7 +10,7 @@ import { galleryPhotos } from '@/galleries/gallery';
 import Header from './header';
 import Footer from './footer';
 import Posts from './posts';
-import FeaturedPost from './featured-post';
+import FeaturedBlog from './featured-blog';
 import {getDateString} from '../util';
 
 export default function Layout({ children }) {
@@ -78,10 +78,6 @@ export default function Layout({ children }) {
     </div>
   ) : null;
 
-  //const featuredBlog = activePage.data.FeaturedPost;
-  const featuredBlog = 'cupcake.md'
-  console.log(activePage)
-
   const tags = activePage && activePage.data.tags ?
     activePage.data.tags.map((tag, i) => {
       return (
@@ -90,8 +86,16 @@ export default function Layout({ children }) {
     })
    : null;
 
+  //TODO: If no featured blog shown in grey matter, take the global one set in next.fonfig.js
+  let blogToFeature = false;
 
-
+  if(activePage && activePage.data.featuredBlog){
+    blogData.forEach((blog) => {
+      if(blog.file === activePage.data.featuredBlog){
+        blogToFeature = blog;
+      }
+    })
+  }
 
   // This is getting the markdown for the current page by the current route (url, e.g. '/about')
   useEffect(() => {
@@ -124,9 +128,9 @@ export default function Layout({ children }) {
   }, [currentRoute, pageData, blogData]);
 
   useEffect(() => {
-    console.log('activePage', activePage);
-    console.log('currentRoute', currentRoute);
-    console.log(config)
+    //console.log('activePage', activePage);
+    // console.log('currentRoute', currentRoute);
+    // console.log(config)
   }, [activePage]);
 
   return (
@@ -168,6 +172,14 @@ export default function Layout({ children }) {
           <Posts data={blogData} />
         </div>
       )}
+
+      {blogToFeature &&
+      <div>
+        <h1>{blogToFeature.data.title}</h1>
+        <FeaturedBlog featuredBlog={blogToFeature} pageData={pageData} currentRoute={currentRoute} />
+      </div>
+
+      }
 
       </main>
       <Footer pageData={pageData} currentRoute={currentRoute} />

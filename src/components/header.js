@@ -52,6 +52,7 @@ function Header({
       <div style={containerStyles}>
         <img style={imgStyle} src="vtj-circle.svg"/>
         <p>www.verticaltubejig.com</p>
+        <p>EST. 2023 Huntington, VT</p>
       </div>
       <div style={navStyleProps}>{links}</div>
     </>

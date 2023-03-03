@@ -10,8 +10,10 @@ let blogNames = fs.readdirSync(blog_dir);
 
 let pages = [];
 let blogs = [];
+
+//Defaults for pages where there is nothing set in the grey matter
 let featuredBlogs = []; //the array that is avaialbale to the front end
-let featuredBlog = null;
+let featuredBlog = null; //individual blog to feature in single block
 
 let blogsToFeature = ['hello-store.md','whats-a-vtj.md']; // the user selected blog pages that are featured, in the order they should appear
 
