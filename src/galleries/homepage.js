@@ -1,39 +1,108 @@
 export const homePagePhotos = [
 
   {
-    src: "https://res.cloudinary.com/dfjzpbdey/image/upload/v1672160659/verticaltubejig.com/20220315_115428_y6m1wt.jpg",
-    width: 3154,
-    height: 1758
+    asset_id: '593787f90b3dd4071a662dca0fd15df6',
+    public_id: 'verticaltubejig.com/product-photos/1oz-blood-red_nvpmhv',
+    format: 'jpg',
+    version: 1674591752,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-01-24T20:22:32Z',
+    bytes: 331765,
+    width: 1305,
+    height: 3094,
+    folder: 'verticaltubejig.com/product-photos',
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1674591752/verticaltubejig.com/product-photos/1oz-blood-red_nvpmhv.jpg',
+    secure_src: 'https://res.cloudinary.com/vtapico/image/upload/v1674591752/verticaltubejig.com/product-photos/1oz-blood-red_nvpmhv.jpg'
   },
   {
-    src: "https://res.cloudinary.com/dfjzpbdey/image/upload/v1672160759/verticaltubejig.com/20220726_195452_01_mghoxa.jpg",
-    width: 3024,
-    height: 4032
+    asset_id: '9d332364778a2478674f543e371aad3b',
+    public_id: 'verticaltubejig.com/product-photos/green-single-1oz_wuqeo8',
+    format: 'jpg',
+    version: 1674576540,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-01-24T16:09:00Z',
+    bytes: 260457,
+    width: 1469,
+    height: 3262,
+    folder: 'verticaltubejig.com/product-photos',
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1674576540/verticaltubejig.com/product-photos/green-single-1oz_wuqeo8.jpg',
+    secure_src: 'https://res.cloudinary.com/vtapico/image/upload/v1674576540/verticaltubejig.com/product-photos/green-single-1oz_wuqeo8.jpg'
   },
   {
-    src: "https://res.cloudinary.com/dfjzpbdey/image/upload/v1672160745/verticaltubejig.com/20220318_133421_ze8c1p.jpg",
-    width: 4032,
-    height: 1816
-  },
-  {
-    src: "https://res.cloudinary.com/dfjzpbdey/image/upload/v1672421559/verticaltubejig.com/PXL_20220612_000447397_ojpts5.jpg",
+    asset_id: '2d76aa482ce5193b84fe5ffff64ea0d9',
+    public_id: 'verticaltubejig.com/PXL_20221105_143040730_sa8adw',
+    format: 'jpg',
+    version: 1672421651,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2022-12-30T17:34:11Z',
+    bytes: 3338224,
     width: 4080,
-    height: 3072
+    height: 3072,
+    folder: 'verticaltubejig.com',
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672421651/verticaltubejig.com/PXL_20221105_143040730_sa8adw.jpg',
+    secure_src: 'https://res.cloudinary.com/vtapico/image/upload/v1672421651/verticaltubejig.com/PXL_20221105_143040730_sa8adw.jpg'
   },
   {
-    src: "https://res.cloudinary.com/dfjzpbdey/image/upload/v1672421198/verticaltubejig.com/PXL_20220525_145551088_kogfzu.jpg",
+    asset_id: '921200b78fa4360d3521d35a7a341c91',
+    public_id: 'verticaltubejig.com/PXL_20221105_143036938_gmb8xq',
+    format: 'jpg',
+    version: 1672421650,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2022-12-30T17:34:10Z',
+    bytes: 2773378,
     width: 4080,
-    height: 3072
+    height: 3072,
+    folder: 'verticaltubejig.com',
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672421650/verticaltubejig.com/PXL_20221105_143036938_gmb8xq.jpg',
+    secure_src: 'https://res.cloudinary.com/vtapico/image/upload/v1672421650/verticaltubejig.com/PXL_20221105_143036938_gmb8xq.jpg'
   },
-
   {
-    src: "https://res.cloudinary.com/dfjzpbdey/image/upload/v1672421051/verticaltubejig.com/PXL_20220220_154539071.MP_pzfpnx.jpg",
+    asset_id: '63184736cabacc96db123f2f5e909ea5',
+    public_id: 'verticaltubejig.com/PXL_20221105_143032188_npb7ac',
+    format: 'jpg',
+    version: 1672421650,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2022-12-30T17:34:10Z',
+    bytes: 2736466,
     width: 4080,
-    height: 3072
+    height: 3072,
+    folder: 'verticaltubejig.com',
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672421650/verticaltubejig.com/PXL_20221105_143032188_npb7ac.jpg',
+    secure_src: 'https://res.cloudinary.com/vtapico/image/upload/v1672421650/verticaltubejig.com/PXL_20221105_143032188_npb7ac.jpg'
   },
   {
-    src: "https://res.cloudinary.com/dfjzpbdey/image/upload/v1672421023/verticaltubejig.com/PXL_20220220_144530216_ksnyqg.jpg",
-    width: 4032,
-    height: 3024
+    asset_id: 'd96c8dc375c793720ca93916fc14e13f',
+    public_id: 'verticaltubejig.com/PXL_20221105_143027299_zczwsr',
+    format: 'jpg',
+    version: 1672421648,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2022-12-30T17:34:08Z',
+    bytes: 3779715,
+    width: 4080,
+    height: 3072,
+    folder: 'verticaltubejig.com',
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672421648/verticaltubejig.com/PXL_20221105_143027299_zczwsr.jpg',
+    secure_src: 'https://res.cloudinary.com/vtapico/image/upload/v1672421648/verticaltubejig.com/PXL_20221105_143027299_zczwsr.jpg'
+  },
+  {
+    asset_id: 'bf4a4dec6749c9d2dff2784cc1e87623',
+    public_id: 'verticaltubejig.com/PXL_20221105_143034606_s3m5ss',
+    format: 'jpg',
+    version: 1672421648,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2022-12-30T17:34:08Z',
+    bytes: 2590089,
+    width: 4080,
+    height: 3072,
+    folder: 'verticaltubejig.com',
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672421648/verticaltubejig.com/PXL_20221105_143034606_s3m5ss.jpg',
+    secure_src: 'https://res.cloudinary.com/vtapico/image/upload/v1672421648/verticaltubejig.com/PXL_20221105_143034606_s3m5ss.jpg'
   }
 ];
