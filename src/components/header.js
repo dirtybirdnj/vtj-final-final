@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 function Header({
   pageData,
@@ -50,7 +51,7 @@ function Header({
   return (
     <>
       <div style={containerStyles}>
-        <img style={imgStyle} src="vtj-circle.svg"/>
+        <Image style={imgStyle} src="/vtj-circle.svg" width="300" height="300" alt="verticaltubejig.com logo"/>
         <p>www.verticaltubejig.com</p>
         <p>EST. 2023 Huntington, VT</p>
       </div>

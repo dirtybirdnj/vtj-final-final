@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 function Footer({
   pageData,
@@ -41,7 +42,7 @@ function Footer({
   return (
     <footer>
       <div style={containerStyles}>
-        <img style={imgStyle} src="vtj-circle.svg"/>
+        <Image style={imgStyle} src="/vtj-circle.svg" width="300" height="300" alt="verticaltubejig.com logo"/>
         <p>www.verticaltubejig.com</p>
         <p>orders@verticaltubejig.com</p>
         <p >hand made in huntington vermont</p>
