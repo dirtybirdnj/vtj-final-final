@@ -18,7 +18,9 @@ let products = [];
 let featuredBlogs = []; //the array that is avaialbale to the front end
 let featuredBlog = null; //individual blog to feature in single block
 
+//TODO: have featured blog posts that show for posts / products that dont have featured items defined
 let blogsToFeature = ['hello-store.md','whats-a-vtj.md']; // the user selected blog pages that are featured, in the order they should appear
+let productsToFeatures = [];
 
 // Gets Blog Names
 blogNames.forEach((file, i) => {
@@ -67,19 +69,19 @@ productNames.forEach((file, i) => {
         const pathStr = strippedPath.includes('index') ? '/shop' : '/shop/' + strippedPath;
         const pageProps = matter(data);
 
-        // if (file.includes('index')) {
+        if (file.includes('index')) {
           pages.push({
             file: file,
             path: pathStr,
             ...pageProps
           })
-        // } else {
-        //   products.push({
-        //     file: file,
-        //     path: pathStr,
-        //     ...pageProps
-        //   })
-        // }
+        } else {
+          products.push({
+            file: file,
+            path: pathStr,
+            ...pageProps
+          })
+        }
 
         //TODO
         // if(blogsToFeature.includes(file)){

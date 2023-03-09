@@ -19,10 +19,13 @@ export default function Layout({ children }) {
   const config = getConfig();
   const pageData = config.publicRuntimeConfig.pages;
   const blogData = config.publicRuntimeConfig.blogs;
+  const productData = config.publicRuntimeConfig.products;
   const [activePage, setActivePage] = useState(null);
   const [showPosts, setShowPosts] = useState(false);
   const [isPost, setIsPost] = useState(false);
   const [showTitle,setShowTitle] = useState(false);
+
+console.log(activePage);
 
   // Temp styles
   const containerStyles = {
@@ -112,6 +115,13 @@ export default function Layout({ children }) {
             setActivePage(page);
           }
         })
+
+        productData.forEach((page, i) => {
+          if (page.path === currentRoute) {
+            setActivePage(page);
+          }
+        })
+
       }
 
       // Set conditional to show posts if you are on a blog page
@@ -121,11 +131,11 @@ export default function Layout({ children }) {
       setIsPost(currentRoute.includes('/blog/'));
 
       //if the currentRoute is in the noTitles array, prevent showing it
-      const hideTitle = ['/','/gallery','/photos','/blog','/contact'];
+      const hideTitle = ['/','/gallery','/photos','/blog','/shop','/contact'];
       setShowTitle(!hideTitle.includes(currentRoute));
 
     }
-  }, [currentRoute, pageData, blogData]);
+  }, [currentRoute, pageData, blogData, productData]);
 
   useEffect(() => {
     //console.log('activePage', activePage);
