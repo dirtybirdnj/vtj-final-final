@@ -183,6 +183,17 @@ console.log(activePage);
         </div>
       )}
 
+      <h3>Snipcart Button</h3>
+
+    <button className="snipcart-add-item"
+      data-item-id="2oz-vtj"
+      data-item-price="19.99"
+      data-item-description="Two ounce vertical tube jig."
+      data-item-image="http://res.cloudinary.com/vtapico/image/upload/v1674591752/verticaltubejig.com/product-photos/2oz-blood-red_y5bvqt.jpg"
+      data-item-name="2oz Vertical Tube Jig">
+      Add to cart
+    </button>
+
       {blogToFeature &&
       <div>
         <h1>{blogToFeature.data.title}</h1>
