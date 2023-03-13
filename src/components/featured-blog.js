@@ -31,7 +31,7 @@ function FeaturedBlog({
         <p>{featuredBlog.data.author}</p>
         <p>{featuredBlog.data.created}</p>
         <p>{featuredBlog.data.excerpt}</p>
-        <button>Read More</button>
+        <Link href={featuredBlog.path}>Read More</Link>
       </div>
   )
 }

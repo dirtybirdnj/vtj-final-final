@@ -10,6 +10,7 @@ import { galleryPhotos } from '@/galleries/gallery';
 import Header from './header';
 import Footer from './footer';
 import Posts from './posts';
+import ProductGrid from './product-grid';
 import FeaturedBlog from './featured-blog';
 import {getDateString} from '../util';
 
@@ -24,6 +25,8 @@ export default function Layout({ children }) {
   const [showPosts, setShowPosts] = useState(false);
   const [isPost, setIsPost] = useState(false);
   const [showTitle,setShowTitle] = useState(false);
+
+  const [showProducts, setShowProducts] = useState(false);
 
 console.log(activePage);
 
@@ -127,6 +130,9 @@ console.log(activePage);
       // Set conditional to show posts if you are on a blog page
       setShowPosts(currentRoute.includes('blog') && !currentRoute.includes('/blog/'));
 
+      // Set conditional to show posts if you are on a blog page
+      setShowProducts(currentRoute.includes('shop') && !currentRoute.includes('/shop/'));
+
       // Set conditional to show if you are viewing a post
       setIsPost(currentRoute.includes('/blog/'));
 
@@ -183,16 +189,13 @@ console.log(activePage);
         </div>
       )}
 
-      <h3>Snipcart Button</h3>
+      {showProducts && (
+        <div>
+          <h1>Product Grid</h1>
+          <ProductGrid data={productData}/>
+        </div>
 
-    <button className="snipcart-add-item"
-      data-item-id="2oz-vtj"
-      data-item-price="19.99"
-      data-item-description="Two ounce vertical tube jig."
-      data-item-image="http://res.cloudinary.com/vtapico/image/upload/v1674591752/verticaltubejig.com/product-photos/2oz-blood-red_y5bvqt.jpg"
-      data-item-name="2oz Vertical Tube Jig">
-      Add to cart
-    </button>
+      )}
 
       {blogToFeature &&
       <div>
