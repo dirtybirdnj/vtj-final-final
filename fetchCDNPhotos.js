@@ -25,18 +25,18 @@ async function getImages (){
     //   console.log('something went wrong',err)
     // });
 
-    console.log('try')
+    //console.log('try')
 
 
     return cloudinary.v2
     .search.expression(
-    'folder:verticaltubejig.com/product-photos/*' // add your folder
+    'folder:verticaltubejig.com/vtj_research/*' // add your folder
     ).sort_by('public_id','desc').max_results(30).execute()
 
 
     .then((result)=>{
       //console.log('result',result)
-      console.log(result);
+      //console.log(result);
       return result;
     }).catch((err) =>{
       console.log('something went wrong',err)
@@ -53,6 +53,7 @@ async function getImages (){
 
 }
 
+// node fetchCDNPhotos.js | pbcopy
 async function outputJSON(){
 
   const imageData = await getImages().then((result) => {
@@ -60,6 +61,7 @@ async function outputJSON(){
     result.resources.forEach((photo) => {
       photo.src = photo.url;
       console.log(photo)
+      console.log("\,")
     })
 
   });

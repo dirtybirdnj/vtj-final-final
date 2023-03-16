@@ -6,6 +6,8 @@ updated: 2023/01/02
 description: Cupcakes are delicious.
 tags: ['bacon','cupcake']
 author: Mat Gilbert
+price: 49.95,
+snipcart-id: VTJ-1OZ-VENOM
 images: [
   {
     src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
