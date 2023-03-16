@@ -7,12 +7,17 @@ import Gallery from "react-photo-gallery";
 import { homePagePhotos } from '@/galleries/homepage';
 import { galleryPhotos } from '@/galleries/gallery';
 
+
 import Header from './header';
 import Footer from './footer';
 import Posts from './posts';
 import ProductGrid from './product-grid';
 import FeaturedBlog from './featured-blog';
+import Newsletter from './newsletter';
+
 import {getDateString} from '../util';
+
+
 
 export default function Layout({ children }) {
   const router = useRouter();
@@ -28,7 +33,7 @@ export default function Layout({ children }) {
 
   const [showProducts, setShowProducts] = useState(false);
 
-console.log(activePage);
+//console.log(activePage);
 
   // Temp styles
   const containerStyles = {
@@ -206,6 +211,9 @@ console.log(activePage);
       }
 
       </main>
+      
+      <Newsletter/>
+
       <Footer pageData={pageData} currentRoute={currentRoute} />
     </div>
   );
