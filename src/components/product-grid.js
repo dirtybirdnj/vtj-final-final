@@ -12,11 +12,6 @@ const ProductContainer = styled.div`
   flex-direction: column;
 `;
 
-const Product = styled.div`
-  display: flex;
-  gap: 20px;
-`;
-
 const Title = styled(Link)`
   font-size: 25px;
   display: block;
@@ -51,6 +46,29 @@ const ButtonEl = styled.button`
   padding: 10px 15px;
   border: none;
   cursor: pointer;
+`;
+
+const Product = styled.div`
+  display: flex;
+  gap: 20px;
+  padding-bottom: 25px;
+
+  @media only screen and (max-width: 559px) {
+    flex-direction: column;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    ${Description} {
+      padding-bottom: 10px;
+    }
+
+    ${ButtonEl} {
+      width: 100%;
+    }
+  }
 `;
 
 function ProductGrid({
