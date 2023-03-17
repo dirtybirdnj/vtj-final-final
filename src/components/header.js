@@ -19,7 +19,7 @@ const Logo = styled(Image)`
 const Subtitle = styled.div`
   display: flex;
   font-size: 18px;
-
+  flex-wrap: wrap;
   gap: 5px;
   align-items: center;
   justify-content: center;
@@ -40,7 +40,7 @@ const LinkEl = styled(Link)`
   font-size: 20px;
   text-decoration: none;
   color: darkblue;
-  padding: 2px 10px;
+  padding: 0 10px 2px;
   transition: 100ms;
   border-bottom: 3px solid transparent;
   transform: translate3d(0, 0, 0);
@@ -60,9 +60,8 @@ const HeaderContainer = styled.div`
     padding-top: 5%;
 
     ${NavContainer} {
-      justify-content: space-between;
       padding: 20px 0px 10px;
-      gap: 5px;
+      gap: 10px;
     }
 
     ${Subtitle} {
@@ -71,7 +70,7 @@ const HeaderContainer = styled.div`
 
     ${LinkEl} {
       font-size: 15px;
-      padding: 2px 5px;
+      padding: 0 3px 2px;
     }
   }
 `;
