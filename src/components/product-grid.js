@@ -16,8 +16,7 @@ function ProductGrid({
 
   const postStyles = {
     padding: '5px',
-    'margin-bottom': '5px'
-
+    marginBottom: '5px'
   }
 
   const titleLinkStyles = {
