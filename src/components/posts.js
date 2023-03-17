@@ -11,6 +11,19 @@ const Post = styled.div`
   align-items: flex-start;
 `;
 
+const TagsContainer = styled.div`
+  display: flex;
+  padding-top: 10px;
+  gap: 5px;
+`;
+
+const Tag = styled.div`
+  background: #ccc;
+  font-size: 10px;
+  padding: 3px 6px;
+  border-radius: 2px;
+`;
+
 const ImageEl = styled.div`
   background: url(${props => props.url}) no-repeat center;
   background-size: cover;
@@ -74,6 +87,7 @@ const DesktopContainer = styled.div`
   display: flex;
   gap: 20px;
   padding-bottom: 20px;
+  align-items: flex-start;
 
   @media only screen and (max-width: 559px) {
     display: none;
@@ -126,6 +140,10 @@ function Posts({
       const postTitle = post.data.title ? post.data.title : null;
       const postExceprt = post.data.excerpt ? post.data.excerpt : null;
 
+      const tags = post.data.tags.map((tag, i) => (
+        <Tag>{tag}</Tag>
+      ));
+
       return (
         <Post key={i}>
           <DesktopContainer>
@@ -138,6 +156,9 @@ function Posts({
               </SubtitleContainer>
               {post.data.excerpt && (
                 <div>{postExceprt}</div>
+              )}
+              {tags && (
+                <TagsContainer>{tags}</TagsContainer>
               )}
             </Meta>        
           </DesktopContainer>
@@ -153,6 +174,9 @@ function Posts({
             <Meta>              
               {post.data.excerpt && (
                 <div>{postExceprt}</div>
+              )}
+              {tags && (
+                <TagsContainer>{tags}</TagsContainer>
               )}
             </Meta>
           </MobileContainer>  
