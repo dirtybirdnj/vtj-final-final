@@ -141,7 +141,7 @@ function Posts({
       const postExceprt = post.data.excerpt ? post.data.excerpt : null;
 
       const tags = post.data.tags.map((tag, i) => (
-        <Tag>{tag}</Tag>
+        <Tag key={i}>{tag}</Tag>
       ));
 
       return (
