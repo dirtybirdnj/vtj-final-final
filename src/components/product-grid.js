@@ -1,34 +1,62 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import styled from 'styled-components';
+import { useRouter } from 'next/router';
 
 import {getDateString} from '../util';
+
+const ProductContainer = styled.div`
+  display: flex;
+  gap: 30px;
+  padding-bottom: 30px;
+  flex-direction: column;
+`;
+
+const Product = styled.div`
+  display: flex;
+  gap: 20px;
+`;
+
+const Title = styled(Link)`
+  font-size: 25px;
+  display: block;
+  text-decoration: none;
+  padding-bottom: 10px;
+`;
+
+const SubtitleContainer = styled.div`
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+`;
+
+const Subtitle = styled.div`
+  font-size: 14px;
+  padding-bottom: 10px;
+`;
+
+const Description = styled.div`
+  padding-bottom: 30px;
+`;
+
+const Meta = styled.div`
+
+`;
+
+const ImageEl = styled(Image)`
+  cursor: pointer;
+`;
+
+const ButtonEl = styled.button`
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+`;
 
 function ProductGrid({
   data
 }) {
-
-  const postContainerStyles = {
-    padding: '10px 0px',
-    display: 'flex',
-    gap: '20px',
-    flexDirection: 'column'
-  }
-
-  const postStyles = {
-    padding: '5px',
-    marginBottom: '5px'
-  }
-
-  const titleLinkStyles = {
-    fontSize: '25px'
-  }
-
-  const postMetaStyles = {
-    display: 'flex',
-    gap: '15px',
-    justifyContent: 'space-between',
-    paddingBottom: '20px'
-  }
+  const router = useRouter();
 
   // Return most recent posts first - NOT WORKING IDK WHY
   const sortPostsByDate = (postArr) => postArr.sort(function(a,b){
@@ -46,28 +74,24 @@ function ProductGrid({
       const postExceprt = post.data.excerpt ? post.data.excerpt : null;
 
       return (
-        <div style={postStyles} key={i}>
-          <Image src={post.data.images[0].src} height={200} width={200} alt={post.data.title} href={postPath}  />
-          <Link style={titleLinkStyles} href={postPath}>{postTitle}</Link>
-          <div style={postMetaStyles}>
-            <span>{post.data.author && 'by: ' + post.data.author}</span>
-            <span>{post.data.date && getDateString(post.data.date)}</span>
-          </div>
-          {post.data.excerpt && (
-            <div>{postExceprt}</div>
-          )}
+        <Product key={i}>
+          <ImageEl onClick={() => router.push(postPath)} src={post.data.images[0].src} height={200} width={200} alt={post.data.title} href={postPath}  />
+          <Meta>
+            <Title href={postPath}>{postTitle}</Title>
+            {post.data.excerpt && (
+              <Description>{postExceprt}</Description>
+            )}
 
-          <button className="snipcart-add-item"
-            data-item-id="2oz-vtj"
-            data-item-price="19.99"
-            data-item-description="Two ounce vertical tube jig."
-            data-item-image="http://res.cloudinary.com/vtapico/image/upload/v1674591752/verticaltubejig.com/product-photos/2oz-blood-red_y5bvqt.jpg"
-            data-item-name="2oz Vertical Tube Jig">
-            Add to cart
-          </button>
-
-
-        </div>
+            <ButtonEl className="snipcart-add-item"
+              data-item-id="2oz-vtj"
+              data-item-price="19.99"
+              data-item-description="Two ounce vertical tube jig."
+              data-item-image="http://res.cloudinary.com/vtapico/image/upload/v1674591752/verticaltubejig.com/product-photos/2oz-blood-red_y5bvqt.jpg"
+              data-item-name="2oz Vertical Tube Jig">
+              Add to cart
+            </ButtonEl>
+          </Meta>
+        </Product>
       )
     } else {
       console.log('missing blog post props', post);
@@ -75,7 +99,7 @@ function ProductGrid({
   })
 
   return (
-    <div style={postContainerStyles}>{postGroup}</div>
+    <ProductContainer>{postGroup}</ProductContainer>
   )
 }
 
