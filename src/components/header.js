@@ -64,16 +64,16 @@ const HeaderContainer = styled.div`
 
     ${NavContainer} {
       padding: 2.5vh 0px 1vh;
-      gap: 5vw;
+      gap: 3vw;
     }
 
     ${Subtitle} {
-      font-size: 4vw;
+      font-size: 3.5vw;
     }
 
     ${LinkEl} {
-      font-size: 3.5vw;
-      padding: 0 2vw 1vw;
+      font-size: 4vw;
+      padding: 0 1vw 0.5vw;
 
       &.home {
         display: none;
