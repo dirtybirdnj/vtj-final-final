@@ -68,11 +68,11 @@ const HeaderContainer = styled.div`
     }
 
     ${Subtitle} {
-      font-size: 15px;
+      font-size: 13px;
     }
 
     ${LinkEl} {
-      font-size: 16px;
+      font-size: 14px;
       padding: 0 3px 2px;
 
       &.home {
