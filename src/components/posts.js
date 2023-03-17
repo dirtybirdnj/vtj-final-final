@@ -14,6 +14,7 @@ const TagsContainer = styled.div`
   display: flex;
   padding-top: 10px;
   gap: 5px;
+  justify-content: flex-end;
 `;
 
 const Tag = styled.div`
