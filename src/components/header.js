@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import styled from 'styled-components';
+import { useRouter } from 'next/router';
 
 import logoImage from '../../public/vtj-circle.svg';
 
@@ -14,13 +15,14 @@ const LogoContainer = styled.div`
 const Logo = styled(Image)`
   height: 15vh;
   width: auto;
+  cursor: pointer;
 `;
 
 const Subtitle = styled.div`
   display: flex;
   font-size: 18px;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 1%;
   align-items: center;
   justify-content: center;
   padding-top: 5px;
@@ -32,7 +34,7 @@ const NavContainer = styled.div`
   align-items: center;
   padding: 30px 0px 10px;
   justify-content: center;
-  gap: 12px;
+  gap: 15px;
 `;
 
 const LinkEl = styled(Link)`
@@ -47,7 +49,7 @@ const LinkEl = styled(Link)`
 
   &.active {
     border-color: black;
-    transform: translate3d(0, -3px, 0);
+    transform: translate3d(0, -2px, 0);
     color: black;
   }
 `;
@@ -61,16 +63,20 @@ const HeaderContainer = styled.div`
 
     ${NavContainer} {
       padding: 20px 0px 10px;
-      gap: 10px;
+      gap: 5%;
     }
 
     ${Subtitle} {
-      font-size: 13px;
+      font-size: 15px;
     }
 
     ${LinkEl} {
-      font-size: 15px;
+      font-size: 18px;
       padding: 0 3px 2px;
+
+      &.home {
+        display: none;
+      }
     }
   }
 `;
@@ -79,6 +85,7 @@ function Header({
   pageData,
   currentRoute
 }) {
+  const router = useRouter();
 
   const links = pageData.map((page, i) => {
     //console.log('pageData', pageData);
@@ -93,7 +100,7 @@ function Header({
         order: pageOrder
       }
 
-      return <LinkEl style={linkStyles} key={i} className={currentRoute === page.path ? 'active' : ''} href={pagePath}>{navName ? navName : pageTitle}</LinkEl>
+      return <LinkEl style={linkStyles} key={i} className={currentRoute === page.path ? ('active ' + navName.toLowerCase()) : navName.toLowerCase()} href={pagePath}>{navName ? navName : pageTitle}</LinkEl>
     } else {
       console.log('missing page props', page);
     }
@@ -103,7 +110,7 @@ function Header({
   return (
     <HeaderContainer>
       <LogoContainer>
-        <Logo priority src={logoImage} alt="verticaltubejig.com logo" />
+        <Logo onClick={() => router.push('/')} priority src={logoImage} alt="verticaltubejig.com logo" />
         <Subtitle>
           <span>verticaltubejig.com</span>
           <span> | </span>
