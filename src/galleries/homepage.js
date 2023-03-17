@@ -106,41 +106,6 @@ export const homePagePhotos = [
     src: 'http://res.cloudinary.com/vtapico/image/upload/v1674591752/verticaltubejig.com/product-photos/2oz-blood-red_y5bvqt.jpg'
   },
   {
-    asset_id: '961cb1abb22155c6917416867b542a10',
-    public_id: 'verticaltubejig.com/product-photos/20220304_123030_ehh3kp',
-    folder: 'verticaltubejig.com/product-photos',
-    filename: '20220304_123030_ehh3kp',
-    format: 'jpg',
-    version: 1674591752,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2023-01-24T20:22:32+00:00',
-    uploaded_at: '2023-01-24T20:22:32+00:00',
-    bytes: 187008,
-    backup_bytes: 0,
-    width: 1155,
-    height: 2564,
-    aspect_ratio: 0.45047,
-    pixels: 2961420,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1674591752/verticaltubejig.com/product-photos/20220304_123030_ehh3kp.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1674591752/verticaltubejig.com/product-photos/20220304_123030_ehh3kp.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: 'c03f2c345cd47b9bf64ba85e096eb803',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1674591752/verticaltubejig.com/product-photos/20220304_123030_ehh3kp.jpg'
-  },
-  {
     asset_id: '593787f90b3dd4071a662dca0fd15df6',
     public_id: 'verticaltubejig.com/product-photos/1oz-blood-red_nvpmhv',
     folder: 'verticaltubejig.com/product-photos',
