@@ -11,7 +11,7 @@ const FooterEl = styled.div`
   padding: 50px 0 3%;
 
   @media only screen and (max-width: 559px) {
-    padding: 50px 0 5%;
+    padding: 8vw 0 3vh;
   }
 `;
 

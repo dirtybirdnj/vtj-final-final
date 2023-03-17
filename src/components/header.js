@@ -60,20 +60,20 @@ const HeaderContainer = styled.div`
   padding-top: 3%;
 
   @media only screen and (max-width: 559px) {
-    padding-top: 5%;
+    padding-top: 3vh;
 
     ${NavContainer} {
-      padding: 20px 0px 10px;
-      gap: 5%;
+      padding: 2.5vh 0px 1vh;
+      gap: 5vw;
     }
 
     ${Subtitle} {
-      font-size: 13px;
+      font-size: 4vw;
     }
 
     ${LinkEl} {
-      font-size: 14px;
-      padding: 0 3px 2px;
+      font-size: 3.5vw;
+      padding: 0 2vw 1vw;
 
       &.home {
         display: none;
