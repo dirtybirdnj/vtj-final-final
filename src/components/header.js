@@ -51,6 +51,7 @@ const LinkEl = styled(Link)`
     border-color: black;
     transform: translate3d(0, -2px, 0);
     color: black;
+    cursor: default;
   }
 `;
 
@@ -71,7 +72,7 @@ const HeaderContainer = styled.div`
     }
 
     ${LinkEl} {
-      font-size: 18px;
+      font-size: 16px;
       padding: 0 3px 2px;
 
       &.home {
