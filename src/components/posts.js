@@ -101,6 +101,10 @@ const MobileContainer = styled.div`
     display: block;
   }
 
+  ${TagsContainer} {
+    justify-content: flex-start;
+  }
+
   ${Title} {
     padding-bottom: 5px;
   }
