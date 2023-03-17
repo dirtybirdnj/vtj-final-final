@@ -142,5 +142,8 @@ module.exports = withMDX({
   },
   compiler: {
     styledComponents: true,
+  },
+  env: {
+    BD_API_KEY: process.env.BD_API_KEY,
   }
 })

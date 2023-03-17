@@ -1,5 +1,42 @@
 export const galleryPhotos = [
   {
+    asset_id: '6a9e9eeea89350ae85c6d60c3674cfcd',
+    public_id: 'verticaltubejig.com/vtj_research/Screenshot_20221223_212251_Photos_mokeg4',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: 'Screenshot_20221223_212251_Photos_mokeg4',
+    format: 'jpg',
+    version: 1679029106,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T04:58:26+00:00',
+    uploaded_at: '2023-03-17T04:58:26+00:00',
+    bytes: 1596488,
+    backup_bytes: 0,
+    width: 2400,
+    height: 1080,
+    aspect_ratio: 2.22222,
+    pixels: 2592000,
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029106/verticaltubejig.com/vtj_research/Screenshot_20221223_212251_Photos_mokeg4.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029106/verticaltubejig.com/vtj_research/Screenshot_20221223_212251_Photos_mokeg4.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: 'c9e84b72073ace57ec74f12f78127ca4',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029106/verticaltubejig.com/vtj_research/Screenshot_20221223_212251_Photos_mokeg4.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029106/verticaltubejig.com/vtj_research/Screenshot_20221223_212251_Photos_mokeg4.jpg'
+  }
+  ,
+  {
     asset_id: '7f5c29415c3dd386196f1d5cecebd844',
     public_id: 'verticaltubejig.com/vtj_research/Screenshot_20220730-155611_Photos_eundss',
     folder: 'verticaltubejig.com/vtj_research',
@@ -36,32 +73,33 @@ export const galleryPhotos = [
       updated_at: '2023-03-16T03:20:57Z',
       public_id_updated_at: '2023-03-16T03:20:57Z'
     },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160642/verticaltubejig.com/vtj_research/Screenshot_20220730-155611_Photos_eundss.jpg'
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160642/verticaltubejig.com/vtj_research/Screenshot_20220730-155611_Photos_eundss.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1672160642/verticaltubejig.com/vtj_research/Screenshot_20220730-155611_Photos_eundss.jpg'
   }
   ,
   {
-    asset_id: 'ae864793e04fbe6131840d42e92ae130',
-    public_id: 'verticaltubejig.com/vtj_research/20220810_162543_sajoep',
+    asset_id: '2bb70c9bda24ace198741726d5678eec',
+    public_id: 'verticaltubejig.com/vtj_research/20230219_141132_mbgxxv',
     folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220810_162543_sajoep',
+    filename: '20230219_141132_mbgxxv',
     format: 'jpg',
-    version: 1672160808,
+    version: 1679029302,
     resource_type: 'image',
     type: 'upload',
-    created_at: '2022-12-27T17:06:48+00:00',
-    uploaded_at: '2022-12-27T17:06:48+00:00',
-    bytes: 5974585,
+    created_at: '2023-03-17T05:01:42+00:00',
+    uploaded_at: '2023-03-17T05:01:42+00:00',
+    bytes: 6039898,
     backup_bytes: 0,
     width: 1816,
     height: 4032,
     aspect_ratio: 0.4504,
     pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160808/verticaltubejig.com/vtj_research/20220810_162543_sajoep.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160808/verticaltubejig.com/vtj_research/20220810_162543_sajoep.jpg',
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029302/verticaltubejig.com/vtj_research/20230219_141132_mbgxxv.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029302/verticaltubejig.com/vtj_research/20230219_141132_mbgxxv.jpg',
     status: 'active',
     access_mode: 'public',
     access_control: null,
-    etag: '8efa02f16447a0bb14c70de536e46b91',
+    etag: '31a839e263228998a40b0103758e046c',
     created_by: {
       access_key: '787279763172256',
       custom_id: 'matgilbert@gmail.com',
@@ -72,36 +110,33 @@ export const galleryPhotos = [
       custom_id: 'matgilbert@gmail.com',
       external_id: 'f64c81116607081e4444a68b272038'
     },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160808/verticaltubejig.com/vtj_research/20220810_162543_sajoep.jpg'
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029302/verticaltubejig.com/vtj_research/20230219_141132_mbgxxv.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029302/verticaltubejig.com/vtj_research/20230219_141132_mbgxxv.jpg'
   }
   ,
   {
-    asset_id: '8ab88ee4661a809eb6f5624b797a2375',
-    public_id: 'verticaltubejig.com/vtj_research/20220810_162541_hn6e6p',
+    asset_id: '44fb7fe421f46b4a6bca94a62f6400b9',
+    public_id: 'verticaltubejig.com/vtj_research/20230219_141131_vop0sg',
     folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220810_162541_hn6e6p',
+    filename: '20230219_141131_vop0sg',
     format: 'jpg',
-    version: 1672160830,
+    version: 1679029304,
     resource_type: 'image',
     type: 'upload',
-    created_at: '2022-12-27T17:07:10+00:00',
-    uploaded_at: '2022-12-27T17:07:10+00:00',
-    bytes: 6285318,
+    created_at: '2023-03-17T05:01:44+00:00',
+    uploaded_at: '2023-03-17T05:01:44+00:00',
+    bytes: 6028335,
     backup_bytes: 0,
     width: 1816,
     height: 4032,
     aspect_ratio: 0.4504,
     pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160830/verticaltubejig.com/vtj_research/20220810_162541_hn6e6p.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160830/verticaltubejig.com/vtj_research/20220810_162541_hn6e6p.jpg',
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029304/verticaltubejig.com/vtj_research/20230219_141131_vop0sg.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029304/verticaltubejig.com/vtj_research/20230219_141131_vop0sg.jpg',
     status: 'active',
     access_mode: 'public',
     access_control: null,
-    etag: 'c6575a6556cb0b276a6a41f33a69da2a',
+    etag: 'cb58dbe58e4e5b974e714f48460a2066',
     created_by: {
       access_key: '787279763172256',
       custom_id: 'matgilbert@gmail.com',
@@ -112,36 +147,33 @@ export const galleryPhotos = [
       custom_id: 'matgilbert@gmail.com',
       external_id: 'f64c81116607081e4444a68b272038'
     },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160830/verticaltubejig.com/vtj_research/20220810_162541_hn6e6p.jpg'
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029304/verticaltubejig.com/vtj_research/20230219_141131_vop0sg.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029304/verticaltubejig.com/vtj_research/20230219_141131_vop0sg.jpg'
   }
   ,
   {
-    asset_id: '687e1b1099347fc88133ec5a0fed98bb',
-    public_id: 'verticaltubejig.com/vtj_research/20220810_110435_n8pxij',
+    asset_id: '31d5d5567dd03cb4465c8b716090c6bf',
+    public_id: 'verticaltubejig.com/vtj_research/20230219_141129_fliwam',
     folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220810_110435_n8pxij',
+    filename: '20230219_141129_fliwam',
     format: 'jpg',
-    version: 1672160797,
+    version: 1679029303,
     resource_type: 'image',
     type: 'upload',
-    created_at: '2022-12-27T17:06:37+00:00',
-    uploaded_at: '2022-12-27T17:06:37+00:00',
-    bytes: 5738137,
+    created_at: '2023-03-17T05:01:43+00:00',
+    uploaded_at: '2023-03-17T05:01:43+00:00',
+    bytes: 6140524,
     backup_bytes: 0,
     width: 1816,
     height: 4032,
     aspect_ratio: 0.4504,
     pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160797/verticaltubejig.com/vtj_research/20220810_110435_n8pxij.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160797/verticaltubejig.com/vtj_research/20220810_110435_n8pxij.jpg',
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029303/verticaltubejig.com/vtj_research/20230219_141129_fliwam.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029303/verticaltubejig.com/vtj_research/20230219_141129_fliwam.jpg',
     status: 'active',
     access_mode: 'public',
     access_control: null,
-    etag: '2b2963ecc6abb1bf2f9c16dee0d885e2',
+    etag: '20529075a0758836fab8a869c53da49d',
     created_by: {
       access_key: '787279763172256',
       custom_id: 'matgilbert@gmail.com',
@@ -152,36 +184,33 @@ export const galleryPhotos = [
       custom_id: 'matgilbert@gmail.com',
       external_id: 'f64c81116607081e4444a68b272038'
     },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160797/verticaltubejig.com/vtj_research/20220810_110435_n8pxij.jpg'
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029303/verticaltubejig.com/vtj_research/20230219_141129_fliwam.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029303/verticaltubejig.com/vtj_research/20230219_141129_fliwam.jpg'
   }
   ,
   {
-    asset_id: '3137ea9c389bd16452d4cb2bb0feff0b',
-    public_id: 'verticaltubejig.com/vtj_research/20220810_110425_voliyz',
+    asset_id: '7edbf9ff883468ca6552ab6aebd35a13',
+    public_id: 'verticaltubejig.com/vtj_research/20230219_141121_ndes4t',
     folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220810_110425_voliyz',
+    filename: '20230219_141121_ndes4t',
     format: 'jpg',
-    version: 1672160794,
+    version: 1679029284,
     resource_type: 'image',
     type: 'upload',
-    created_at: '2022-12-27T17:06:34+00:00',
-    uploaded_at: '2022-12-27T17:06:34+00:00',
-    bytes: 5635758,
+    created_at: '2023-03-17T05:01:24+00:00',
+    uploaded_at: '2023-03-17T05:01:24+00:00',
+    bytes: 4389816,
     backup_bytes: 0,
     width: 1816,
     height: 4032,
     aspect_ratio: 0.4504,
     pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160794/verticaltubejig.com/vtj_research/20220810_110425_voliyz.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160794/verticaltubejig.com/vtj_research/20220810_110425_voliyz.jpg',
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029284/verticaltubejig.com/vtj_research/20230219_141121_ndes4t.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029284/verticaltubejig.com/vtj_research/20230219_141121_ndes4t.jpg',
     status: 'active',
     access_mode: 'public',
     access_control: null,
-    etag: '6f3557b684bd812b4905720740543072',
+    etag: '1a425eca97f161142ae90a76780b8dd1',
     created_by: {
       access_key: '787279763172256',
       custom_id: 'matgilbert@gmail.com',
@@ -192,36 +221,33 @@ export const galleryPhotos = [
       custom_id: 'matgilbert@gmail.com',
       external_id: 'f64c81116607081e4444a68b272038'
     },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160794/verticaltubejig.com/vtj_research/20220810_110425_voliyz.jpg'
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029284/verticaltubejig.com/vtj_research/20230219_141121_ndes4t.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029284/verticaltubejig.com/vtj_research/20230219_141121_ndes4t.jpg'
   }
   ,
   {
-    asset_id: 'e24f2d280d47e0a7aee4051d8f08e7d7',
-    public_id: 'verticaltubejig.com/vtj_research/20220809_232601_m8sigb',
+    asset_id: '7b7f16b2f5a8ceddca8aea36e7645e8a',
+    public_id: 'verticaltubejig.com/vtj_research/20230219_123134_atqxja',
     folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220809_232601_m8sigb',
+    filename: '20230219_123134_atqxja',
     format: 'jpg',
-    version: 1672160786,
+    version: 1679029132,
     resource_type: 'image',
     type: 'upload',
-    created_at: '2022-12-27T17:06:26+00:00',
-    uploaded_at: '2022-12-27T17:06:26+00:00',
-    bytes: 5115949,
+    created_at: '2023-03-17T04:58:52+00:00',
+    uploaded_at: '2023-03-17T04:58:52+00:00',
+    bytes: 3507378,
     backup_bytes: 0,
     width: 1816,
     height: 4032,
     aspect_ratio: 0.4504,
     pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160786/verticaltubejig.com/vtj_research/20220809_232601_m8sigb.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160786/verticaltubejig.com/vtj_research/20220809_232601_m8sigb.jpg',
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029132/verticaltubejig.com/vtj_research/20230219_123134_atqxja.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029132/verticaltubejig.com/vtj_research/20230219_123134_atqxja.jpg',
     status: 'active',
     access_mode: 'public',
     access_control: null,
-    etag: '7f920efc3b44e24c09900b811eaaebeb',
+    etag: '2ed591a4ca5f638d074e4ce6c2b35d19',
     created_by: {
       access_key: '787279763172256',
       custom_id: 'matgilbert@gmail.com',
@@ -232,396 +258,33 @@ export const galleryPhotos = [
       custom_id: 'matgilbert@gmail.com',
       external_id: 'f64c81116607081e4444a68b272038'
     },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160786/verticaltubejig.com/vtj_research/20220809_232601_m8sigb.jpg'
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029132/verticaltubejig.com/vtj_research/20230219_123134_atqxja.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029132/verticaltubejig.com/vtj_research/20230219_123134_atqxja.jpg'
   }
   ,
   {
-    asset_id: '221c530e61f46c1876fd08ae0627f41f',
-    public_id: 'verticaltubejig.com/vtj_research/20220809_232558_ywwcfl',
+    asset_id: '7afcec09cd1ac932818399b5f5b29766',
+    public_id: 'verticaltubejig.com/vtj_research/20230217_161135_rr12zi',
     folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220809_232558_ywwcfl',
+    filename: '20230217_161135_rr12zi',
     format: 'jpg',
-    version: 1672160639,
+    version: 1679029282,
     resource_type: 'image',
     type: 'upload',
-    created_at: '2022-12-27T17:03:59+00:00',
-    uploaded_at: '2022-12-27T17:03:59+00:00',
-    bytes: 1488525,
-    backup_bytes: 0,
-    width: 1541,
-    height: 3239,
-    aspect_ratio: 0.47576,
-    pixels: 4991299,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160639/verticaltubejig.com/vtj_research/20220809_232558_ywwcfl.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160639/verticaltubejig.com/vtj_research/20220809_232558_ywwcfl.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: 'e3d7b4ac3d4a2623e8e60abfd0e0d94f',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:56Z',
-      public_id_updated_at: '2023-03-16T03:20:56Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160639/verticaltubejig.com/vtj_research/20220809_232558_ywwcfl.jpg'
-  }
-  ,
-  {
-    asset_id: 'c7d111fb57ef39b0568b453a0d750c3e',
-    public_id: 'verticaltubejig.com/vtj_research/20220809_232037_fc5f2v',
-    folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220809_232037_fc5f2v',
-    format: 'jpg',
-    version: 1672160784,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2022-12-27T17:06:24+00:00',
-    uploaded_at: '2022-12-27T17:06:24+00:00',
-    bytes: 6032332,
-    backup_bytes: 0,
-    width: 1816,
-    height: 4032,
-    aspect_ratio: 0.4504,
-    pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160784/verticaltubejig.com/vtj_research/20220809_232037_fc5f2v.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160784/verticaltubejig.com/vtj_research/20220809_232037_fc5f2v.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: 'e7f22d920f2e71168723284ff55239bb',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:58Z',
-      public_id_updated_at: '2023-03-16T03:20:58Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160784/verticaltubejig.com/vtj_research/20220809_232037_fc5f2v.jpg'
-  }
-  ,
-  {
-    asset_id: '045c0ecf92e631b9c0394d66e904a72a',
-    public_id: 'verticaltubejig.com/vtj_research/20220801_193636_diwloi',
-    folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220801_193636_diwloi',
-    format: 'jpg',
-    version: 1672160774,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2022-12-27T17:06:14+00:00',
-    uploaded_at: '2022-12-27T17:06:14+00:00',
-    bytes: 6144130,
-    backup_bytes: 0,
-    width: 1816,
-    height: 4032,
-    aspect_ratio: 0.4504,
-    pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160774/verticaltubejig.com/vtj_research/20220801_193636_diwloi.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160774/verticaltubejig.com/vtj_research/20220801_193636_diwloi.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: 'ec0f91d3afbadd819ebf6614f8eee125',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160774/verticaltubejig.com/vtj_research/20220801_193636_diwloi.jpg'
-  }
-  ,
-  {
-    asset_id: '0e4d35b0120c08df107f0fae9bca61df',
-    public_id: 'verticaltubejig.com/vtj_research/20220726_195503_dylrjd',
-    folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220726_195503_dylrjd',
-    format: 'jpg',
-    version: 1672160705,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2022-12-27T17:05:05+00:00',
-    uploaded_at: '2022-12-27T17:05:05+00:00',
-    bytes: 3267915,
-    backup_bytes: 0,
-    width: 1816,
-    height: 4032,
-    aspect_ratio: 0.4504,
-    pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160705/verticaltubejig.com/vtj_research/20220726_195503_dylrjd.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160705/verticaltubejig.com/vtj_research/20220726_195503_dylrjd.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: 'd84629820b2c7ea2ddf2b2c0db21f0b0',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160705/verticaltubejig.com/vtj_research/20220726_195503_dylrjd.jpg'
-  }
-  ,
-  {
-    asset_id: '0aad6de1b9104239848bff53750a95c8',
-    public_id: 'verticaltubejig.com/vtj_research/20220726_195452_01_mghoxa',
-    folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220726_195452_01_mghoxa',
-    format: 'jpg',
-    version: 1672160759,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2022-12-27T17:05:59+00:00',
-    uploaded_at: '2022-12-27T17:05:59+00:00',
-    bytes: 4507881,
-    backup_bytes: 0,
-    width: 3024,
-    height: 4032,
-    aspect_ratio: 0.75,
-    pixels: 12192768,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160759/verticaltubejig.com/vtj_research/20220726_195452_01_mghoxa.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160759/verticaltubejig.com/vtj_research/20220726_195452_01_mghoxa.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: 'b137178af0a4026ae0d49d6497bb3994',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160759/verticaltubejig.com/vtj_research/20220726_195452_01_mghoxa.jpg'
-  }
-  ,
-  {
-    asset_id: 'f6882f4f05cfd31f1adf64f2d80821c9',
-    public_id: 'verticaltubejig.com/vtj_research/20220726_195442_01_fvxocw',
-    folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220726_195442_01_fvxocw',
-    format: 'jpg',
-    version: 1672160724,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2022-12-27T17:05:24+00:00',
-    uploaded_at: '2022-12-27T17:05:24+00:00',
-    bytes: 4080227,
-    backup_bytes: 0,
-    width: 3024,
-    height: 4032,
-    aspect_ratio: 0.75,
-    pixels: 12192768,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160724/verticaltubejig.com/vtj_research/20220726_195442_01_fvxocw.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160724/verticaltubejig.com/vtj_research/20220726_195442_01_fvxocw.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: 'c735917630f90c48634030fa15d512f3',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160724/verticaltubejig.com/vtj_research/20220726_195442_01_fvxocw.jpg'
-  }
-  ,
-  {
-    asset_id: '1dcc97d694a842726e143a1e338ea719',
-    public_id: 'verticaltubejig.com/vtj_research/20220709_230815_tgdmez',
-    folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220709_230815_tgdmez',
-    format: 'jpg',
-    version: 1672160754,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2022-12-27T17:05:54+00:00',
-    uploaded_at: '2022-12-27T17:05:54+00:00',
-    bytes: 6224836,
-    backup_bytes: 0,
-    width: 1816,
-    height: 4032,
-    aspect_ratio: 0.4504,
-    pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160754/verticaltubejig.com/vtj_research/20220709_230815_tgdmez.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160754/verticaltubejig.com/vtj_research/20220709_230815_tgdmez.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: '50bc8e47833c1a1e89951da7676e3d2d',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160754/verticaltubejig.com/vtj_research/20220709_230815_tgdmez.jpg'
-  }
-  ,
-  {
-    asset_id: '5659cf5b1c8f765a8c76536a74ed4881',
-    public_id: 'verticaltubejig.com/vtj_research/20220617_221634_uui9vm',
-    folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220617_221634_uui9vm',
-    format: 'jpg',
-    version: 1672160744,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2022-12-27T17:05:44+00:00',
-    uploaded_at: '2022-12-27T17:05:44+00:00',
-    bytes: 6144715,
-    backup_bytes: 0,
-    width: 1816,
-    height: 4032,
-    aspect_ratio: 0.4504,
-    pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160744/verticaltubejig.com/vtj_research/20220617_221634_uui9vm.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160744/verticaltubejig.com/vtj_research/20220617_221634_uui9vm.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: '991bbc33d1480e51949e522376fdf3c5',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160744/verticaltubejig.com/vtj_research/20220617_221634_uui9vm.jpg'
-  }
-  ,
-  {
-    asset_id: '6804dd7104e3f82bb05b6f0393bcf47d',
-    public_id: 'verticaltubejig.com/vtj_research/20220614_205342_kqi3iu',
-    folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220614_205342_kqi3iu',
-    format: 'jpg',
-    version: 1672160641,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2022-12-27T17:04:01+00:00',
-    uploaded_at: '2022-12-27T17:04:01+00:00',
-    bytes: 734601,
-    backup_bytes: 0,
-    width: 1816,
-    height: 2584,
-    aspect_ratio: 0.70279,
-    pixels: 4692544,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160641/verticaltubejig.com/vtj_research/20220614_205342_kqi3iu.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160641/verticaltubejig.com/vtj_research/20220614_205342_kqi3iu.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: 'c3fb627b2740f8c1dfdc345302c5c43a',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160641/verticaltubejig.com/vtj_research/20220614_205342_kqi3iu.jpg'
-  }
-  ,
-  {
-    asset_id: 'b524b393f845041279569de64d2a3720',
-    public_id: 'verticaltubejig.com/vtj_research/20220614_205312_fuc6hb',
-    folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220614_205312_fuc6hb',
-    format: 'jpg',
-    version: 1672160765,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2022-12-27T17:06:05+00:00',
-    uploaded_at: '2022-12-27T17:06:05+00:00',
-    bytes: 5981471,
+    created_at: '2023-03-17T05:01:22+00:00',
+    uploaded_at: '2023-03-17T05:01:22+00:00',
+    bytes: 6224000,
     backup_bytes: 0,
     width: 4032,
     height: 1816,
     aspect_ratio: 2.22026,
     pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160765/verticaltubejig.com/vtj_research/20220614_205312_fuc6hb.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160765/verticaltubejig.com/vtj_research/20220614_205312_fuc6hb.jpg',
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029282/verticaltubejig.com/vtj_research/20230217_161135_rr12zi.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029282/verticaltubejig.com/vtj_research/20230217_161135_rr12zi.jpg',
     status: 'active',
     access_mode: 'public',
     access_control: null,
-    etag: '0fbf35e7fba89f087b3aefaafd3e2281',
+    etag: '33c563ed6fae610efeb645973f2c338a',
     created_by: {
       access_key: '787279763172256',
       custom_id: 'matgilbert@gmail.com',
@@ -632,36 +295,33 @@ export const galleryPhotos = [
       custom_id: 'matgilbert@gmail.com',
       external_id: 'f64c81116607081e4444a68b272038'
     },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160765/verticaltubejig.com/vtj_research/20220614_205312_fuc6hb.jpg'
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029282/verticaltubejig.com/vtj_research/20230217_161135_rr12zi.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029282/verticaltubejig.com/vtj_research/20230217_161135_rr12zi.jpg'
   }
   ,
   {
-    asset_id: '1cedab103f07fb147734c65fcac4d0cc',
-    public_id: 'verticaltubejig.com/vtj_research/20220614_205046_vazblb',
+    asset_id: '92783c8bb1833cfbd1f7d57d66f2445a',
+    public_id: 'verticaltubejig.com/vtj_research/20230217_161128_udi0z9',
     folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220614_205046_vazblb',
+    filename: '20230217_161128_udi0z9',
     format: 'jpg',
-    version: 1672160813,
+    version: 1679029357,
     resource_type: 'image',
     type: 'upload',
-    created_at: '2022-12-27T17:06:53+00:00',
-    uploaded_at: '2022-12-27T17:06:53+00:00',
-    bytes: 6496843,
+    created_at: '2023-03-17T05:02:37+00:00',
+    uploaded_at: '2023-03-17T05:02:37+00:00',
+    bytes: 6372351,
     backup_bytes: 0,
     width: 1816,
     height: 4032,
     aspect_ratio: 0.4504,
     pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160813/verticaltubejig.com/vtj_research/20220614_205046_vazblb.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160813/verticaltubejig.com/vtj_research/20220614_205046_vazblb.jpg',
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029357/verticaltubejig.com/vtj_research/20230217_161128_udi0z9.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029357/verticaltubejig.com/vtj_research/20230217_161128_udi0z9.jpg',
     status: 'active',
     access_mode: 'public',
     access_control: null,
-    etag: 'e86c5cdf5bb2542f3bfa525af24ced05',
+    etag: 'b4bd6e4b8912bc6bfb9776a29973abf2',
     created_by: {
       access_key: '787279763172256',
       custom_id: 'matgilbert@gmail.com',
@@ -672,36 +332,699 @@ export const galleryPhotos = [
       custom_id: 'matgilbert@gmail.com',
       external_id: 'f64c81116607081e4444a68b272038'
     },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160813/verticaltubejig.com/vtj_research/20220614_205046_vazblb.jpg'
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029357/verticaltubejig.com/vtj_research/20230217_161128_udi0z9.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029357/verticaltubejig.com/vtj_research/20230217_161128_udi0z9.jpg'
   }
   ,
   {
-    asset_id: 'c3d23dcfc004d559e2cbf3057a07ef48',
-    public_id: 'verticaltubejig.com/vtj_research/20220528_214501_iwmes2',
+    asset_id: 'a395cde8a414ccfe072b77e3c78acf2d',
+    public_id: 'verticaltubejig.com/vtj_research/20230217_161103_yuhivl',
     folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220528_214501_iwmes2',
+    filename: '20230217_161103_yuhivl',
     format: 'jpg',
-    version: 1672160748,
+    version: 1679029290,
     resource_type: 'image',
     type: 'upload',
-    created_at: '2022-12-27T17:05:48+00:00',
-    uploaded_at: '2022-12-27T17:05:48+00:00',
-    bytes: 7328819,
+    created_at: '2023-03-17T05:01:30+00:00',
+    uploaded_at: '2023-03-17T05:01:30+00:00',
+    bytes: 6270312,
+    backup_bytes: 0,
+    width: 1816,
+    height: 4032,
+    aspect_ratio: 0.4504,
+    pixels: 7322112,
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029290/verticaltubejig.com/vtj_research/20230217_161103_yuhivl.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029290/verticaltubejig.com/vtj_research/20230217_161103_yuhivl.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: 'a4532ccb173196e90d3d9bab87de186e',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029290/verticaltubejig.com/vtj_research/20230217_161103_yuhivl.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029290/verticaltubejig.com/vtj_research/20230217_161103_yuhivl.jpg'
+  }
+  ,
+  {
+    asset_id: 'fcde0279e797aebc6c40cdbe02856e12',
+    public_id: 'verticaltubejig.com/vtj_research/20230217_011726_wr878u',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: '20230217_011726_wr878u',
+    format: 'jpg',
+    version: 1679029304,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T05:01:44+00:00',
+    uploaded_at: '2023-03-17T05:01:44+00:00',
+    bytes: 6109000,
+    backup_bytes: 0,
+    width: 1816,
+    height: 4032,
+    aspect_ratio: 0.4504,
+    pixels: 7322112,
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029304/verticaltubejig.com/vtj_research/20230217_011726_wr878u.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029304/verticaltubejig.com/vtj_research/20230217_011726_wr878u.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: '0f2035ae7a69f3b9d11b2f5ba9be6a37',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029304/verticaltubejig.com/vtj_research/20230217_011726_wr878u.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029304/verticaltubejig.com/vtj_research/20230217_011726_wr878u.jpg'
+  }
+  ,
+  {
+    asset_id: '3cb214f70822b117549540565cf5f8b0',
+    public_id: 'verticaltubejig.com/vtj_research/20230217_003127_tc6v4y',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: '20230217_003127_tc6v4y',
+    format: 'jpg',
+    version: 1679029274,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T05:01:14+00:00',
+    uploaded_at: '2023-03-17T05:01:14+00:00',
+    bytes: 6142998,
+    backup_bytes: 0,
+    width: 1816,
+    height: 4032,
+    aspect_ratio: 0.4504,
+    pixels: 7322112,
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029274/verticaltubejig.com/vtj_research/20230217_003127_tc6v4y.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029274/verticaltubejig.com/vtj_research/20230217_003127_tc6v4y.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: 'aec88bd0387d19ad385d304019166d0d',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029274/verticaltubejig.com/vtj_research/20230217_003127_tc6v4y.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029274/verticaltubejig.com/vtj_research/20230217_003127_tc6v4y.jpg'
+  }
+  ,
+  {
+    asset_id: 'ae3d612b504944759fba2db4af2d00aa',
+    public_id: 'verticaltubejig.com/vtj_research/20230217_003124_wtgc9i',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: '20230217_003124_wtgc9i',
+    format: 'jpg',
+    version: 1679029283,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T05:01:23+00:00',
+    uploaded_at: '2023-03-17T05:01:23+00:00',
+    bytes: 6219018,
+    backup_bytes: 0,
+    width: 1816,
+    height: 4032,
+    aspect_ratio: 0.4504,
+    pixels: 7322112,
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029283/verticaltubejig.com/vtj_research/20230217_003124_wtgc9i.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029283/verticaltubejig.com/vtj_research/20230217_003124_wtgc9i.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: 'e883158d6b6d19c44c484510174cb153',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029283/verticaltubejig.com/vtj_research/20230217_003124_wtgc9i.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029283/verticaltubejig.com/vtj_research/20230217_003124_wtgc9i.jpg'
+  }
+  ,
+  {
+    asset_id: 'a97bfea39c5f936266cf286daa11d6a0',
+    public_id: 'verticaltubejig.com/vtj_research/20230217_003113_adeego',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: '20230217_003113_adeego',
+    format: 'jpg',
+    version: 1679029357,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T05:02:37+00:00',
+    uploaded_at: '2023-03-17T05:02:37+00:00',
+    bytes: 6305776,
+    backup_bytes: 0,
+    width: 1816,
+    height: 4032,
+    aspect_ratio: 0.4504,
+    pixels: 7322112,
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029357/verticaltubejig.com/vtj_research/20230217_003113_adeego.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029357/verticaltubejig.com/vtj_research/20230217_003113_adeego.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: '1625425379e0a2ac79d9b2b3beef3270',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029357/verticaltubejig.com/vtj_research/20230217_003113_adeego.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029357/verticaltubejig.com/vtj_research/20230217_003113_adeego.jpg'
+  }
+  ,
+  {
+    asset_id: '88292853b58a9c8cf2f23be49e62a257',
+    public_id: 'verticaltubejig.com/vtj_research/20230217_003057_bp6n3o',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: '20230217_003057_bp6n3o',
+    format: 'jpg',
+    version: 1679029284,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T05:01:24+00:00',
+    uploaded_at: '2023-03-17T05:01:24+00:00',
+    bytes: 5955798,
+    backup_bytes: 0,
+    width: 1816,
+    height: 4032,
+    aspect_ratio: 0.4504,
+    pixels: 7322112,
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029284/verticaltubejig.com/vtj_research/20230217_003057_bp6n3o.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029284/verticaltubejig.com/vtj_research/20230217_003057_bp6n3o.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: 'e4c6a5c38d72afb2866ebd86668548e5',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029284/verticaltubejig.com/vtj_research/20230217_003057_bp6n3o.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029284/verticaltubejig.com/vtj_research/20230217_003057_bp6n3o.jpg'
+  }
+  ,
+  {
+    asset_id: '975a6f45f3efd150be7b21974581f975',
+    public_id: 'verticaltubejig.com/vtj_research/20230217_001944_vzry3g',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: '20230217_001944_vzry3g',
+    format: 'jpg',
+    version: 1679029357,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T05:02:37+00:00',
+    uploaded_at: '2023-03-17T05:02:37+00:00',
+    bytes: 6697927,
+    backup_bytes: 0,
+    width: 1816,
+    height: 4032,
+    aspect_ratio: 0.4504,
+    pixels: 7322112,
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029357/verticaltubejig.com/vtj_research/20230217_001944_vzry3g.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029357/verticaltubejig.com/vtj_research/20230217_001944_vzry3g.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: 'cc83a963482edb91faacae200f6100d3',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029357/verticaltubejig.com/vtj_research/20230217_001944_vzry3g.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029357/verticaltubejig.com/vtj_research/20230217_001944_vzry3g.jpg'
+  }
+  ,
+  {
+    asset_id: 'a77431a80b1f64030014c6ebee7cf341',
+    public_id: 'verticaltubejig.com/vtj_research/20230217_001623_rw7vtw',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: '20230217_001623_rw7vtw',
+    format: 'jpg',
+    version: 1679029356,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T05:02:36+00:00',
+    uploaded_at: '2023-03-17T05:02:36+00:00',
+    bytes: 6466686,
+    backup_bytes: 0,
+    width: 1816,
+    height: 4032,
+    aspect_ratio: 0.4504,
+    pixels: 7322112,
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029356/verticaltubejig.com/vtj_research/20230217_001623_rw7vtw.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029356/verticaltubejig.com/vtj_research/20230217_001623_rw7vtw.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: '76e8a88c3c3d4b5227caaf65a2a3127e',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029356/verticaltubejig.com/vtj_research/20230217_001623_rw7vtw.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029356/verticaltubejig.com/vtj_research/20230217_001623_rw7vtw.jpg'
+  }
+  ,
+  {
+    asset_id: 'c1710dee725600b2f06d4dbcee25c24b',
+    public_id: 'verticaltubejig.com/vtj_research/20230217_001605_hshs9c',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: '20230217_001605_hshs9c',
+    format: 'jpg',
+    version: 1679029261,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T05:01:01+00:00',
+    uploaded_at: '2023-03-17T05:01:01+00:00',
+    bytes: 5979345,
+    backup_bytes: 0,
+    width: 1816,
+    height: 4032,
+    aspect_ratio: 0.4504,
+    pixels: 7322112,
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029261/verticaltubejig.com/vtj_research/20230217_001605_hshs9c.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029261/verticaltubejig.com/vtj_research/20230217_001605_hshs9c.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: 'bda506cd7855e03c42362867630528d0',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029261/verticaltubejig.com/vtj_research/20230217_001605_hshs9c.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029261/verticaltubejig.com/vtj_research/20230217_001605_hshs9c.jpg'
+  }
+  ,
+  {
+    asset_id: '4ccb04786c70be6bdc37afeed44aa6b9',
+    public_id: 'verticaltubejig.com/vtj_research/20230217_001603_nz2nrj',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: '20230217_001603_nz2nrj',
+    format: 'jpg',
+    version: 1679029257,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T05:00:57+00:00',
+    uploaded_at: '2023-03-17T05:00:57+00:00',
+    bytes: 6084107,
+    backup_bytes: 0,
+    width: 1816,
+    height: 4032,
+    aspect_ratio: 0.4504,
+    pixels: 7322112,
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029257/verticaltubejig.com/vtj_research/20230217_001603_nz2nrj.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029257/verticaltubejig.com/vtj_research/20230217_001603_nz2nrj.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: 'ec7453067de494108b9ebbe3b6a917c3',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029257/verticaltubejig.com/vtj_research/20230217_001603_nz2nrj.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029257/verticaltubejig.com/vtj_research/20230217_001603_nz2nrj.jpg'
+  }
+  ,
+  {
+    asset_id: '1999d625494586bfaa71225f9c668aae',
+    public_id: 'verticaltubejig.com/vtj_research/20230217_001552_c71g4f',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: '20230217_001552_c71g4f',
+    format: 'jpg',
+    version: 1679029258,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T05:00:58+00:00',
+    uploaded_at: '2023-03-17T05:00:58+00:00',
+    bytes: 6171757,
+    backup_bytes: 0,
+    width: 1816,
+    height: 4032,
+    aspect_ratio: 0.4504,
+    pixels: 7322112,
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029258/verticaltubejig.com/vtj_research/20230217_001552_c71g4f.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029258/verticaltubejig.com/vtj_research/20230217_001552_c71g4f.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: 'ca5f5e7fb1b58b9c2faf480ba3b06835',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029258/verticaltubejig.com/vtj_research/20230217_001552_c71g4f.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029258/verticaltubejig.com/vtj_research/20230217_001552_c71g4f.jpg'
+  }
+  ,
+  {
+    asset_id: 'd1149051eb004c010fe7378a569f7d4a',
+    public_id: 'verticaltubejig.com/vtj_research/20230211_091927_hdienr',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: '20230211_091927_hdienr',
+    format: 'jpg',
+    version: 1679029245,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T05:00:45+00:00',
+    uploaded_at: '2023-03-17T05:00:45+00:00',
+    bytes: 5502750,
+    backup_bytes: 0,
+    width: 1816,
+    height: 4032,
+    aspect_ratio: 0.4504,
+    pixels: 7322112,
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029245/verticaltubejig.com/vtj_research/20230211_091927_hdienr.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029245/verticaltubejig.com/vtj_research/20230211_091927_hdienr.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: 'dad6f7e2dfaa2d59c2a05821d904d0a2',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029245/verticaltubejig.com/vtj_research/20230211_091927_hdienr.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029245/verticaltubejig.com/vtj_research/20230211_091927_hdienr.jpg'
+  }
+  ,
+  {
+    asset_id: '8f9912d545427cc0dda4b9ce689f92ac',
+    public_id: 'verticaltubejig.com/vtj_research/20230211_091924_xapzkt',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: '20230211_091924_xapzkt',
+    format: 'jpg',
+    version: 1679029255,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T05:00:55+00:00',
+    uploaded_at: '2023-03-17T05:00:55+00:00',
+    bytes: 5822432,
+    backup_bytes: 0,
+    width: 1816,
+    height: 4032,
+    aspect_ratio: 0.4504,
+    pixels: 7322112,
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029255/verticaltubejig.com/vtj_research/20230211_091924_xapzkt.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029255/verticaltubejig.com/vtj_research/20230211_091924_xapzkt.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: '8f3c05364a6957c9cee63823af7ebc8a',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029255/verticaltubejig.com/vtj_research/20230211_091924_xapzkt.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029255/verticaltubejig.com/vtj_research/20230211_091924_xapzkt.jpg'
+  }
+  ,
+  {
+    asset_id: 'e84b1f0e7bcf9e364801bc91748bb6af',
+    public_id: 'verticaltubejig.com/vtj_research/20230211_091903_rnx9jh',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: '20230211_091903_rnx9jh',
+    format: 'jpg',
+    version: 1679029240,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T05:00:40+00:00',
+    uploaded_at: '2023-03-17T05:00:40+00:00',
+    bytes: 5907889,
+    backup_bytes: 0,
+    width: 1816,
+    height: 4032,
+    aspect_ratio: 0.4504,
+    pixels: 7322112,
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029240/verticaltubejig.com/vtj_research/20230211_091903_rnx9jh.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029240/verticaltubejig.com/vtj_research/20230211_091903_rnx9jh.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: '91405ee792b115afb775b42232d9a4ab',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029240/verticaltubejig.com/vtj_research/20230211_091903_rnx9jh.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029240/verticaltubejig.com/vtj_research/20230211_091903_rnx9jh.jpg'
+  }
+  ,
+  {
+    asset_id: '2dcc74ecbc9dbc1c3cb5982fcb417a88',
+    public_id: 'verticaltubejig.com/vtj_research/20230123_233617_ebue7t',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: '20230123_233617_ebue7t',
+    format: 'jpg',
+    version: 1679029250,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T05:00:50+00:00',
+    uploaded_at: '2023-03-17T05:00:50+00:00',
+    bytes: 5936900,
+    backup_bytes: 0,
+    width: 1816,
+    height: 4032,
+    aspect_ratio: 0.4504,
+    pixels: 7322112,
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029250/verticaltubejig.com/vtj_research/20230123_233617_ebue7t.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029250/verticaltubejig.com/vtj_research/20230123_233617_ebue7t.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: 'a63b0e420de094134d57fe9e1db6d3d7',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029250/verticaltubejig.com/vtj_research/20230123_233617_ebue7t.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029250/verticaltubejig.com/vtj_research/20230123_233617_ebue7t.jpg'
+  }
+  ,
+  {
+    asset_id: '4794a621fb5230e37d383f3b45e62fa5',
+    public_id: 'verticaltubejig.com/vtj_research/20230123_233528_ygvrds',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: '20230123_233528_ygvrds',
+    format: 'jpg',
+    version: 1679029230,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T05:00:30+00:00',
+    uploaded_at: '2023-03-17T05:00:30+00:00',
+    bytes: 5726141,
+    backup_bytes: 0,
+    width: 1816,
+    height: 4032,
+    aspect_ratio: 0.4504,
+    pixels: 7322112,
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029230/verticaltubejig.com/vtj_research/20230123_233528_ygvrds.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029230/verticaltubejig.com/vtj_research/20230123_233528_ygvrds.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: 'db854345e01620073b6b828462377a48',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029230/verticaltubejig.com/vtj_research/20230123_233528_ygvrds.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029230/verticaltubejig.com/vtj_research/20230123_233528_ygvrds.jpg'
+  }
+  ,
+  {
+    asset_id: '8189f2e61991310dfecaa996d8b4564e',
+    public_id: 'verticaltubejig.com/vtj_research/20230123_233456_wuydsm',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: '20230123_233456_wuydsm',
+    format: 'jpg',
+    version: 1679029225,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T05:00:25+00:00',
+    uploaded_at: '2023-03-17T05:00:25+00:00',
+    bytes: 5579203,
+    backup_bytes: 0,
+    width: 1816,
+    height: 4032,
+    aspect_ratio: 0.4504,
+    pixels: 7322112,
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029225/verticaltubejig.com/vtj_research/20230123_233456_wuydsm.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029225/verticaltubejig.com/vtj_research/20230123_233456_wuydsm.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: '82b15a2da5b80df530d413af00075906',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029225/verticaltubejig.com/vtj_research/20230123_233456_wuydsm.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029225/verticaltubejig.com/vtj_research/20230123_233456_wuydsm.jpg'
+  }
+  ,
+  {
+    asset_id: 'ee0d8214dda980fc031f2eb210cd8cdb',
+    public_id: 'verticaltubejig.com/vtj_research/20230123_233423_y9v45n',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: '20230123_233423_y9v45n',
+    format: 'jpg',
+    version: 1679029341,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T05:02:21+00:00',
+    uploaded_at: '2023-03-17T05:02:21+00:00',
+    bytes: 6535993,
+    backup_bytes: 0,
+    width: 1816,
+    height: 4032,
+    aspect_ratio: 0.4504,
+    pixels: 7322112,
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029341/verticaltubejig.com/vtj_research/20230123_233423_y9v45n.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029341/verticaltubejig.com/vtj_research/20230123_233423_y9v45n.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: '9f0d647b8b0f18ce7b0715b0e34848f1',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029341/verticaltubejig.com/vtj_research/20230123_233423_y9v45n.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029341/verticaltubejig.com/vtj_research/20230123_233423_y9v45n.jpg'
+  }
+  ,
+  {
+    asset_id: '25a47cf907c42f9f4b31b753fcae2f0e',
+    public_id: 'verticaltubejig.com/vtj_research/20230123_233417_yureio',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: '20230123_233417_yureio',
+    format: 'jpg',
+    version: 1679029338,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T05:02:18+00:00',
+    uploaded_at: '2023-03-17T05:02:18+00:00',
+    bytes: 6408864,
     backup_bytes: 0,
     width: 4032,
     height: 1816,
     aspect_ratio: 2.22026,
     pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160748/verticaltubejig.com/vtj_research/20220528_214501_iwmes2.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160748/verticaltubejig.com/vtj_research/20220528_214501_iwmes2.jpg',
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029338/verticaltubejig.com/vtj_research/20230123_233417_yureio.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029338/verticaltubejig.com/vtj_research/20230123_233417_yureio.jpg',
     status: 'active',
     access_mode: 'public',
     access_control: null,
-    etag: '8c6c718fee7526e6f30889d7ed77b8a9',
+    etag: 'f004f3ef354a04a85fd5dcbd73a630cd',
     created_by: {
       access_key: '787279763172256',
       custom_id: 'matgilbert@gmail.com',
@@ -712,196 +1035,33 @@ export const galleryPhotos = [
       custom_id: 'matgilbert@gmail.com',
       external_id: 'f64c81116607081e4444a68b272038'
     },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160748/verticaltubejig.com/vtj_research/20220528_214501_iwmes2.jpg'
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029338/verticaltubejig.com/vtj_research/20230123_233417_yureio.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029338/verticaltubejig.com/vtj_research/20230123_233417_yureio.jpg'
   }
   ,
   {
-    asset_id: '555499f80a8cf0d6cf31f52d221fb726',
-    public_id: 'verticaltubejig.com/vtj_research/20220408_194739_auxmxr',
+    asset_id: '935e1cfbef7933bfc5c009cfd36a2924',
+    public_id: 'verticaltubejig.com/vtj_research/20230117_160444_zsvlsl',
     folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220408_194739_auxmxr',
+    filename: '20230117_160444_zsvlsl',
     format: 'jpg',
-    version: 1672160671,
+    version: 1679029257,
     resource_type: 'image',
     type: 'upload',
-    created_at: '2022-12-27T17:04:31+00:00',
-    uploaded_at: '2022-12-27T17:04:31+00:00',
-    bytes: 3590762,
-    backup_bytes: 0,
-    width: 1224,
-    height: 1619,
-    aspect_ratio: 0.75602,
-    pixels: 1981656,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160671/verticaltubejig.com/vtj_research/20220408_194739_auxmxr.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160671/verticaltubejig.com/vtj_research/20220408_194739_auxmxr.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: 'fa3034bb0d299593388293b703ae9661',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160671/verticaltubejig.com/vtj_research/20220408_194739_auxmxr.jpg'
-  }
-  ,
-  {
-    asset_id: 'f7bd7a829722ec464552ff4386b1f303',
-    public_id: 'verticaltubejig.com/vtj_research/20220304_123030_xjrtjg',
-    folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220304_123030_xjrtjg',
-    format: 'jpg',
-    version: 1672160736,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2022-12-27T17:05:36+00:00',
-    uploaded_at: '2022-12-27T17:05:36+00:00',
-    bytes: 4839371,
-    backup_bytes: 0,
-    width: 1816,
-    height: 4032,
-    aspect_ratio: 0.4504,
-    pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160736/verticaltubejig.com/vtj_research/20220304_123030_xjrtjg.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160736/verticaltubejig.com/vtj_research/20220304_123030_xjrtjg.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: '6e7ae9fbdd8d03964efea8a511255ec7',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160736/verticaltubejig.com/vtj_research/20220304_123030_xjrtjg.jpg'
-  }
-  ,
-  {
-    asset_id: '9c3792fecafdcddd7ab2336c4649105e',
-    public_id: 'verticaltubejig.com/vtj_research/20220304_123024_z6npit',
-    folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220304_123024_z6npit',
-    format: 'jpg',
-    version: 1672160659,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2022-12-27T17:04:19+00:00',
-    uploaded_at: '2022-12-27T17:04:19+00:00',
-    bytes: 2545866,
-    backup_bytes: 0,
-    width: 1816,
-    height: 4032,
-    aspect_ratio: 0.4504,
-    pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160659/verticaltubejig.com/vtj_research/20220304_123024_z6npit.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160659/verticaltubejig.com/vtj_research/20220304_123024_z6npit.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: '09e4bcf870ebd711cc7d5bfa78746837',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160659/verticaltubejig.com/vtj_research/20220304_123024_z6npit.jpg'
-  }
-  ,
-  {
-    asset_id: '2065fb2657cc5f8cd6ebd1f9c47453da',
-    public_id: 'verticaltubejig.com/vtj_research/20220304_123022_pb8qjc',
-    folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220304_123022_pb8qjc',
-    format: 'jpg',
-    version: 1672160659,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2022-12-27T17:04:19+00:00',
-    uploaded_at: '2022-12-27T17:04:19+00:00',
-    bytes: 2884743,
-    backup_bytes: 0,
-    width: 1816,
-    height: 4032,
-    aspect_ratio: 0.4504,
-    pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160659/verticaltubejig.com/vtj_research/20220304_123022_pb8qjc.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160659/verticaltubejig.com/vtj_research/20220304_123022_pb8qjc.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: '3c47174700da8982668ac45fda561776',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160659/verticaltubejig.com/vtj_research/20220304_123022_pb8qjc.jpg'
-  }
-  ,
-  {
-    asset_id: 'f7fc768129cc2cce477b568f4137b0ba',
-    public_id: 'verticaltubejig.com/vtj_research/20220304_122912_jql4zd',
-    folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220304_122912_jql4zd',
-    format: 'jpg',
-    version: 1672160723,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2022-12-27T17:05:23+00:00',
-    uploaded_at: '2022-12-27T17:05:23+00:00',
-    bytes: 3082097,
+    created_at: '2023-03-17T05:00:57+00:00',
+    uploaded_at: '2023-03-17T05:00:57+00:00',
+    bytes: 6196632,
     backup_bytes: 0,
     width: 4032,
     height: 1816,
     aspect_ratio: 2.22026,
     pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160723/verticaltubejig.com/vtj_research/20220304_122912_jql4zd.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160723/verticaltubejig.com/vtj_research/20220304_122912_jql4zd.jpg',
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029257/verticaltubejig.com/vtj_research/20230117_160444_zsvlsl.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029257/verticaltubejig.com/vtj_research/20230117_160444_zsvlsl.jpg',
     status: 'active',
     access_mode: 'public',
     access_control: null,
-    etag: 'e789d8f20e8c052b908878f113ffd9e8',
+    etag: '076fd8e33063520dce0f8835b17cc508',
     created_by: {
       access_key: '787279763172256',
       custom_id: 'matgilbert@gmail.com',
@@ -912,36 +1072,33 @@ export const galleryPhotos = [
       custom_id: 'matgilbert@gmail.com',
       external_id: 'f64c81116607081e4444a68b272038'
     },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160723/verticaltubejig.com/vtj_research/20220304_122912_jql4zd.jpg'
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029257/verticaltubejig.com/vtj_research/20230117_160444_zsvlsl.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029257/verticaltubejig.com/vtj_research/20230117_160444_zsvlsl.jpg'
   }
   ,
   {
-    asset_id: 'b42c33868959cbed03f444374674f6a2',
-    public_id: 'verticaltubejig.com/vtj_research/20220302_110019_ruldpa',
+    asset_id: '93a2e57b8acd0cfe20d65262f376e81e',
+    public_id: 'verticaltubejig.com/vtj_research/20230111_232122_loluzj',
     folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220302_110019_ruldpa',
+    filename: '20230111_232122_loluzj',
     format: 'jpg',
-    version: 1672160722,
+    version: 1679029228,
     resource_type: 'image',
     type: 'upload',
-    created_at: '2022-12-27T17:05:22+00:00',
-    uploaded_at: '2022-12-27T17:05:22+00:00',
-    bytes: 4432054,
+    created_at: '2023-03-17T05:00:28+00:00',
+    uploaded_at: '2023-03-17T05:00:28+00:00',
+    bytes: 5489188,
     backup_bytes: 0,
     width: 1816,
     height: 4032,
     aspect_ratio: 0.4504,
     pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160722/verticaltubejig.com/vtj_research/20220302_110019_ruldpa.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160722/verticaltubejig.com/vtj_research/20220302_110019_ruldpa.jpg',
+    url: 'http://res.cloudinary.com/vtapico/image/upload/v1679029228/verticaltubejig.com/vtj_research/20230111_232122_loluzj.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029228/verticaltubejig.com/vtj_research/20230111_232122_loluzj.jpg',
     status: 'active',
     access_mode: 'public',
     access_control: null,
-    etag: 'e101ce97338af6f9b13b70d502e043da',
+    etag: 'a59b3079cf12620d7391aa2fd7f1984e',
     created_by: {
       access_key: '787279763172256',
       custom_id: 'matgilbert@gmail.com',
@@ -952,251 +1109,8 @@ export const galleryPhotos = [
       custom_id: 'matgilbert@gmail.com',
       external_id: 'f64c81116607081e4444a68b272038'
     },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:58Z',
-      public_id_updated_at: '2023-03-16T03:20:58Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160722/verticaltubejig.com/vtj_research/20220302_110019_ruldpa.jpg'
+    src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029228/verticaltubejig.com/vtj_research/20230111_232122_loluzj.jpg',
+    smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029228/verticaltubejig.com/vtj_research/20230111_232122_loluzj.jpg'
   }
-  ,
-  {
-    asset_id: '3c3adcc22096312fcf643bdcb5eff67f',
-    public_id: 'verticaltubejig.com/vtj_research/20220302_110011_puandi',
-    folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220302_110011_puandi',
-    format: 'jpg',
-    version: 1672160725,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2022-12-27T17:05:25+00:00',
-    uploaded_at: '2022-12-27T17:05:25+00:00',
-    bytes: 6150932,
-    backup_bytes: 0,
-    width: 1816,
-    height: 4032,
-    aspect_ratio: 0.4504,
-    pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160725/verticaltubejig.com/vtj_research/20220302_110011_puandi.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160725/verticaltubejig.com/vtj_research/20220302_110011_puandi.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: '184853faf0cb85c409c56bda9844a251',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160725/verticaltubejig.com/vtj_research/20220302_110011_puandi.jpg'
-  }
-  ,
-  {
-    asset_id: '09b1aac43a579a3dd37d53e9533b0b35',
-    public_id: 'verticaltubejig.com/vtj_research/20220221_222629_fvskau',
-    folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220221_222629_fvskau',
-    format: 'jpg',
-    version: 1672160735,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2022-12-27T17:05:35+00:00',
-    uploaded_at: '2022-12-27T17:05:35+00:00',
-    bytes: 4348986,
-    backup_bytes: 0,
-    width: 1816,
-    height: 4032,
-    aspect_ratio: 0.4504,
-    pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160735/verticaltubejig.com/vtj_research/20220221_222629_fvskau.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160735/verticaltubejig.com/vtj_research/20220221_222629_fvskau.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: '55843e71fdd1645a8d566210ad275fe0',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160735/verticaltubejig.com/vtj_research/20220221_222629_fvskau.jpg'
-  }
-  ,
-  {
-    asset_id: '8e0cef5a6cfc72ede6dd12bc19a65c6a',
-    public_id: 'verticaltubejig.com/vtj_research/20220221_222620_kjm3ae',
-    folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220221_222620_kjm3ae',
-    format: 'jpg',
-    version: 1672160712,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2022-12-27T17:05:12+00:00',
-    uploaded_at: '2022-12-27T17:05:12+00:00',
-    bytes: 5887676,
-    backup_bytes: 0,
-    width: 1816,
-    height: 4032,
-    aspect_ratio: 0.4504,
-    pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160712/verticaltubejig.com/vtj_research/20220221_222620_kjm3ae.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160712/verticaltubejig.com/vtj_research/20220221_222620_kjm3ae.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: '085dae57e21aa979af7add185dbbfef0',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160712/verticaltubejig.com/vtj_research/20220221_222620_kjm3ae.jpg'
-  }
-  ,
-  {
-    asset_id: '7fac81884ee638e32f31cfa23bde695c',
-    public_id: 'verticaltubejig.com/vtj_research/20220221_222442_cgr2ep',
-    folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220221_222442_cgr2ep',
-    format: 'jpg',
-    version: 1672160658,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2022-12-27T17:04:18+00:00',
-    uploaded_at: '2022-12-27T17:04:18+00:00',
-    bytes: 5519685,
-    backup_bytes: 0,
-    width: 4032,
-    height: 1816,
-    aspect_ratio: 2.22026,
-    pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160658/verticaltubejig.com/vtj_research/20220221_222442_cgr2ep.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160658/verticaltubejig.com/vtj_research/20220221_222442_cgr2ep.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: '381e58d1a157e8d35c46564958e6a701',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160658/verticaltubejig.com/vtj_research/20220221_222442_cgr2ep.jpg'
-  }
-  ,
-  {
-    asset_id: 'a8af92129908e96d13405c9f71d34911',
-    public_id: 'verticaltubejig.com/vtj_research/20220216_103116_fsziny',
-    folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220216_103116_fsziny',
-    format: 'jpg',
-    version: 1672160651,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2022-12-27T17:04:11+00:00',
-    uploaded_at: '2022-12-27T17:04:11+00:00',
-    bytes: 5581435,
-    backup_bytes: 0,
-    width: 1816,
-    height: 4032,
-    aspect_ratio: 0.4504,
-    pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160651/verticaltubejig.com/vtj_research/20220216_103116_fsziny.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160651/verticaltubejig.com/vtj_research/20220216_103116_fsziny.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: '3c9ad16af7808efa075ab9918384ffc6',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160651/verticaltubejig.com/vtj_research/20220216_103116_fsziny.jpg'
-  }
-  ,
-  {
-    asset_id: '825f578b766c1465b36a8855a2e3d717',
-    public_id: 'verticaltubejig.com/vtj_research/20220216_103100_sspjbb',
-    folder: 'verticaltubejig.com/vtj_research',
-    filename: '20220216_103100_sspjbb',
-    format: 'jpg',
-    version: 1672160664,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2022-12-27T17:04:24+00:00',
-    uploaded_at: '2022-12-27T17:04:24+00:00',
-    bytes: 4289899,
-    backup_bytes: 0,
-    width: 1816,
-    height: 4032,
-    aspect_ratio: 0.4504,
-    pixels: 7322112,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1672160664/verticaltubejig.com/vtj_research/20220216_103100_sspjbb.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1672160664/verticaltubejig.com/vtj_research/20220216_103100_sspjbb.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: '8ab04da0b31e97128cc70d273fbca8b4',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    last_updated: {
-      updated_at: '2023-03-16T03:20:57Z',
-      public_id_updated_at: '2023-03-16T03:20:57Z'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1672160664/verticaltubejig.com/vtj_research/20220216_103100_sspjbb.jpg'
-  }
-
+  
 ];

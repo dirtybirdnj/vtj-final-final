@@ -20,9 +20,7 @@ function Newsletter({
     overflow: 'hidden',
 
   }
-  //console.log(featuredBlog)
-
-  const BD_API_KEY = process.env.BD_API_KEY;
+  
   const handleOnSubscribe = subscriber => {
 
     //new BD subscriber
@@ -36,7 +34,7 @@ function Newsletter({
         <h3>Sign up for our newsletter</h3>
         <p>and get the DROP on the next batch of lures to go on sale!</p>
         <ButtondownForm
-          apiKey={BD_API_KEY}
+          apiKey={process.env.BD_API_KEY}
           onSubscribe={handleOnSubscribe}
         />
       </div>
