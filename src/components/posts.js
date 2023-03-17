@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import styled from 'styled-components';
 import { useRouter } from 'next/router';
 
@@ -120,7 +119,7 @@ const MobileContainer = styled.div`
   }
 `;
 
-function Posts({
+export function Posts({
   data
 }) {
   const router = useRouter();
@@ -192,4 +191,53 @@ function Posts({
   )
 }
   
-export default Posts
+export function FeaturedBlog({
+  featuredBlog,
+  pageData
+}) {
+  const router = useRouter();
+
+  const tags = featuredBlog.data.tags.map((tag, i) => (
+        <Tag key={i}>{tag}</Tag>
+      ));
+
+  return (
+    <Post>
+      <DesktopContainer>
+        {featuredBlog.data.images && (<ImageEl onClick={() => router.push(featuredBlog.path)} url={featuredBlog.data.images[0].src} />)}
+        <Meta>
+          <Title href={featuredBlog.path}>{featuredBlog.data.title}</Title>
+          <SubtitleContainer>
+            <Subtitle>by {featuredBlog.data.author}</Subtitle>
+            <Subtitle>{getDateString(featuredBlog.data.date)}</Subtitle>
+          </SubtitleContainer>
+          {featuredBlog.data.excerpt && (
+            <div>{featuredBlog.data.excerpt}</div>
+          )}
+          {tags && (
+            <TagsContainer>{tags}</TagsContainer>
+          )}
+        </Meta>        
+      </DesktopContainer>
+      <MobileContainer>
+        <MobilePostTop>
+          {featuredBlog.data.images && (<ImageEl onClick={() => router.push(featuredBlog.path)} url={featuredBlog.data.images[0].src} />)}
+          <MobileTitleContainer>
+            <Title href={featuredBlog.path}>{featuredBlog.data.title}</Title>
+            <Subtitle><strong>Posted: {getDateString(featuredBlog.data.date)}</strong></Subtitle>
+            <Subtitle>By {featuredBlog.data.author}</Subtitle>
+          </MobileTitleContainer>
+        </MobilePostTop>
+        <Meta>              
+          {featuredBlog.data.excerpt && (
+            <div>{featuredBlog.data.excerpt}</div>
+          )}
+          {tags && (
+            <TagsContainer>{tags}</TagsContainer>
+          )}
+        </Meta>
+      </MobileContainer>  
+    </Post>
+  )
+
+}

@@ -10,14 +10,11 @@ import { galleryPhotos } from '@/galleries/gallery';
 
 import Header from './header';
 import Footer from './footer';
-import Posts from './posts';
+import { FeaturedBlog, Posts } from './posts';
 import ProductGrid from './product-grid';
-import FeaturedBlog from './featured-blog';
 import Newsletter from './newsletter';
 
 import {getDateString} from '../util';
-
-
 
 export default function Layout({ children }) {
   const router = useRouter();
@@ -203,7 +200,7 @@ export default function Layout({ children }) {
 
       {blogToFeature &&
       <div>
-        <h1>{blogToFeature.data.title}</h1>
+        <h1>Featured Post</h1>
         <FeaturedBlog featuredBlog={blogToFeature} pageData={pageData} currentRoute={currentRoute} />
       </div>
 
