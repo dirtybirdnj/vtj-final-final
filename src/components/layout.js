@@ -39,7 +39,7 @@ export default function Layout({ children }) {
   const containerStyles = {
     maxWidth: '750px',
     minHeight: 'calc(100vh - 100px)',
-    padding: '50px 5%',
+    padding: '0 5%',
     margin: '0px auto',
     display: 'flex',
     flexDirection: 'column',

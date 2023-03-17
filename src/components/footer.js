@@ -45,7 +45,7 @@ function Footer({
         <Image style={imgStyle} src="/vtj-circle.svg" width="300" height="300" alt="verticaltubejig.com logo"/>
         <p>www.verticaltubejig.com</p>
         <p>orders@verticaltubejig.com</p>
-        <p >hand made in huntington vermont</p>
+        <p >EST. 2023 Huntington, VT</p>
         <p>vtapi.co</p>
       </div>
     </footer>

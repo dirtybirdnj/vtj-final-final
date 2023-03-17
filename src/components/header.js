@@ -1,5 +1,80 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import styled from 'styled-components';
+
+import logoImage from '../../public/vtj-circle.svg';
+
+const LogoContainer = styled.div`
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+`;
+
+const Logo = styled(Image)`
+  height: 15vh;
+  width: auto;
+`;
+
+const Subtitle = styled.div`
+  display: flex;
+  font-size: 18px;
+
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+`;
+
+const NavContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 30px 0px 10px;
+  justify-content: center;
+  gap: 12px;
+`;
+
+const LinkEl = styled(Link)`
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: darkblue;
+  padding: 2px 10px;
+  transition: 100ms;
+  border-bottom: 3px solid transparent;
+  transform: translate3d(0, 0, 0);
+
+  &.active {
+    border-color: black;
+    transform: translate3d(0, -3px, 0);
+    color: black;
+  }
+`;
+
+// Mobile
+const HeaderContainer = styled.div`
+  padding-top: 3%;
+
+  @media only screen and (max-width: 559px) {
+    padding-top: 5%;
+
+    ${NavContainer} {
+      justify-content: space-between;
+      padding: 20px 0px 10px;
+      gap: 5px;
+    }
+
+    ${Subtitle} {
+      font-size: 13px;
+    }
+
+    ${LinkEl} {
+      font-size: 15px;
+      padding: 2px 5px;
+    }
+  }
+`;
 
 function Header({
   pageData,
@@ -14,49 +89,30 @@ function Header({
       const pageTitle = page.data.title;
       const navName = page.data.nav;
       const pageOrder = page.data.navOrder ? page.data.navOrder : 100;
+      
       const linkStyles = {
-        display: 'flex',
         order: pageOrder
       }
 
-      return <Link style={linkStyles} key={i} className={currentRoute === page.path ? 'active' : ''} href={pagePath}>{navName ? navName : pageTitle}</Link>
+      return <LinkEl style={linkStyles} key={i} className={currentRoute === page.path ? 'active' : ''} href={pagePath}>{navName ? navName : pageTitle}</LinkEl>
     } else {
       console.log('missing page props', page);
     }
 
-  })
-
-  // Temp - will move to styled-components
-  const navStyleProps = {
-    display: 'flex',
-    gap: '15px',
-    padding: '20px 0px'
-  }
-
-  // Temp styles
-  const containerStyles = {
-
-    margin: '0px auto',
-    display: 'flex',
-    flexDirection: 'column',
-    overflow: 'hidden',
-  }
-
-  const imgStyle = {
-    maxWidth: '300px'
-  }
-
-
+  });
 
   return (
-    <>
-      <div style={containerStyles}>
-        <Image style={imgStyle} src="/vtj-circle.svg" width="300" height="300" alt="verticaltubejig.com logo"/>
-        <p>www.verticaltubejig.com</p>
-        <p>EST. 2023 Huntington, VT</p>
-      </div>
-      <div style={navStyleProps}>{links}</div>
-    </>
+    <HeaderContainer>
+      <LogoContainer>
+        <Logo priority src={logoImage} alt="verticaltubejig.com logo" />
+        <Subtitle>
+          <span>verticaltubejig.com</span>
+          <span> | </span>
+          <span>hand made in huntington vt</span>
+        </Subtitle>
+      </LogoContainer>
+      <NavContainer>{links}</NavContainer>
+    </HeaderContainer>
   )
 }
 

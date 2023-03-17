@@ -140,4 +140,7 @@ module.exports = withMDX({
       },
     ],
   },
+  compiler: {
+    styledComponents: true,
+  }
 })
