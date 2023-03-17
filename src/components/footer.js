@@ -32,7 +32,6 @@ const RightSide = styled.div`
 
   a {
     font-weight: bold;
-    color: darkblue;
     font-size: 15px;
   }
 `;
@@ -41,6 +40,7 @@ function Footer({
   pageData,
   currentRoute
 }) {
+  const router = useRouter();
 
   return (
     <FooterEl>

@@ -10,7 +10,6 @@ const NewsletterContainer = styled.div`
   }
 
   button {
-    background: darkblue;
     align-self: stretch;
   }
 `;

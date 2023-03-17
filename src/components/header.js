@@ -41,7 +41,6 @@ const LinkEl = styled(Link)`
   font-weight: bold;
   font-size: 20px;
   text-decoration: none;
-  color: darkblue;
   padding: 0 10px 2px;
   transition: 100ms;
   border-bottom: 3px solid transparent;

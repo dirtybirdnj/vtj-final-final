@@ -50,8 +50,7 @@ export default function Layout({ children }) {
     display: 'flex',
     flexDirection: 'column',
     flexGrow: 1,
-    gap: '10%',
-    paddingBottom: '40px'
+    gap: '10%'
   }
 
   const tagContainerStyles = {

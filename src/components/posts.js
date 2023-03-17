@@ -1,32 +1,115 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import styled from 'styled-components';
+import { useRouter } from 'next/router';
 
 import {getDateString} from '../util';
+
+const Post = styled.div`
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+`;
+
+const ImageEl = styled.div`
+  background: url(${props => props.url}) no-repeat center;
+  background-size: cover;
+  width: 35%;
+  aspect-ratio: 5 / 3;
+  flex-shrink: 0;
+  cursor: pointer;
+`;
+
+const Title = styled(Link)`
+  font-size: 25px;
+  text-decoration: none;
+  padding-bottom: 5px;
+  display: block;
+`;
+
+const SubtitleContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+`;
+
+const Subtitle = styled.div`
+  opacity: 0.8;
+  font-size: 15px;
+  padding-bottom: 20px;
+`;
+
+const Meta = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
+const PostsContainer = styled.div`
+  padding: 10px 0px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-direction: column;
+
+  @media only screen and (max-width: 559px) {
+    ${Post} {
+      flex-direction: column;
+      padding-bottom: 20px;
+    }
+  }
+`;
+
+const MobilePostTop = styled.div`
+  display: flex;
+  gap: 10px;
+  padding-bottom: 20px;
+  align-items: flex-start;
+`;
+
+const MobileTitleContainer = styled.div`
+  flex-grow: 1;
+`;
+
+const DesktopContainer = styled.div`
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+
+  @media only screen and (max-width: 559px) {
+    display: none;
+  }
+`;
+
+const MobileContainer = styled.div`
+  display: none;
+
+  @media only screen and (max-width: 559px) {
+    display: block;
+  }
+
+  ${Title} {
+    padding-bottom: 5px;
+  }
+
+  ${Subtitle} {
+    padding-bottom: 3px;
+
+    strong {
+      padding-bottom: 2px;
+    }
+  }
+
+  ${ImageEl} {
+    width: 30%;
+    aspect-ratio: 1 / 1;
+    position: relative;
+  }
+`;
 
 function Posts({
   data
 }) {
-
-  const postContainerStyles = {
-    padding: '10px 0px',
-    display: 'flex',
-    gap: '20px',
-    flexDirection: 'column'
-  }
-
-  const postStyles = {
-
-  }
-
-  const titleLinkStyles = {
-    fontSize: '25px'
-  }
-
-  const postMetaStyles = {
-    display: 'flex',
-    gap: '15px',
-    justifyContent: 'space-between',
-    paddingBottom: '20px'
-  }
+  const router = useRouter();
 
   // Return most recent posts first - NOT WORKING IDK WHY
   const sortPostsByDate = (postArr) => postArr.sort(function(a,b){
@@ -44,16 +127,36 @@ function Posts({
       const postExceprt = post.data.excerpt ? post.data.excerpt : null;
 
       return (
-        <div style={postStyles} key={i}>
-          <Link style={titleLinkStyles} href={postPath}>{postTitle}</Link>
-          <div style={postMetaStyles}>
-            <span>{post.data.author && 'by: ' + post.data.author}</span>
-            <span>{post.data.date && getDateString(post.data.date)}</span>
-          </div>
-          {post.data.excerpt && (
-            <div>{postExceprt}</div>
-          )}
-        </div>
+        <Post key={i}>
+          <DesktopContainer>
+            {post.data.images && (<ImageEl onClick={() => router.push(postPath)} url={post.data.images[0].src} />)}
+            <Meta>
+              <Title href={postPath}>{postTitle}</Title>
+              <SubtitleContainer>
+                <Subtitle>by {post.data.author}</Subtitle>
+                <Subtitle>{getDateString(post.data.date)}</Subtitle>
+              </SubtitleContainer>
+              {post.data.excerpt && (
+                <div>{postExceprt}</div>
+              )}
+            </Meta>        
+          </DesktopContainer>
+          <MobileContainer>
+            <MobilePostTop>
+              {post.data.images && (<ImageEl onClick={() => router.push(postPath)} url={post.data.images[0].src} />)}
+              <MobileTitleContainer>
+                <Title href={postPath}>{postTitle}</Title>
+                <Subtitle><strong>Posted: {getDateString(post.data.date)}</strong></Subtitle>
+                <Subtitle>By {post.data.author}</Subtitle>
+              </MobileTitleContainer>
+            </MobilePostTop>
+            <Meta>              
+              {post.data.excerpt && (
+                <div>{postExceprt}</div>
+              )}
+            </Meta>
+          </MobileContainer>  
+        </Post>
       )
     } else {
       console.log('missing blog post props', post);
@@ -61,7 +164,7 @@ function Posts({
   })
 
   return (
-    <div style={postContainerStyles}>{postGroup}</div>
+    <PostsContainer>{postGroup}</PostsContainer>
   )
 }
   
