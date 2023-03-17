@@ -31,6 +31,7 @@ const RightSide = styled.div`
   padding-bottom: 8px;
 
   a {
+    font-weight: bold;
     color: darkblue;
     font-size: 15px;
   }
@@ -46,7 +47,7 @@ function Footer({
       <Logo onClick={() => router.push('/')} priority src={logoImage} alt="verticaltubejig.com logo" />
       <RightSide>
         <Link href="mailto: orders@verticaltubejig.com">orders@verticaltubejig.com</Link>
-        <span>EST. 2023 Huntington, VT | <strong>vtapi.co</strong></span>
+        <span>EST. 2023 Huntington, VT | <Link href="http://vtapi.co" target="_blank">vtapi.co</Link></span>
       </RightSide>
     </FooterEl>
   )
