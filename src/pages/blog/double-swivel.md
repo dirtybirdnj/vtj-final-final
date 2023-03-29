@@ -8,19 +8,40 @@ tags: ['VTJ','SWIVEL']
 author: Mat Gilbert
 images: [
   {
-    src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
-    width: 4,
-    height: 3
-  },
-  {
-    src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
-    width: 3,
-    height: 4
-  },
-  {
-    src: "https://source.unsplash.com/PpOHJezOalU/800x599",
-    width: 4,
-    height: 3
+    asset_id: '935e1cfbef7933bfc5c009cfd36a2924',
+    public_id: 'verticaltubejig.com/vtj_research/20230117_160444_zsvlsl',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: '20230117_160444_zsvlsl',
+    format: 'jpg',
+    version: 1679029257,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T05:00:57+00:00',
+    uploaded_at: '2023-03-17T05:00:57+00:00',
+    bytes: 6196632,
+    backup_bytes: 0,
+    width: 4032,
+    height: 1816,
+    aspect_ratio: 2.22026,
+    pixels: 7322112,
+    url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029257/verticaltubejig.com/vtj_research/20230117_160444_zsvlsl.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029257/verticaltubejig.com/vtj_research/20230117_160444_zsvlsl.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: '076fd8e33063520dce0f8835b17cc508',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1679029257/verticaltubejig.com/vtj_research/20230117_160444_zsvlsl.jpg',
+    smaller: 'https://res.cloudinary.com/vtapico/image/upload/v1679029257/verticaltubejig.com/vtj_research/20230117_160444_zsvlsl.jpg'
   }
   ]
 excerpt: "One of the key features of the VTJ is the double swivel weight. It helps prevent fish from getting leverage and spitting the hook."

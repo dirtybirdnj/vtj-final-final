@@ -9,19 +9,40 @@ author: Mat Gilbert
 featuredBlog: dressed-hooks.md
 images: [
   {
-    src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
-    width: 4,
-    height: 3
-  },
-  {
-    src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
-    width: 3,
-    height: 4
-  },
-  {
-    src: "https://source.unsplash.com/PpOHJezOalU/800x599",
-    width: 4,
-    height: 3
+    asset_id: '25a47cf907c42f9f4b31b753fcae2f0e',
+    public_id: 'verticaltubejig.com/vtj_research/20230123_233417_yureio',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: '20230123_233417_yureio',
+    format: 'jpg',
+    version: 1679029338,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T05:02:18+00:00',
+    uploaded_at: '2023-03-17T05:02:18+00:00',
+    bytes: 6408864,
+    backup_bytes: 0,
+    width: 4032,
+    height: 1816,
+    aspect_ratio: 2.22026,
+    pixels: 7322112,
+    url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029338/verticaltubejig.com/vtj_research/20230123_233417_yureio.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029338/verticaltubejig.com/vtj_research/20230123_233417_yureio.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: 'f004f3ef354a04a85fd5dcbd73a630cd',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1679029338/verticaltubejig.com/vtj_research/20230123_233417_yureio.jpg',
+    smaller: 'https://res.cloudinary.com/vtapico/image/upload/v1679029338/verticaltubejig.com/vtj_research/20230123_233417_yureio.jpg'
   }
   ]
 excerpt: 'In 2021, Mat Gilbert was invited to go fishing for Lake Trout on Lake Champlain and things have never been the same.'

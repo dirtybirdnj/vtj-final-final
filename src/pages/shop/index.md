@@ -1,6 +1,6 @@
 ---
 nav: Shop
-navOrder: 3
+navOrder: 2
 type: posts
 title: false
 ---

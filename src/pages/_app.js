@@ -9,11 +9,7 @@ function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link rel="preconnect" href="https://cdn.snipcart.com" />
-        <link
-          rel="stylesheet"
-          href="https://cdn.snipcart.com/themes/v3.4.1/default/snipcart.css"
-        />
+
       </Head>
     <Layout>
       <Component {...pageProps} />

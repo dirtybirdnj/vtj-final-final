@@ -9,19 +9,40 @@ author: Mat Gilbert
 featuredBlog: how-to-diy-vtj.md
 images: [
   {
-    src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
-    width: 4,
-    height: 3
-  },
-  {
-    src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
-    width: 1,
-    height: 1
-  },
-  {
-    src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
-    width: 3,
-    height: 4
+    asset_id: '7b7f16b2f5a8ceddca8aea36e7645e8a',
+    public_id: 'verticaltubejig.com/vtj_research/20230219_123134_atqxja',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: '20230219_123134_atqxja',
+    format: 'jpg',
+    version: 1679029132,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T04:58:52+00:00',
+    uploaded_at: '2023-03-17T04:58:52+00:00',
+    bytes: 3507378,
+    backup_bytes: 0,
+    width: 1816,
+    height: 4032,
+    aspect_ratio: 0.4504,
+    pixels: 7322112,
+    url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029132/verticaltubejig.com/vtj_research/20230219_123134_atqxja.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029132/verticaltubejig.com/vtj_research/20230219_123134_atqxja.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: '2ed591a4ca5f638d074e4ce6c2b35d19',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1679029132/verticaltubejig.com/vtj_research/20230219_123134_atqxja.jpg',
+    smaller: 'https://res.cloudinary.com/vtapico/image/upload/v1679029132/verticaltubejig.com/vtj_research/20230219_123134_atqxja.jpg'
   }
   ]
 excerpt: "VTJs are made to help you drop fast and get agressive fish chasing. In this article we're going to explore a few techniques you can use to target Lakers"

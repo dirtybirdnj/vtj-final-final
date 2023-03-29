@@ -9,19 +9,40 @@ featuredBlog: how-to-fish-a-vtj.md
 author: Mat Gilbert
 images: [
   {
-    src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
-    width: 4,
-    height: 3
-  },
-  {
-    src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
-    width: 3,
-    height: 4
-  },
-  {
-    src: "https://source.unsplash.com/PpOHJezOalU/800x599",
-    width: 4,
-    height: 3
+    asset_id: '4ccb04786c70be6bdc37afeed44aa6b9',
+    public_id: 'verticaltubejig.com/vtj_research/20230217_001603_nz2nrj',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: '20230217_001603_nz2nrj',
+    format: 'jpg',
+    version: 1679029257,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T05:00:57+00:00',
+    uploaded_at: '2023-03-17T05:00:57+00:00',
+    bytes: 6084107,
+    backup_bytes: 0,
+    width: 1816,
+    height: 4032,
+    aspect_ratio: 0.4504,
+    pixels: 7322112,
+    url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029257/verticaltubejig.com/vtj_research/20230217_001603_nz2nrj.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029257/verticaltubejig.com/vtj_research/20230217_001603_nz2nrj.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: 'ec7453067de494108b9ebbe3b6a917c3',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1679029257/verticaltubejig.com/vtj_research/20230217_001603_nz2nrj.jpg',
+    smaller: 'https://res.cloudinary.com/vtapico/image/upload/v1679029257/verticaltubejig.com/vtj_research/20230217_001603_nz2nrj.jpg'
   }
   ]
 excerpt: "Today we're going to explain how to create your own VTJ. This is the same process I went through, now I'm sharing my knowledge with you... "
