@@ -4,8 +4,9 @@ date: 2023/1/1
 created: 2023/1/1
 updated: false
 description: A new website all about Vertical Tube Jigs is born!
-tags: ['vertical', 'tube', 'jig']
+tags: ['VTJ','STORE','WEBSITE']
 author: Mat Gilbert
+featuredBlog: dressed-hooks.md
 images: [
   {
     src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",

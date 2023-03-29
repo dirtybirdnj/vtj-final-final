@@ -4,7 +4,8 @@ date: 2023/3/11
 created: 2023/3/11
 updated: false
 description: How to make your own Vertical Tube Jig, and customize it for your local fishery
-tags: ['vertical', 'tube', 'jig','DIY','VTJ']
+tags: ['DIY','VTJ','HOOKS','RIGGING']
+featuredBlog: how-to-fish-a-vtj.md
 author: Mat Gilbert
 images: [
   {

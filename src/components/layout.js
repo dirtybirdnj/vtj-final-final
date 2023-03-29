@@ -192,7 +192,6 @@ export default function Layout({ children }) {
 
       {showProducts && (
         <div>
-          <h1>Product Grid</h1>
           <ProductGrid data={productData}/>
         </div>
 
@@ -207,7 +206,7 @@ export default function Layout({ children }) {
       }
 
       </main>
-      
+
       <Newsletter/>
 
       <Footer pageData={pageData} currentRoute={currentRoute} />

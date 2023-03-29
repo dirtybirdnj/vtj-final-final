@@ -5,4 +5,4 @@ type: posts
 title: false
 ---
 
-This is the store index
+Shop our selection of unique, custom lures and hand tied fishing hooks
