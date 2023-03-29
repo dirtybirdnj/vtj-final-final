@@ -105,7 +105,11 @@ function ProductGrid({
               data-item-price="19.99"
               data-item-description="Two ounce vertical tube jig."
               data-item-image="http://res.cloudinary.com/vtapico/image/upload/v1674591752/verticaltubejig.com/product-photos/2oz-blood-red_y5bvqt.jpg"
-              data-item-name="2oz Vertical Tube Jig">
+              data-item-name="2oz Vertical Tube Jig"
+              data-item-hooktype-name="Hook Type"
+              data-item-hooktype-type="readonly"
+              data-item-hooktype-value="Single 3/0 Dressed"
+              >
               Add to cart
             </ButtonEl>
           </Meta>

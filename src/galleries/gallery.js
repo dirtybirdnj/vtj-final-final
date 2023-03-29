@@ -1112,5 +1112,5 @@ export const galleryPhotos = [
     src: 'http://res.cloudinary.com/vtapico/image/upload/v1679029228/verticaltubejig.com/vtj_research/20230111_232122_loluzj.jpg',
     smaller: 'http://res.cloudinary.com/vtapico/image/upload/v1679029228/verticaltubejig.com/vtj_research/20230111_232122_loluzj.jpg'
   }
-  
+
 ];

@@ -138,6 +138,10 @@ module.exports = withMDX({
         protocol: 'https',
         hostname: '*.unsplash.com'
       },
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+      },
     ],
   },
   compiler: {
