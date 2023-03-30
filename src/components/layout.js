@@ -151,21 +151,32 @@ export default function Layout({ children }) {
     // console.log(config)
   }, [activePage]);
 
-  const markdownOptions = {
-    overrides: {
-      p: {
-       component: ({children, ...props}) => {
+
+  const NextImage = ({ children, ...props }) => (
+    <div {...props}>{children}</div>
+  );
+
+  let NextImageComponent = function ( children, ...props ){
         //const { node } = children
         console.log(children)
 
+
         if (children[0].type === "img") {
           const image = children[0]
-          const metastring = image.properties.alt
+          const metastring = image.props.alt
+
+          console.log(metastring);
+
           const alt = metastring?.replace(/ *\{[^)]*\} */g, "")
           const metaWidth = metastring.match(/{([^}]+)x/)
           const metaHeight = metastring.match(/x([^}]+)}/)
           const width = metaWidth ? metaWidth[1] : "768"
           const height = metaHeight ? metaHeight[1] : "432"
+
+
+          console.log(metaWidth,metaHeight);
+          console.log(width,height);
+
           const isPriority = metastring?.toLowerCase().match('{priority}')
           const hasCaption = metastring?.toLowerCase().includes('{caption:')
           const caption = metastring?.match(/{caption: (.*?)}/)?.pop()
@@ -173,7 +184,7 @@ export default function Layout({ children }) {
           return (
             <div className="postImgWrapper">
               <Image
-                src={image.properties.src}
+                src={image.props.src}
                 width={width}
                 height={height}
                 className="postImg"
@@ -185,6 +196,20 @@ export default function Layout({ children }) {
           )
         }
         return <p>{children}</p>
+    };
+
+  const markdownOptions = {
+    overrides: {
+      p: {
+       component: ({children, ...props}) => {
+
+        if (children[0].type === "img") {
+          console.log(children);
+          return NextImageComponent(children);
+        } else {
+          return <p{...props} >{children}</p>
+        }
+
       }
     } }
   }
