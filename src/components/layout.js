@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import getConfig from 'next/config';
 import { useRouter } from 'next/router';
 import Markdown from 'markdown-to-jsx';
+import styled from 'styled-components';
 import Link from 'next/link';
 import Image from 'next/image';
 import Gallery from "react-photo-gallery";
@@ -27,6 +28,7 @@ export default function Layout({ children }) {
   const [activePage, setActivePage] = useState(null);
   const [showPosts, setShowPosts] = useState(false);
   const [isPost, setIsPost] = useState(false);
+  const [isProduct, setIsProduct] = useState(false);
   const [showTitle,setShowTitle] = useState(false);
 
   const [showProducts, setShowProducts] = useState(false);
@@ -77,6 +79,12 @@ export default function Layout({ children }) {
   const imgStyle = {
     width: '100px'
   }
+
+  const ButtonEl = styled.button`
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+`;
 
   // Show title, date and/or author
   const postHeader = isPost ? (
@@ -137,6 +145,9 @@ export default function Layout({ children }) {
 
       // Set conditional to show if you are viewing a post
       setIsPost(currentRoute.includes('/blog/'));
+
+      // Set conditional to show if you are viewing a post
+      setIsProduct(currentRoute.includes('/shop/'));
 
       //if the currentRoute is in the noTitles array, prevent showing it
       const hideTitle = ['/','/gallery','/photos','/blog','/shop','/contact'];
@@ -224,6 +235,21 @@ export default function Layout({ children }) {
           {(activePage.data.title && showTitle) && (
             <h1 style={blogTitleStyles}>{activePage.data.title}</h1>
           )}
+          {isProduct &&
+            <ButtonEl className="snipcart-add-item"
+                data-item-id={activePage.data['snipcart-id']}
+                data-item-price={activePage.data.price}
+                data-item-description={activePage.data.description}
+                data-item-image={activePage.data.images[0].src}
+                data-item-name={activePage.data.title}
+                data-item-hooktype-name="Hook Type"
+                data-item-hooktype-type="readonly"
+                data-item-hooktype-value="Single 3/0 Dressed"
+            >
+            Add to cart
+          </ButtonEl>
+          }
+
           {postHeader && postHeader}
           {currentRoute === '/gallery' && (
             <div>
@@ -239,6 +265,21 @@ export default function Layout({ children }) {
 
           {activePage.data.images &&
             <Gallery photos={activePage.data.images}/>
+          }
+
+          {isProduct &&
+            <ButtonEl className="snipcart-add-item"
+                data-item-id={activePage.data['snipcart-id']}
+                data-item-price={activePage.data.price}
+                data-item-description={activePage.data.description}
+                data-item-image={activePage.data.images[0].src}
+                data-item-name={activePage.data.title}
+                data-item-hooktype-name="Hook Type"
+                data-item-hooktype-type="readonly"
+                data-item-hooktype-value="Single 3/0 Dressed"
+            >
+            Add to cart
+          </ButtonEl>
           }
 
           <Markdown options={markdownOptions}>{activePage.content}</Markdown>
