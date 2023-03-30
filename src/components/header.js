@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import styled from 'styled-components';
 import { useRouter } from 'next/router';
+import { BsFacebook, BsInstagram } from 'react-icons/bs';
 
 import logoImage from '../../public/vtj-circle.svg';
 
@@ -95,7 +96,7 @@ function Header({
       const pageTitle = page.data.title;
       const navName = page.data.nav;
       const pageOrder = page.data.navOrder ? page.data.navOrder : 100;
-      
+
       const linkStyles = {
         order: pageOrder
       }
@@ -118,6 +119,11 @@ function Header({
         </Subtitle>
       </LogoContainer>
       <NavContainer>{links}</NavContainer>
+      <p>
+        <Link href="https://www.facebook.com/verticaltubejig" target="_blank"><BsFacebook/></Link>
+        <Link href="https://www.instagram.com/verticaltubejig" target="_blank"><BsInstagram/></Link>
+      </p>
+
     </HeaderContainer>
   )
 }
