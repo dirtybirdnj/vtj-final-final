@@ -19,7 +19,7 @@ async function getImages (){
     return cloudinary.v2
     .search.expression(
     'folder:verticaltubejig.com/vtj_research/*' // add your folder
-    ).sort_by('public_id','desc').max_results(30).execute()
+    ).sort_by('public_id','desc').max_results(100).execute()
     .then((result)=>{
       return result;
     }).catch((err) =>{
@@ -32,15 +32,42 @@ async function getImages (){
 
 }
 
+function smallerUrl(url){
+
+  let pieces = url.split('/');
+
+  // console.log(pieces);
+  // process.exit();
+
+  const baseURL = pieces.slice(0,6).join('/');
+  const folderPathFile = pieces.slice(6).join('/')
+
+  //const file = pieces.pop();
+  //return pieces.join('/') + '//smallerurl';
+
+  return `${baseURL}/w_200,c_scale/${folderPathFile}`;
+
+}
+
 // node fetchCDNPhotos.js | pbcopy
 async function outputJSON(){
 
   const imageData = await getImages().then((result) => {
 
+    // console.log(result.total_count, result.resources.length)
+    // process.exit();
+
     result.resources.forEach((photo) => {
-      photo.src = photo.url;
-      photo.smaller = photo.url;
-      console.log(photo)
+
+      const eachPhoto = {};
+
+      //eachPhoto.src = photo.url;
+      eachPhoto.smaller = smallerUrl(photo.url);
+      eachPhoto.
+      eachPhoto.width = photo.width;
+      eachPhoto.height = photo.height;
+      eachPhoto.aspect_ratio = photo.aspect_ratio
+      console.log(eachPhoto)
       console.log("\,")
     })
 

@@ -71,6 +71,42 @@ export const homePagePhotos = [
     src: 'http://res.cloudinary.com/vtapico/image/upload/v1674591752/verticaltubejig.com/product-photos/gold-34oz_sdz8im.jpg'
   },
   {
+    asset_id: '6a9e9eeea89350ae85c6d60c3674cfcd',
+    public_id: 'verticaltubejig.com/vtj_research/Screenshot_20221223_212251_Photos_mokeg4',
+    folder: 'verticaltubejig.com/vtj_research',
+    filename: 'Screenshot_20221223_212251_Photos_mokeg4',
+    format: 'jpg',
+    version: 1679029106,
+    resource_type: 'image',
+    type: 'upload',
+    created_at: '2023-03-17T04:58:26+00:00',
+    uploaded_at: '2023-03-17T04:58:26+00:00',
+    bytes: 1596488,
+    backup_bytes: 0,
+    width: 2400,
+    height: 1080,
+    aspect_ratio: 2.22222,
+    pixels: 2592000,
+    url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029106/verticaltubejig.com/vtj_research/Screenshot_20221223_212251_Photos_mokeg4.jpg',
+    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029106/verticaltubejig.com/vtj_research/Screenshot_20221223_212251_Photos_mokeg4.jpg',
+    status: 'active',
+    access_mode: 'public',
+    access_control: null,
+    etag: 'c9e84b72073ace57ec74f12f78127ca4',
+    created_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    uploaded_by: {
+      access_key: '787279763172256',
+      custom_id: 'matgilbert@gmail.com',
+      external_id: 'f64c81116607081e4444a68b272038'
+    },
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1679029106/verticaltubejig.com/vtj_research/Screenshot_20221223_212251_Photos_mokeg4.jpg',
+    smaller: 'https://res.cloudinary.com/vtapico/image/upload/v1679029106/verticaltubejig.com/vtj_research/Screenshot_20221223_212251_Photos_mokeg4.jpg'
+  },
+  {
     asset_id: 'cd0996d57d5cf2385ae81f4c76452e6e',
     public_id: 'verticaltubejig.com/product-photos/2oz-blood-red_y5bvqt',
     folder: 'verticaltubejig.com/product-photos',

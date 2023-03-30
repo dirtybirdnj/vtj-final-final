@@ -3,6 +3,7 @@ import getConfig from 'next/config';
 import { useRouter } from 'next/router';
 import Markdown from 'markdown-to-jsx';
 import Link from 'next/link';
+import Image from 'next/image';
 import Gallery from "react-photo-gallery";
 import { homePagePhotos } from '@/galleries/homepage';
 import { galleryPhotos } from '@/galleries/gallery';
@@ -150,6 +151,45 @@ export default function Layout({ children }) {
     // console.log(config)
   }, [activePage]);
 
+  const markdownOptions = {
+    overrides: {
+      p: {
+       component: ({children, ...props}) => {
+        //const { node } = children
+        console.log(children)
+
+        if (children[0].type === "img") {
+          const image = children[0]
+          const metastring = image.properties.alt
+          const alt = metastring?.replace(/ *\{[^)]*\} */g, "")
+          const metaWidth = metastring.match(/{([^}]+)x/)
+          const metaHeight = metastring.match(/x([^}]+)}/)
+          const width = metaWidth ? metaWidth[1] : "768"
+          const height = metaHeight ? metaHeight[1] : "432"
+          const isPriority = metastring?.toLowerCase().match('{priority}')
+          const hasCaption = metastring?.toLowerCase().includes('{caption:')
+          const caption = metastring?.match(/{caption: (.*?)}/)?.pop()
+
+          return (
+            <div className="postImgWrapper">
+              <Image
+                src={image.properties.src}
+                width={width}
+                height={height}
+                className="postImg"
+                alt={alt}
+                priority={isPriority}
+              />
+                {hasCaption ? <div className="caption" aria-label={caption}>{caption}</div> : null}
+            </div>
+          )
+        }
+        return <p>{children}</p>
+      }
+    } }
+  }
+
+
   return (
     <div style={containerStyles}>
       <Header pageData={pageData} currentRoute={currentRoute} />
@@ -175,7 +215,7 @@ export default function Layout({ children }) {
             <Gallery photos={activePage.data.images}/>
           }
 
-          <Markdown>{activePage.content}</Markdown>
+          <Markdown options={markdownOptions}>{activePage.content}</Markdown>
           {tags && (
             <div style={tagContainerStyles}>
               {tags}
