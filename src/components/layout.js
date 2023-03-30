@@ -157,25 +157,22 @@ export default function Layout({ children }) {
   );
 
   let NextImageComponent = function ( children, ...props ){
-        //const { node } = children
-        console.log(children)
-
 
         if (children[0].type === "img") {
           const image = children[0]
           const metastring = image.props.alt
 
-          console.log(metastring);
-
+          //Pulling dims isnt working BUT SOMEHOW IMAGES DISPLAY OK?! WHAT?!
+          //This was copied from elsewhere and adapted. kinda ugly, maybe could be fised?
           const alt = metastring?.replace(/ *\{[^)]*\} */g, "")
-          const metaWidth = metastring.match(/{([^}]+)x/)
-          const metaHeight = metastring.match(/x([^}]+)}/)
-          const width = metaWidth ? metaWidth[1] : "768"
-          const height = metaHeight ? metaHeight[1] : "432"
+          const metaDimsResult = image.props.alt.match(/({([^}]+)})/)
+          //const metaDims = metaDimResult[2].replace(/[{}]/g,'').toString();
+          const dims = metaDimsResult[2].split('x');
 
+          //console.log(alt,metaDimsResult,dims)
 
-          console.log(metaWidth,metaHeight);
-          console.log(width,height);
+          const width = dims[0]
+          const height = dims[1]
 
           const isPriority = metastring?.toLowerCase().match('{priority}')
           const hasCaption = metastring?.toLowerCase().includes('{caption:')
@@ -185,8 +182,12 @@ export default function Layout({ children }) {
             <div className="postImgWrapper">
               <Image
                 src={image.props.src}
-                width={width}
-                height={height}
+                width={100}
+                height={100}
+                sizes="(max-width: 768px) 100vw,
+                (max-width: 1200px) 50vw,
+                33vw"
+                style={{ height: '100%', width: '100%' }}
                 className="postImg"
                 alt={alt}
                 priority={isPriority}
