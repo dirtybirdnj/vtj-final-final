@@ -91,6 +91,8 @@ function ProductGrid({
       const postTitle = post.data.title ? post.data.title : null;
       const postExceprt = post.data.excerpt ? post.data.excerpt : null;
 
+      console.log(post.data)
+
       return (
         <Product key={i}>
           <ImageEl onClick={() => router.push(postPath)} src={post.data.images[0].src} height={200} width={200} alt={post.data.title} href={postPath}  />
@@ -101,11 +103,11 @@ function ProductGrid({
             )}
 
             <ButtonEl className="snipcart-add-item"
-              data-item-id="2oz-vtj"
-              data-item-price="19.99"
-              data-item-description="Two ounce vertical tube jig."
-              data-item-image="http://res.cloudinary.com/vtapico/image/upload/v1674591752/verticaltubejig.com/product-photos/2oz-blood-red_y5bvqt.jpg"
-              data-item-name="2oz Vertical Tube Jig"
+              data-item-id={post.data['snipcart-id']}
+              data-item-price={post.data.price}
+              data-item-description={post.data.description}
+              data-item-image={post.data.images[0].src}
+              data-item-name={post.data.title}
               data-item-hooktype-name="Hook Type"
               data-item-hooktype-type="readonly"
               data-item-hooktype-value="Single 3/0 Dressed"

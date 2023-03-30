@@ -1,13 +1,13 @@
 ---
-title: 28g / 3/4oz Gold VTJ
+title: 21g / 3/4oz Gold VTJ
 date: 2022/10/20
 created: 2022/10/20
 updated: 2023/01/02
-description: 28g / 3/4 Oz Gold VTJ with dressed treble.
-tags: ['VTJ','GOLD','TREBLE']
+description: "28g / 3/4 Oz Gold VTJ with dressed treble."
+tags: ['VTJ','GOLD','TREBLE','VMC']
 author: Mat Gilbert
-price: 49.95,
-snipcart-id: VTJ-28G-GOLD-DT
+price: 49.95
+snipcart-id: VTJ-21G-GOLD-DT
 images: [
   {
     asset_id: '800f2569695bb96f0239df2aca4ece3d',
@@ -48,8 +48,8 @@ images: [
 excerpt: 'Danish muffin marshmallow halvah pastry marzipan cupcake carrot cake soufflé. Muffin icing carrot cake chocolate cake bear claw. Wafer gummies tart gummi bears shortbread jelly beans icing croissant.'
 ---
 
-Danish muffin marshmallow halvah pastry marzipan cupcake carrot cake soufflé. Muffin icing carrot cake chocolate cake bear claw. Wafer gummies tart gummi bears shortbread jelly beans icing croissant. Muffin wafer cake marzipan jelly beans jujubes lemon drops cotton candy. Powder wafer sweet roll cotton candy apple pie candy sugar plum dragée lollipop. Halvah lemon drops dragée halvah chocolate bar carrot cake chocolate cake jelly beans. Toffee sweet lollipop dessert candy canes. Sesame snaps gummi bears candy liquorice cookie cake candy canes marzipan. Halvah tart chocolate bar topping sugar plum. Brownie tootsie roll cupcake muffin gingerbread cake. Fruitcake jelly-o gummi bears croissant candy icing. Candy canes chocolate bar gummies carrot cake tootsie roll caramels.
+This 21g / 3/4oz Gold VTJ is great for situations where you don't have a lot of drift or you are blessed with spot lock! The smaller profile will attract big fish that are feeding on smaller bait, sometimes bigger ISNT'T better!
 
-Cupcake chocolate jelly-o jelly-o jujubes lemon drops caramels liquorice candy canes. Macaroon chupa chups candy tiramisu apple pie candy canes. Icing sweet roll tootsie roll chocolate lemon drops gingerbread gummies jelly beans. Cake jujubes chocolate cake sugar plum biscuit. Ice cream croissant cotton candy pudding bear claw. Lollipop dessert toffee bonbon macaroon pastry. Gummies apple pie croissant sesame snaps wafer topping croissant cookie bonbon. Wafer lollipop sesame snaps bonbon biscuit. Pastry sweet jelly dessert topping candy danish chocolate. Gummi bears shortbread shortbread sweet chocolate muffin fruitcake. Cupcake danish biscuit candy canes cake gummies macaroon. Fruitcake tart croissant bonbon muffin cake donut gingerbread tart. Tootsie roll jelly marshmallow powder pudding caramels pastry.
+The gold immitates baitfish and depending on the body of water you are in, you might want to consider another color like high-vis green or red to compliment the more natural, metallic shine of this gold lure.
 
-Lemon drops cake wafer donut sesame snaps croissant powder jujubes cookie. Sugar plum pudding soufflé candy canes cookie brownie sweet powder. Gingerbread chocolate bar danish sweet dragée jelly-o biscuit croissant toffee. Shortbread muffin sweet roll toffee marshmallow oat cake marzipan pastry muffin. Chocolate liquorice pudding dragée caramels sweet roll. Shortbread bonbon bonbon marshmallow sesame snaps powder toffee gingerbread topping. Apple pie cheesecake chupa chups dragée danish icing tiramisu. Jelly-o liquorice halvah candy canes candy canes. Soufflé pastry macaroon sweet roll tart sweet sweet tart pudding. Gingerbread chocolate topping brownie dessert pudding. Soufflé tiramisu sweet cookie pastry dragée tart cupcake. Halvah liquorice powder lollipop muffin powder jujubes sweet. Cupcake jelly bonbon chocolate bar cotton candy.
+The dressed treble has black and gold material with a black thread on a dark VMC hook for maximum stealthiness and stickiness! Tip it with some baitfish meat, sleeve a tube over if you want and get ready for big agressive fish to crush!
