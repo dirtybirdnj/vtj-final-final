@@ -116,14 +116,13 @@ function Header({
           <span>verticaltubejig.com</span>
           <span> | </span>
           <span>hand made in huntington vt</span>
+          <span> | </span>
+          <span> <Link href="https://www.facebook.com/verticaltubejig" target="_blank"><BsFacebook/></Link></span>
+          <span> | </span>
+          <span><Link href="https://www.instagram.com/verticaltubejig" target="_blank"><BsInstagram/></Link></span>
         </Subtitle>
       </LogoContainer>
       <NavContainer>{links}</NavContainer>
-      <p>
-        <Link href="https://www.facebook.com/verticaltubejig" target="_blank"><BsFacebook/></Link>
-        <Link href="https://www.instagram.com/verticaltubejig" target="_blank"><BsInstagram/></Link>
-      </p>
-
     </HeaderContainer>
   )
 }
