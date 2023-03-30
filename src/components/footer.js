@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import styled from 'styled-components';
 import { useRouter } from 'next/router';
+import { BsFacebook, BsInstagram } from 'react-icons/bs';
 
 import logoImage from '../../public/vtj-circle.svg';
 
@@ -48,6 +49,8 @@ function Footer({
       <RightSide>
         <Link href="mailto: orders@verticaltubejig.com">orders@verticaltubejig.com</Link>
         <span>EST. 2023 Huntington, VT | <Link href="http://vtapi.co" target="_blank">vtapi.co</Link></span>
+        <Link href="https://www.facebook.com/verticaltubejig" target="_blank"><BsFacebook/></Link>
+        <Link href="https://www.instagram.com/verticaltubejig" target="_blank"><BsInstagram/></Link>
       </RightSide>
     </FooterEl>
   )
