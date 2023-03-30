@@ -6,6 +6,7 @@ updated: 2023/01/02
 description: Learn why one of the key features of the VTJ helps you land more fish.
 tags: ['VTJ','SWIVEL']
 author: Mat Gilbert
+featuredBlog: how-to-fish-a-vtj.md
 images: [
   {
     asset_id: '935e1cfbef7933bfc5c009cfd36a2924',

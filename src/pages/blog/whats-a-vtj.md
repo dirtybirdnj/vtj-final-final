@@ -5,6 +5,7 @@ created: 2023/01/04
 updated: 2023/01/05
 description: A vertical tube jig is a combination of a trolling weight, split rings and a treble or single hook
 tags: ['VTJ','STRATEGY','FISHFINDER','KAYAK','BOAT']
+featuredBlog: double-swivel.md
 author: Mat Gilbert
 images: [
   {
