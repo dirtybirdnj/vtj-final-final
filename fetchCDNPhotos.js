@@ -32,21 +32,12 @@ async function getImages (){
 
 }
 
+//Maybe useful later? did this with a var string instead
 function smallerUrl(url){
-
   let pieces = url.split('/');
-
-  // console.log(pieces);
-  // process.exit();
-
   const baseURL = pieces.slice(0,6).join('/');
   const folderPathFile = pieces.slice(6).join('/')
-
-  //const file = pieces.pop();
-  //return pieces.join('/') + '//smallerurl';
-
   return `${baseURL}/w_200,c_scale/${folderPathFile}`;
-
 }
 
 // node fetchCDNPhotos.js | pbcopy
@@ -59,14 +50,27 @@ async function outputJSON(){
 
     result.resources.forEach((photo) => {
 
+      //console.log(photo)
+
       const eachPhoto = {};
 
-      //eachPhoto.src = photo.url;
-      eachPhoto.smaller = smallerUrl(photo.url);
-      eachPhoto.
+      const srcSizes = ['500', '800', '1024', '1600'];
+      let srcSetSizes = [];
+      srcSizes.forEach((size) => srcSetSizes.push(`${process.env.CLOUDINARY_URL}/w_${size},c_scale/${photo.folder}/${photo.filename}.${photo.format} ${size}w`))
+
+      //500w, 800w, 1024w, 1600w
+      const srcSet = {
+        srcSet: srcSetSizes,
+        sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+        width: Math.round(photo.width / 1000),
+        height: Math.round(photo.height / 1000)
+      }
+
+      eachPhoto.src = photo.secure_url;
+      eachPhoto.srcSet = srcSet;
       eachPhoto.width = photo.width;
       eachPhoto.height = photo.height;
-      eachPhoto.aspect_ratio = photo.aspect_ratio
+
       console.log(eachPhoto)
       console.log("\,")
     })
