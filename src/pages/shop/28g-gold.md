@@ -7,6 +7,8 @@ description: 28g / 1oz Gold VTJ with dressed treble.
 tags: ['VTJ','GOLD','TREBLE','1OZ']
 author: Mat Gilbert
 price: 49.95
+weight: 28
+hooktype: 'Dressed Treble'
 snipcart-id: VTJ-28G-GOLD-DT
 images: [
   {

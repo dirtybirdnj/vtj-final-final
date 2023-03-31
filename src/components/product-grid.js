@@ -91,7 +91,7 @@ function ProductGrid({
       const postTitle = post.data.title ? post.data.title : null;
       const postExceprt = post.data.excerpt ? post.data.excerpt : null;
 
-      console.log(post.data)
+      //console.log(post.data)
 
       return (
         <Product key={i}>
@@ -110,7 +110,10 @@ function ProductGrid({
               data-item-name={post.data.title}
               data-item-hooktype-name="Hook Type"
               data-item-hooktype-type="readonly"
-              data-item-hooktype-value="Single 3/0 Dressed"
+              data-item-hooktype-value={post.data.hooktype}
+              data-item-weight={post.data.weight}
+              data-item-quantity={1}
+              data-item-taxable={true}
               >
               Add to cart
             </ButtonEl>

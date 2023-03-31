@@ -33,7 +33,7 @@ export default function Layout({ children }) {
 
   const [showProducts, setShowProducts] = useState(false);
 
-//console.log(activePage);
+  //console.log(activePage);
 
   // Temp styles
   const containerStyles = {

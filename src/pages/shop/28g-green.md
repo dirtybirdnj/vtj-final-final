@@ -7,6 +7,8 @@ description: A 28g / 1oz green VTJ with a dressed treble and a single hook
 tags: ['VTJ','VENOM','SINGLE HOOK','SD','DRESSED']
 author: Mat Gilbert
 featuredBlog: whats-a-vtj.md
+hooktype: 'Dressed Single'
+weight: 28
 price: 19.95
 snipcart-id: VTJ-28G-VENOM-SD
 images: [

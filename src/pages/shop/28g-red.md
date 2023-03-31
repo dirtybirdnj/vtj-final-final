@@ -8,6 +8,8 @@ tags: ['VTJ','RED','TREBLE','1OZ']
 author: Mat Gilbert
 price: 49.95
 snipcart-id: VTJ-28G-RED-DT
+weight: 28
+hooktype: 'Dressed Treble'
 images: [
   {
     asset_id: 'cd0996d57d5cf2385ae81f4c76452e6e',
