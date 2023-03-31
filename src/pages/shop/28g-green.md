@@ -11,6 +11,7 @@ hooktype: 'Dressed Single'
 weight: 28
 price: 19.95
 snipcart-id: VTJ-28G-VENOM-SD
+snipcart-url: 28g-green
 images: [
   {
     asset_id: '9d332364778a2478674f543e371aad3b',

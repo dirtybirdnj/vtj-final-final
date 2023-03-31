@@ -10,6 +10,7 @@ price: 49.95
 weight: 28
 hooktype: 'Dressed Treble'
 snipcart-id: VTJ-28G-GOLD-DT
+snipcart-url: 28g-gold
 images: [
   {
     asset_id: '800f2569695bb96f0239df2aca4ece3d',

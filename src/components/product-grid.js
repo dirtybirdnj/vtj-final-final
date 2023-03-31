@@ -91,7 +91,7 @@ function ProductGrid({
       const postTitle = post.data.title ? post.data.title : null;
       const postExceprt = post.data.excerpt ? post.data.excerpt : null;
 
-      //console.log(post.data)
+      console.log(post.data)
 
       return (
         <Product key={i}>
@@ -104,6 +104,7 @@ function ProductGrid({
 
             <ButtonEl className="snipcart-add-item"
               data-item-id={post.data['snipcart-id']}
+              data-item-url={`/${post.data['snipcart-url']}`}
               data-item-price={post.data.price}
               data-item-description={post.data.description}
               data-item-image={post.data.images[0].src}
