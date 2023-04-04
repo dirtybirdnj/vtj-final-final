@@ -67,7 +67,7 @@ async function outputJSON(){
       }
 
       eachPhoto.src = photo.secure_url;
-      eachPhoto.srcSet = srcSet;
+      eachPhoto.srcSet = srcSetSizes;
       eachPhoto.width = photo.width;
       eachPhoto.height = photo.height;
 
