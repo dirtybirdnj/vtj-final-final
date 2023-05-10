@@ -1,5 +1,5 @@
 const postmark = require('postmark');
-const client = new postmark.ServerClient('e00a4c55-00ac-41a5-84f0-992b0dafbe53');
+const client = new postmark.ServerClient(process.env.POSTMARK_API_KEY);
 
 const message = {
   From: 'orders@verticaltubejig.com',
