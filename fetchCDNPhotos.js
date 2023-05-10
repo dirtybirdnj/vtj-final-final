@@ -56,7 +56,7 @@ async function outputJSON(){
 
       const srcSizes = ['500', '800', '1024', '1600'];
       let srcSetSizes = [];
-      srcSizes.forEach((size) => srcSetSizes.push(`${process.env.CLOUDINARY_URL}/w_${size},c_scale/${photo.folder}/${photo.filename}.${photo.format} ${size}w`))
+      srcSizes.forEach((size) => srcSetSizes.push(`${process.env.CLOUDINARY_URL}/w_${size},c_scale/${process.env.CLOUDINARY_ID}/${photo.folder}/${photo.filename}.${photo.format} ${size}w`))
 
       //500w, 800w, 1024w, 1600w
       const srcSet = {
