@@ -93,7 +93,7 @@ function ProductGrid({
 
       const productURL = process.env.NEXT_PUBLIC_SITE_URL + postPath
 
-      console.log(post.data)
+      //console.log(post.data)
 
       return (
         <Product key={i}>
@@ -106,7 +106,7 @@ function ProductGrid({
 
             <ButtonEl className="snipcart-add-item"
               data-item-id={post.data['snipcart-id']}
-              data-item-url={`/${post.data['snipcart-url']}`}
+              data-item-url={productURL}
               data-item-price={post.data.price}
               data-item-description={post.data.description}
               data-item-image={post.data.images[0].src}
