@@ -93,7 +93,7 @@ function ProductGrid({
 
       const productURL = process.env.NEXT_PUBLIC_SITE_URL + postPath
 
-      //console.log(post.data)
+      console.log(post.data)
 
       return (
         <Product key={i}>
