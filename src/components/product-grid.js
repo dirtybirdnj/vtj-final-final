@@ -97,7 +97,7 @@ function ProductGrid({
 
       return (
         <Product key={i}>
-          <ImageEl onClick={() => router.push(postPath)} src={post.data.images[0].src} height={200} width={200} alt={post.data.title} href={postPath}  />
+          <ImageEl src={post.data.images[0].src} height={200} width={200} alt={post.data.title} href={postPath}  />
           <Meta>
             <Title href={postPath}>{postTitle}</Title>
             {post.data.excerpt && (
@@ -129,7 +129,11 @@ function ProductGrid({
   })
 
   return (
-    <ProductContainer>{postGroup}</ProductContainer>
+
+    <>
+        <p>If you would like to place an order please contact us via email or facebook. We accept Venmo and also can take Credit Cards via a secure payment link.</p>
+        <Image src="https://res.cloudinary.com/vtapico/image/upload/v1683906419/verticaltubejig.com/product-photos/inventory-5.12.23_a3q6gc.jpg" width={4032} height={1816} alt="VTJs for sale as of 5.12.23" layout="responsive" />
+    </>
   )
 }
 
