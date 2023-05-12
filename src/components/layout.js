@@ -16,6 +16,11 @@ import { FeaturedBlog, Posts } from './posts';
 import ProductGrid from './product-grid';
 import Newsletter from './newsletter';
 
+import ContactForm from './contactForm';
+
+//This is a crime against humanity. Time to refactor the codebase
+import About from './about';
+
 import {getDateString} from '../util';
 
 export default function Layout({ children }) {
@@ -311,6 +316,12 @@ export default function Layout({ children }) {
       </div>
 
       }
+
+      { router.pathname == '/about' &&
+        <About/>
+      }
+
+
 
       </main>
 

@@ -7,9 +7,9 @@ date: 2021-03-18
 images: []
 ---
 
-If you would like to order a tube jig, please use the online store.
+If you would like to order a VTJ, dressed treble or some merch please use the online store. The link above that says "shop" will always show the latest products.
 
-You can contact us via facebook or instagram as well.
+If you want to request something specific or just give us a shout you can find us on facebook and instagram!
 
 https://www.facebook.com/verticaltubejig
 

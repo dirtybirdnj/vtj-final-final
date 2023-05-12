@@ -16,7 +16,7 @@ function App({ Component, pageProps }) {
     </Layout>
     <div
         id="snipcart"
-        data-api-key="M2IyMmNmYTEtNjQ0Yi00MjI2LTkwOTMtZGIxOWY0MDZlNTgzNjM3MTI0MDkxNTc3MzgyMDA3"
+        data-api-key="M2VlNGU3NWMtNjAxMS00ZjEwLWI0YmMtYTdlN2ZkYjMxZDI1NjM4MTkzMjI1MDQ5MTAxMjg2"
         data-config-modal-style="side"
         hidden
       ></div>
