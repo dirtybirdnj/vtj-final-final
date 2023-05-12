@@ -131,7 +131,7 @@ function ProductGrid({
   return (
 
     <>
-        <p>If you would like to place an order please contact us via email or facebook. We accept Venmo and also can take Credit Cards via a secure payment link.</p>
+        <p>If you would like to place an order please contact us via email or Facebook. We currently accept Venmo and will soon have secure online order processing.</p>
 
         <h3>Current Inventory:</h3>
         <p>VTJs are currently available in: 3/4oz, 1oz, 2oz and 3oz</p>

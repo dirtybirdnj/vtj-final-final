@@ -49,7 +49,7 @@ function About({
 
       <p>Eventually Mat got the idea to use Eagle Claw trolling weights inside tubes. Instead of rigging them horizontally, this new vertical rigging offers a few benefits: </p>
 
-      <Image src={' https://res.cloudinary.com/vtapico/image/upload/v1672160736/verticaltubejig.com/vtj_research/20220304_123030_xjrtjg.jpg'}
+      <Image src={'https://res.cloudinary.com/vtapico/image/upload/v1672160736/verticaltubejig.com/vtj_research/20220304_123030_xjrtjg.jpg'}
         width={1816}
         height={4032}
         alt="image shows up"
