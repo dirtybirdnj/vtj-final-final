@@ -132,7 +132,13 @@ function ProductGrid({
 
     <>
         <p>If you would like to place an order please contact us via email or facebook. We accept Venmo and also can take Credit Cards via a secure payment link.</p>
-        <Image src="https://res.cloudinary.com/vtapico/image/upload/v1683906419/verticaltubejig.com/product-photos/inventory-5.12.23_a3q6gc.jpg" width={4032} height={1816} alt="VTJs for sale as of 5.12.23" layout="responsive" />
+
+        <h3>Current Inventory:</h3>
+        <p>VTJs are currently available in: 3/4oz, 1oz, 2oz and 3oz</p>
+        <p>When requesting to purchase a lure please specify color and size (i.e. 2oz white) or use the number in the image below. Online shopping coming soon!</p>
+        <Image src="https://res.cloudinary.com/vtapico/image/upload/v1683918704/verticaltubejig.com/product-photos/inventory-5.12.23.2_xohfem.jpg" width={3700} height={1816} alt="VTJs for sale as of 5.12.23" layout="responsive" />
+        <p>The store is just getting started so please allow 3-5 days for shipping. If you would like to pick up your order locally that is possible too! We are located in Huntington and can meet people in the Burlington or Waterbury areas.</p>
+        <p>Thank you for your support!</p>
     </>
   )
 }

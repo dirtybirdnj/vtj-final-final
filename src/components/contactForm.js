@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import Image from 'next/image'
+import Link from 'next/link'
+import { BsFacebook, BsInstagram, BsEnvelopeAtFill } from 'react-icons/bs';
 
 function ContactForm() {
   const [name, setName] = useState('');
@@ -20,40 +23,15 @@ function ContactForm() {
   };
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name</label>
-          <input
-            type="text"
-            id="name"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            required
-          />
-        </div>
-        <div>
-          <label htmlFor="email">Email</label>
-          <input
-            type="email"
-            id="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-        </div>
-        <div>
-          <label htmlFor="message">Message</label>
-          <textarea
-            id="message"
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-            required
-          ></textarea>
-        </div>
-        <button type="submit">Send</button>
-      </form>
-    </div>
+
+      <>
+      <Image src="https://res.cloudinary.com/vtapico/image/upload/v1683918897/verticaltubejig.com/20220212_084144_j6spgi_cf42a0.jpg" width={2752} height={1681} alt="say hello to my friend!" layout="responsive"/>
+        <p>If you would like to order a VTJ, dressed treble or some merch please use the online store. The link above that says &quot;shop&quot; will always show the latest products.</p>
+        <p>If you want to request something specific or just give us a shout you can find us on facebook and instagram!</p>
+        <p><Link href="https://www.facebook.com/verticaltubejig" target="_blank"><BsFacebook/>https://www.facebook.com/verticaltubejig</Link></p>
+        <p><Link href="https://www.instagram.com/verticaltubejig" target="_blank"><BsInstagram/>https://www.instagram.com/verticaltubejig</Link></p>
+      </>
+
   );
 }
 

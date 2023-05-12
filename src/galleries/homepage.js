@@ -1,179 +1,244 @@
 export const homePagePhotos = [
+  {
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1683919921/verticaltubejig.com/homepage_masonry/20220315_115428_mwiqbh.jpg',
+    srcSet: [
+      'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220315_115428_mwiqbh.jpg 500w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_800,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220315_115428_mwiqbh.jpg 800w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1024,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220315_115428_mwiqbh.jpg 1024w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1600,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220315_115428_mwiqbh.jpg 1600w'
+    ],
+    width: 3154,
+    height: 1578
+  },
+  {
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1683919971/verticaltubejig.com/homepage_masonry/20230512_112915_pwbxcq.jpg',
+    srcSet: [
+      'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230512_112915_pwbxcq.jpg 500w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_800,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230512_112915_pwbxcq.jpg 800w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1024,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230512_112915_pwbxcq.jpg 1024w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1600,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230512_112915_pwbxcq.jpg 1600w'
+    ],
+    width: 1816,
+    height: 4032
+  }
+  ,
+  {
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1683919976/verticaltubejig.com/homepage_masonry/20230512_112907_vkwqca.jpg',
+    srcSet: [
+      'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230512_112907_vkwqca.jpg 500w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_800,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230512_112907_vkwqca.jpg 800w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1024,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230512_112907_vkwqca.jpg 1024w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1600,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230512_112907_vkwqca.jpg 1600w'
+    ],
+    width: 1816,
+    height: 4032
+  }
+  ,
+  {
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1683919977/verticaltubejig.com/homepage_masonry/20230512_112855_ffn3pu.jpg',
+    srcSet: [
+      'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230512_112855_ffn3pu.jpg 500w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_800,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230512_112855_ffn3pu.jpg 800w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1024,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230512_112855_ffn3pu.jpg 1024w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1600,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230512_112855_ffn3pu.jpg 1600w'
+    ],
+    width: 1816,
+    height: 4032
+  }
+  ,
+  {
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1683919977/verticaltubejig.com/homepage_masonry/20230217_161135_yd5kxp.jpg',
+    srcSet: [
+      'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230217_161135_yd5kxp.jpg 500w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_800,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230217_161135_yd5kxp.jpg 800w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1024,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230217_161135_yd5kxp.jpg 1024w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1600,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230217_161135_yd5kxp.jpg 1600w'
+    ],
+    width: 4032,
+    height: 1816
+  }
+,
+{
+  src: 'https://res.cloudinary.com/vtapico/image/upload/v1683919929/verticaltubejig.com/homepage_masonry/20220310_120330_fsvtzl.jpg',
+  srcSet: [
+    'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220310_120330_fsvtzl.jpg 500w',
+    'https://res.cloudinary.com/vtapico/image/upload//w_800,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220310_120330_fsvtzl.jpg 800w',
+    'https://res.cloudinary.com/vtapico/image/upload//w_1024,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220310_120330_fsvtzl.jpg 1024w',
+    'https://res.cloudinary.com/vtapico/image/upload//w_1600,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220310_120330_fsvtzl.jpg 1600w'
+  ],
+  width: 4032,
+  height: 1816
+}
+
+  ,
+  {
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1683919961/verticaltubejig.com/homepage_masonry/20230217_003057_pvc62x.jpg',
+    srcSet: [
+      'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230217_003057_pvc62x.jpg 500w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_800,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230217_003057_pvc62x.jpg 800w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1024,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230217_003057_pvc62x.jpg 1024w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1600,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230217_003057_pvc62x.jpg 1600w'
+    ],
+    width: 1816,
+    height: 4032
+  }
+  ,
+  {
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1683919960/verticaltubejig.com/homepage_masonry/20230217_001552_s91jxj.jpg',
+    srcSet: [
+      'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230217_001552_s91jxj.jpg 500w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_800,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230217_001552_s91jxj.jpg 800w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1024,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230217_001552_s91jxj.jpg 1024w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1600,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230217_001552_s91jxj.jpg 1600w'
+    ],
+    width: 1816,
+    height: 4032
+  }
+  ,
+  {
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1683919919/verticaltubejig.com/homepage_masonry/20230124_101132_xdzyrp.jpg',
+    srcSet: [
+      'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230124_101132_xdzyrp.jpg 500w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_800,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230124_101132_xdzyrp.jpg 800w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1024,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230124_101132_xdzyrp.jpg 1024w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1600,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230124_101132_xdzyrp.jpg 1600w'
+    ],
+    width: 1469,
+    height: 3262
+  }
+  ,
+  {
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1683919919/verticaltubejig.com/homepage_masonry/20230124_101036_onsjjp.jpg',
+    srcSet: [
+      'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230124_101036_onsjjp.jpg 500w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_800,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230124_101036_onsjjp.jpg 800w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1024,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230124_101036_onsjjp.jpg 1024w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1600,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230124_101036_onsjjp.jpg 1600w'
+    ],
+    width: 1305,
+    height: 3094
+  }
+  ,
+  {
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1683919959/verticaltubejig.com/homepage_masonry/20230105_231112_c7cgna.jpg',
+    srcSet: [
+      'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230105_231112_c7cgna.jpg 500w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_800,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230105_231112_c7cgna.jpg 800w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1024,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230105_231112_c7cgna.jpg 1024w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1600,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20230105_231112_c7cgna.jpg 1600w'
+    ],
+    width: 1816,
+    height: 4032
+  }
+  ,
+  {
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1683919946/verticaltubejig.com/homepage_masonry/20220922_213819_tauu0d.jpg',
+    srcSet: [
+      'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220922_213819_tauu0d.jpg 500w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_800,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220922_213819_tauu0d.jpg 800w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1024,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220922_213819_tauu0d.jpg 1024w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1600,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220922_213819_tauu0d.jpg 1600w'
+    ],
+    width: 4032,
+    height: 1816
+  }
+  ,
+  {
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1683919960/verticaltubejig.com/homepage_masonry/20220819_215906_d8j6fd.jpg',
+    srcSet: [
+      'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220819_215906_d8j6fd.jpg 500w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_800,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220819_215906_d8j6fd.jpg 800w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1024,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220819_215906_d8j6fd.jpg 1024w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1600,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220819_215906_d8j6fd.jpg 1600w'
+    ],
+    width: 1816,
+    height: 4032
+  }
+  ,
+  {
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1683919921/verticaltubejig.com/homepage_masonry/VideoCapture_20220615-150040_zxeczg.jpg',
+    srcSet: [
+      'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/VideoCapture_20220615-150040_zxeczg.jpg 500w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_800,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/VideoCapture_20220615-150040_zxeczg.jpg 800w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1024,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/VideoCapture_20220615-150040_zxeczg.jpg 1024w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1600,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/VideoCapture_20220615-150040_zxeczg.jpg 1600w'
+    ],
+    width: 1920,
+    height: 864
+  }
+  ,
+  {
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1683919921/verticaltubejig.com/homepage_masonry/20220810_110430_qbprmu.jpg',
+    srcSet: [
+      'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220810_110430_qbprmu.jpg 500w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_800,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220810_110430_qbprmu.jpg 800w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1024,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220810_110430_qbprmu.jpg 1024w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1600,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220810_110430_qbprmu.jpg 1600w'
+    ],
+    width: 1816,
+    height: 4032
+  }
+  ,
+  {
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1683919935/verticaltubejig.com/homepage_masonry/20220726_195452_01_hw4ggd.jpg',
+    srcSet: [
+      'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220726_195452_01_hw4ggd.jpg 500w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_800,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220726_195452_01_hw4ggd.jpg 800w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1024,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220726_195452_01_hw4ggd.jpg 1024w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1600,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220726_195452_01_hw4ggd.jpg 1600w'
+    ],
+    width: 3024,
+    height: 4032
+  }
+  ,
+  {
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1683919930/verticaltubejig.com/homepage_masonry/20220726_195442_01_rcbspk.jpg',
+    srcSet: [
+      'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220726_195442_01_rcbspk.jpg 500w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_800,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220726_195442_01_rcbspk.jpg 800w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1024,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220726_195442_01_rcbspk.jpg 1024w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1600,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220726_195442_01_rcbspk.jpg 1600w'
+    ],
+    width: 3024,
+    height: 4032
+  }
+  ,
+  {
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1683919940/verticaltubejig.com/homepage_masonry/20220709_230815_wlbshd.jpg',
+    srcSet: [
+      'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220709_230815_wlbshd.jpg 500w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_800,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220709_230815_wlbshd.jpg 800w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1024,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220709_230815_wlbshd.jpg 1024w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1600,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220709_230815_wlbshd.jpg 1600w'
+    ],
+    width: 1816,
+    height: 4032
+  }
+  ,
+  {
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1683919959/verticaltubejig.com/homepage_masonry/20220704_092839_utxaei.jpg',
+    srcSet: [
+      'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220704_092839_utxaei.jpg 500w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_800,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220704_092839_utxaei.jpg 800w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1024,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220704_092839_utxaei.jpg 1024w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1600,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220704_092839_utxaei.jpg 1600w'
+    ],
+    width: 1816,
+    height: 4032
+  }
+  ,
+
 
   {
-    asset_id: '9d332364778a2478674f543e371aad3b',
-    public_id: 'verticaltubejig.com/product-photos/green-single-1oz_wuqeo8',
-    folder: 'verticaltubejig.com/product-photos',
-    filename: 'green-single-1oz_wuqeo8',
-    format: 'jpg',
-    version: 1674576540,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2023-01-24T16:09:00+00:00',
-    uploaded_at: '2023-01-24T16:09:00+00:00',
-    bytes: 260457,
-    backup_bytes: 0,
-    width: 1469,
-    height: 3262,
-    aspect_ratio: 0.45034,
-    pixels: 4791878,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1674576540/verticaltubejig.com/product-photos/green-single-1oz_wuqeo8.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1674576540/verticaltubejig.com/product-photos/green-single-1oz_wuqeo8.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: '4b0db151d60694c2787e64199d84bf2d',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1674576540/verticaltubejig.com/product-photos/green-single-1oz_wuqeo8.jpg'
-  },
-  {
-    asset_id: '800f2569695bb96f0239df2aca4ece3d',
-    public_id: 'verticaltubejig.com/product-photos/gold-34oz_sdz8im',
-    folder: 'verticaltubejig.com/product-photos',
-    filename: 'gold-34oz_sdz8im',
-    format: 'jpg',
-    version: 1674591752,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2023-01-24T20:22:32+00:00',
-    uploaded_at: '2023-01-24T20:22:32+00:00',
-    bytes: 295215,
-    backup_bytes: 0,
-    width: 1239,
-    height: 3426,
-    aspect_ratio: 0.36165,
-    pixels: 4244814,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1674591752/verticaltubejig.com/product-photos/gold-34oz_sdz8im.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1674591752/verticaltubejig.com/product-photos/gold-34oz_sdz8im.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: 'a6d033ac85189868f27fd3e22372bbd4',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1674591752/verticaltubejig.com/product-photos/gold-34oz_sdz8im.jpg'
-  },
-  {
-    asset_id: '6a9e9eeea89350ae85c6d60c3674cfcd',
-    public_id: 'verticaltubejig.com/vtj_research/Screenshot_20221223_212251_Photos_mokeg4',
-    folder: 'verticaltubejig.com/vtj_research',
-    filename: 'Screenshot_20221223_212251_Photos_mokeg4',
-    format: 'jpg',
-    version: 1679029106,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2023-03-17T04:58:26+00:00',
-    uploaded_at: '2023-03-17T04:58:26+00:00',
-    bytes: 1596488,
-    backup_bytes: 0,
-    width: 2400,
-    height: 1080,
-    aspect_ratio: 2.22222,
-    pixels: 2592000,
-    url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029106/verticaltubejig.com/vtj_research/Screenshot_20221223_212251_Photos_mokeg4.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1679029106/verticaltubejig.com/vtj_research/Screenshot_20221223_212251_Photos_mokeg4.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: 'c9e84b72073ace57ec74f12f78127ca4',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    src: 'https://res.cloudinary.com/vtapico/image/upload/v1679029106/verticaltubejig.com/vtj_research/Screenshot_20221223_212251_Photos_mokeg4.jpg',
-    smaller: 'https://res.cloudinary.com/vtapico/image/upload/v1679029106/verticaltubejig.com/vtj_research/Screenshot_20221223_212251_Photos_mokeg4.jpg'
-  },
-  {
-    asset_id: 'cd0996d57d5cf2385ae81f4c76452e6e',
-    public_id: 'verticaltubejig.com/product-photos/2oz-blood-red_y5bvqt',
-    folder: 'verticaltubejig.com/product-photos',
-    filename: '2oz-blood-red_y5bvqt',
-    format: 'jpg',
-    version: 1674591752,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2023-01-24T20:22:32+00:00',
-    uploaded_at: '2023-01-24T20:22:32+00:00',
-    bytes: 277944,
-    backup_bytes: 0,
-    width: 1223,
-    height: 2904,
-    aspect_ratio: 0.42114,
-    pixels: 3551592,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1674591752/verticaltubejig.com/product-photos/2oz-blood-red_y5bvqt.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1674591752/verticaltubejig.com/product-photos/2oz-blood-red_y5bvqt.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: '3c255208d055648a4ea41766ed446017',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1674591752/verticaltubejig.com/product-photos/2oz-blood-red_y5bvqt.jpg'
-  },
-  {
-    asset_id: '593787f90b3dd4071a662dca0fd15df6',
-    public_id: 'verticaltubejig.com/product-photos/1oz-blood-red_nvpmhv',
-    folder: 'verticaltubejig.com/product-photos',
-    filename: '1oz-blood-red_nvpmhv',
-    format: 'jpg',
-    version: 1674591752,
-    resource_type: 'image',
-    type: 'upload',
-    created_at: '2023-01-24T20:22:32+00:00',
-    uploaded_at: '2023-01-24T20:22:32+00:00',
-    bytes: 331765,
-    backup_bytes: 0,
-    width: 1305,
-    height: 3094,
-    aspect_ratio: 0.42178,
-    pixels: 4037670,
-    url: 'http://res.cloudinary.com/vtapico/image/upload/v1674591752/verticaltubejig.com/product-photos/1oz-blood-red_nvpmhv.jpg',
-    secure_url: 'https://res.cloudinary.com/vtapico/image/upload/v1674591752/verticaltubejig.com/product-photos/1oz-blood-red_nvpmhv.jpg',
-    status: 'active',
-    access_mode: 'public',
-    access_control: null,
-    etag: '14e797552a69db0fdbdad59f89d37287',
-    created_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    uploaded_by: {
-      access_key: '787279763172256',
-      custom_id: 'matgilbert@gmail.com',
-      external_id: 'f64c81116607081e4444a68b272038'
-    },
-    src: 'http://res.cloudinary.com/vtapico/image/upload/v1674591752/verticaltubejig.com/product-photos/1oz-blood-red_nvpmhv.jpg'
+    src: 'https://res.cloudinary.com/vtapico/image/upload/v1683919955/verticaltubejig.com/homepage_masonry/20220311_143324_njlxqw.jpg',
+    srcSet: [
+      'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220311_143324_njlxqw.jpg 500w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_800,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220311_143324_njlxqw.jpg 800w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1024,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220311_143324_njlxqw.jpg 1024w',
+      'https://res.cloudinary.com/vtapico/image/upload//w_1600,c_scale/v1672160676/verticaltubejig.com/homepage_masonry/20220311_143324_njlxqw.jpg 1600w'
+    ],
+    width: 4032,
+    height: 1816
   }
-];
+
+  ];

@@ -321,6 +321,11 @@ export default function Layout({ children }) {
         <About/>
       }
 
+      { router.pathname == '/contact' &&
+
+        <ContactForm/>
+      }
+
 
 
       </main>

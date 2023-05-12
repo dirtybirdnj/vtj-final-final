@@ -28,8 +28,6 @@ function About({
         />
       <p>Verticaltubejig.com was created by Mat Gilbert at the end of 2022 after two years of refinement and practice hunting the majestic Lake Trout in Lake Champlain.</p>
 
-      <p>The VTJ is not a new concept, Mat didn&apos;t invent it and if you have created youtube videos about this rigging please email me and I&apos;ll give credit.</p>
-
       <Image src={'https://res.cloudinary.com/vtapico/image/upload/v1672421023/verticaltubejig.com/fish_pics/lake_trout/PXL_20220220_144530216_ksnyqg.jpg'}
         width={4032}
         height={3024}
@@ -37,7 +35,28 @@ function About({
         layout="responsive"
         />
 
+      <p>At first fishing for lakers was done with big 1-2oz jigheads and very large swimbaits. Mat always had trouble getting his lure down fast enough, so he started experimenting with tube jig hooks. Nothing was quite heavy / big enough.</p>
+
+       <p>On a trip to Rhode Island Mat found some very large saltwater spoons and the idea to make bigger laker baits was born.</p>
+
+
+      <Image src={'https://res.cloudinary.com/vtapico/image/upload/v1672160723/verticaltubejig.com/vtj_research/20220304_122912_jql4zd.jpg'}
+        width={4032}
+        height={1816}
+        alt="image shows up"
+        layout="responsive"
+        />
+
       <p>Eventually Mat got the idea to use Eagle Claw trolling weights inside tubes. Instead of rigging them horizontally, this new vertical rigging offers a few benefits: </p>
+
+      <Image src={' https://res.cloudinary.com/vtapico/image/upload/v1672160736/verticaltubejig.com/vtj_research/20220304_123030_xjrtjg.jpg'}
+        width={1816}
+        height={4032}
+        alt="image shows up"
+        layout="responsive"
+        />
+
+
 
       <ol>
         <li>The hook is hidden within the tassles of the tube tail</li>
@@ -52,6 +71,16 @@ function About({
       <Image src={'https://res.cloudinary.com/vtapico/image/upload/v1672160759/verticaltubejig.com/vtj_research/20220726_195452_01_mghoxa.jpg'}
         width={4032}
         height={3024}
+        alt="image shows up"
+        layout="responsive"
+        />
+
+        <p>This new rigging strategy has proved deadly! Now Mat has been experimenting with &quot;tubeless&quot; tubes that can be fished with or without a plastic tube sleeve on them.</p>
+
+
+        <Image src={'https://res.cloudinary.com/vtapico/image/upload/v1683918704/verticaltubejig.com/product-photos/inventory-5.12.23.2_xohfem.jpg'}
+        width={3700}
+        height={1816}
         alt="image shows up"
         layout="responsive"
         />

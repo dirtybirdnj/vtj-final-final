@@ -18,7 +18,9 @@ async function getImages (){
 
     return cloudinary.v2
     .search.expression(
-    'folder:verticaltubejig.com/vtj_research/*' // add your folder
+//    'resource_type:image AND folder:verticaltubejig.com/gallery_masonry/*' // photos page
+    'folder:verticaltubejig.com/homepage_masonry/*' // photos page
+//    'folder:verticaltubejig.com/vtj_research/*' // add your folder
     ).sort_by('public_id','desc').max_results(100).execute()
     .then((result)=>{
       return result;
@@ -40,6 +42,14 @@ function smallerUrl(url){
   return `${baseURL}/w_200,c_scale/${folderPathFile}`;
 }
 
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
 // node fetchCDNPhotos.js | pbcopy
 async function outputJSON(){
 
@@ -48,7 +58,15 @@ async function outputJSON(){
     // console.log(result.total_count, result.resources.length)
     // process.exit();
 
-    result.resources.forEach((photo) => {
+    //console.log('export const galleryPhotos = ['); // for pasting into gallery.js file
+    console.log('export const homePagePhotos = ['); // for pasting into homepage.js file
+
+
+    const photos = result.resources;
+    // const randomOrder = shuffleArray(photos)
+
+    //randomOrder.forEach((photo) => {
+    photos.forEach((photo) => {
 
       //console.log(photo)
 
@@ -74,6 +92,8 @@ async function outputJSON(){
       console.log(eachPhoto)
       console.log("\,")
     })
+
+    console.log('];') // for pasting into gallery.js file
 
   });
 
