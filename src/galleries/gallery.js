@@ -624,18 +624,6 @@ export const galleryPhotos = [
   }
   ,
   {
-    src: 'https://res.cloudinary.com/vtapico/image/upload/v1683916927/verticaltubejig.com/gallery_masonry/20211231_211953_azgs5s.jpg',
-    srcSet: [
-      'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/gallery_masonry/20211231_211953_azgs5s.jpg 500w',
-      'https://res.cloudinary.com/vtapico/image/upload//w_800,c_scale/v1672160676/verticaltubejig.com/gallery_masonry/20211231_211953_azgs5s.jpg 800w',
-      'https://res.cloudinary.com/vtapico/image/upload//w_1024,c_scale/v1672160676/verticaltubejig.com/gallery_masonry/20211231_211953_azgs5s.jpg 1024w',
-      'https://res.cloudinary.com/vtapico/image/upload//w_1600,c_scale/v1672160676/verticaltubejig.com/gallery_masonry/20211231_211953_azgs5s.jpg 1600w'
-    ],
-    width: 4032,
-    height: 1816
-  }
-  ,
-  {
     src: 'https://res.cloudinary.com/vtapico/image/upload/v1683916941/verticaltubejig.com/gallery_masonry/20211231_211519_ahoczq.jpg',
     srcSet: [
       'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/gallery_masonry/20211231_211519_ahoczq.jpg 500w',
@@ -756,18 +744,6 @@ export const galleryPhotos = [
   }
   ,
   {
-    src: 'https://res.cloudinary.com/vtapico/image/upload/v1683916994/verticaltubejig.com/gallery_masonry/0828211052f_HDR_gnnxzu.jpg',
-    srcSet: [
-      'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/gallery_masonry/0828211052f_HDR_gnnxzu.jpg 500w',
-      'https://res.cloudinary.com/vtapico/image/upload//w_800,c_scale/v1672160676/verticaltubejig.com/gallery_masonry/0828211052f_HDR_gnnxzu.jpg 800w',
-      'https://res.cloudinary.com/vtapico/image/upload//w_1024,c_scale/v1672160676/verticaltubejig.com/gallery_masonry/0828211052f_HDR_gnnxzu.jpg 1024w',
-      'https://res.cloudinary.com/vtapico/image/upload//w_1600,c_scale/v1672160676/verticaltubejig.com/gallery_masonry/0828211052f_HDR_gnnxzu.jpg 1600w'
-    ],
-    width: 4032,
-    height: 1920
-  }
-  ,
-  {
     src: 'https://res.cloudinary.com/vtapico/image/upload/v1683916979/verticaltubejig.com/gallery_masonry/0820211306a_s0kkii.jpg',
     srcSet: [
       'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/gallery_masonry/0820211306a_s0kkii.jpg 500w',
@@ -778,17 +754,4 @@ export const galleryPhotos = [
     width: 4032,
     height: 1920
   }
-  ,
-  {
-    src: 'https://res.cloudinary.com/vtapico/image/upload/v1683916982/verticaltubejig.com/gallery_masonry/0808210743a_ljotma.jpg',
-    srcSet: [
-      'https://res.cloudinary.com/vtapico/image/upload//w_500,c_scale/v1672160676/verticaltubejig.com/gallery_masonry/0808210743a_ljotma.jpg 500w',
-      'https://res.cloudinary.com/vtapico/image/upload//w_800,c_scale/v1672160676/verticaltubejig.com/gallery_masonry/0808210743a_ljotma.jpg 800w',
-      'https://res.cloudinary.com/vtapico/image/upload//w_1024,c_scale/v1672160676/verticaltubejig.com/gallery_masonry/0808210743a_ljotma.jpg 1024w',
-      'https://res.cloudinary.com/vtapico/image/upload//w_1600,c_scale/v1672160676/verticaltubejig.com/gallery_masonry/0808210743a_ljotma.jpg 1600w'
-    ],
-    width: 4032,
-    height: 1920
-  }
-  ,
   ];

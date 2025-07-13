@@ -28,16 +28,8 @@ function About({
         />
       <p>Verticaltubejig.com was created by Mat Gilbert at the end of 2022 after two years of refinement and practice hunting the majestic Lake Trout in Lake Champlain.</p>
 
-      <Image src={'https://res.cloudinary.com/vtapico/image/upload/v1672421023/verticaltubejig.com/fish_pics/lake_trout/PXL_20220220_144530216_ksnyqg.jpg'}
-        width={4032}
-        height={3024}
-        alt="image shows up"
-        layout="responsive"
-        />
-
       <p>At first fishing for lakers was done with big 1-2oz jigheads and very large swimbaits. Mat always had trouble getting his lure down fast enough, so he started experimenting with tube jig hooks. Nothing was quite heavy / big enough.</p>
-
-       <p>On a trip to Rhode Island Mat found some very large saltwater spoons and the idea to make bigger laker baits was born.</p>
+      <p>On a trip to Rhode Island Mat found some very large saltwater spoons and the idea to make bigger laker baits was born.</p>
 
 
       <Image src={'https://res.cloudinary.com/vtapico/image/upload/v1672160723/verticaltubejig.com/vtj_research/20220304_122912_jql4zd.jpg'}
@@ -77,13 +69,6 @@ function About({
 
         <p>This new rigging strategy has proved deadly! Now Mat has been experimenting with &quot;tubeless&quot; tubes that can be fished with or without a plastic tube sleeve on them.</p>
 
-
-        <Image src={'https://res.cloudinary.com/vtapico/image/upload/v1683918704/verticaltubejig.com/product-photos/inventory-5.12.23.2_xohfem.jpg'}
-        width={3700}
-        height={1816}
-        alt="image shows up"
-        layout="responsive"
-        />
 
       <p>In addition to the pictures and articles on this website, you can also see these lures in action on the YouTube channel VT2U where Mat and friends go out on adventures to chase fish in Vermont. As they say, don&apos;t believe us just watch!</p>
 
